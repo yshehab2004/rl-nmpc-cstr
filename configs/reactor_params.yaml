@@ -1,0 +1,337 @@
+# Klatt-Engell jacketed CSTR parameters.
+# PRIMARY SOURCE OBTAINED AND VERIFIED, 25 Aug 2026:
+#   Klatt, K.-U. and Engell, S. (1998). "Gain-scheduling trajectory control of a
+#   continuous stirred tank reactor." Computers chem. Engng 22(4/5), 491-502.
+# Every kinetic and physical constant below matches the paper's Table 1 exactly.
+# Verification: the model reproduces the paper's main operating point
+# (F = 18.83 h^-1 -> c_A = 1.2348 vs 1.235, c_B = 0.9000 vs 0.900) to 4 s.f.
+# The long-standing [UNVERIFIED] flag is therefore CLEARED for certain_params.
+#
+# WHAT DIFFERED FROM THE do-mpc IMPLEMENTATION WE INHERITED:
+#   F upper bound   do-mpc used 100 h^-1; the PAPER specifies 5 <= F <= 35 h^-1.
+#                   Corrected. Every result computed against F<=100 is withdrawn.
+#   C_a upper bound do-mpc imposes 2.0 mol/L; the paper imposes NO state
+#                   constraints whatsoever. Removed from the main study (see
+#                   state_bounds below) and retained as a labelled ablation.
+#   T_R upper bound do-mpc imposes 140 C; the paper gives no hard bound, but
+#                   requires theta be held in a narrow range around 134.14 C for
+#                   the concentration problem to be solvable. RETAINED as an
+#                   explicitly DESIGNER-IMPOSED safety constraint, not a
+#                   source-derived physical limit. Must be described as such.
+
+certain_params:
+  K0_ab: 1.287e12      # h^-1
+  K0_bc: 1.287e12      # h^-1
+  K0_ad: 9.043e9       # L / (mol h)
+  E_A_ab: 9758.3       # K
+  E_A_bc: 9758.3       # K
+  E_A_ad: 8560.0       # K
+  H_R_ab: 4.2          # kJ / mol A
+  H_R_bc: -11.0        # kJ / mol B (exothermic)
+  H_R_ad: -41.85       # kJ / mol A (exothermic)
+  rho: 0.9342          # kg / L
+  Cp: 3.01             # kJ / (kg K)
+  Cp_k: 2.0            # kJ / (kg K)
+  A_R: 0.215           # m^2
+  V_R: 10.01           # L
+  m_k: 5.0             # kg
+  K_w: 4032.0          # kJ / (h m^2 K)
+
+# Nominal feed conditions -- exposed as time-varying parameters (tvp) on the model
+# so short-term disturbances (Section 6.1 of the methodology) can drive them away
+# from these defaults during simulation.
+nominal_feed:
+  C_A0: 5.1            # mol/L (published range 4.5-5.7)
+  T_in: 130.0           # deg C
+
+# Uncertain kinetic parameters (Section 3.1 / 6.2 of the methodology).
+# alpha scales the activation-energy term of the undesired 2A->D dimerisation (k3).
+# beta scales the pre-exponential factor of the desired A->B reaction (k1).
+# Nominal = 1.0 for both. Long-term ageing drifts beta downward (see models/ageing.py).
+uncertain_params:
+  alpha_nominal: 1.0
+  beta_nominal: 1.0
+  # Robust-horizon scenario values used in the published do-mpc example (instantaneous
+  # scenario uncertainty, NOT a time-evolving ageing trend -- see Section 3.2 of the
+  # methodology for why these can't be reused unmodified for the ageing study).
+  alpha_scenarios: [1.0, 1.05, 0.95]
+  beta_scenarios: [1.0, 1.1, 0.9]
+
+state_bounds:
+  # The paper imposes NO state constraints -- only the two input constraints.
+  # C_a/C_b uppers here are numerical guards chosen ABOVE any physically
+  # reachable value (C_a can never exceed the feed C_A0 <= 5.7), so they are
+  # inert by construction rather than shaping the solution.
+  C_a: {lower: 0.1, upper: 6.0}
+  C_b: {lower: 0.1, upper: 3.0}
+  # DESIGNER-IMPOSED safety constraint, NOT source-derived. Present in the
+  # do-mpc benchmark with no physical justification given there either. Kept
+  # because it gives the study a meaningful thermal-safety dimension; must be
+  # reported as an imposed experimental constraint. Soft in the NMPC (see
+  # nmpc.penalty_term_cons) so violations are measurable rather than infeasible.
+  # Sensitivity band 130-150 C reported; conclusions hold throughout.
+  T_R: {lower: 50.0, upper_soft: 140.0}
+  T_K: {lower: 50.0, upper: 140.0}
+
+# do-mpc's inherited state box, retained ONLY as a labelled ablation to show
+# what that unsourced constraint does to the economic optimum. Never the default.
+ablation_dompc_state_box:
+  C_a_upper: 2.0
+  C_b_upper: 2.0
+
+# Independent model-free safety interlock. A soft NMPC constraint cannot
+# guarantee the bound, and -- measured -- neither can a hard one inside a
+# nominal model that no longer matches an aged plant. This layer acts on the
+# MEASURED temperature alone, mimicking a plant's safety instrumented system.
+safety_interlock:
+  enabled: true
+  T_R_trip: 139.0        # degC, measured; 1 degC below the soft bound
+  F_cut_fraction: 0.8    # multiply commanded F by this while tripped
+
+input_bounds:
+  F: {lower: 5.0, upper: 35.0}         # h^-1 -- PAPER value (Klatt & Engell 1998,
+                                        # Sec 4.1: "5 h^-1 <= F = V/V_R <= 35 h^-1").
+                                        # do-mpc's 100 was not from the source.
+  Q_dot: {lower: -8500.0, upper: 0.0}   # kJ/h
+
+initial_state:
+  C_a: 0.8
+  C_b: 0.5
+  T_R: 134.14
+  T_K: 130.0
+
+nmpc:
+  n_horizon: 20
+  n_robust: 0          # 0 = nominal MPC (fast, default for this project).
+                        # Set to 1 to reproduce the published robust variant
+                        # (9 scenarios from alpha/beta_scenarios above) -- much slower.
+  t_step: 0.005         # h  (matches published example; ~18 s)
+  collocation_deg: 2
+  C_b_setpoint_default: 0.6   # published nominal target, used by the fixed-target baseline
+
+  # --- Tuning weights (17 Aug 2026) -------------------------------------
+  # Previously hardcoded in controllers/nmpc.py and inherited from the do-mpc
+  # example without justification. Surfaced here so evaluation/nmpc_tuning_sweep.py
+  # can vary them, and so their provenance is visible rather than buried.
+  #
+  # penalty_term_cons is the NMPC's internal price of a T_R soft-bound violation.
+  # NOTE it is currently inconsistent with economics.safety_penalty_weight (250,
+  # derived from the constraint's shadow price): the NMPC will accept violations
+  # the RL reward punishes. Reconciling these is an output of the tuning sweep.
+  penalty_term_cons: 1.0e2
+  # rterm_F CHANGED 0.1 -> 10.0 on 21 Aug 2026. Previous value 0.1 was inherited
+  # from the do-mpc example and is pathological: it produces sustained
+  # Nyquist-frequency chatter (feed rate alternating ~19<->52 on EVERY solve,
+  # spectral power fraction 0.73 at 2*t_step) and manufactures an apparent
+  # prediction-horizon threshold at N=23 that does not exist at sane damping.
+  # Evidence: evaluation/nmpc_tuning_report_20260821_130640/ (weight grid) and
+  # evaluation/horizon_rterm_report_20260821_135902/ (horizon x rterm_F).
+  # At rterm_F=10, across N=20..30 and both disturbance scenarios: chatter
+  # ~1e-4, T_R violation 0.000-0.010 h, feed-rate total variation down 9x
+  # (42129 -> 4860), feed-rate range down from 34.1 to 9.8.
+  # 100 was also clean but sacrifices control authority (F range only 2.5).
+  # Backup of the pre-change config: configs/reactor_params.yaml.bak-20260821
+  #
+  # rterm_F CHANGED 10.0 -> 300.0 on 2026-09-05 (OQ-012 / findings F-034,
+  # F-035). The 21 Aug value above was certified at NOMINAL conditions and
+  # does NOT hold at severe ageing: at beta=0.2 under an unmeasured +0.6
+  # mol/L C_A0 step, with Q_dot saturated at the cooling floor, rterm_F=10
+  # bang-bang limit-cycles -- F alternating 5.0 <-> ~23 on EVERY solve (76/76
+  # sign changes, |dF| up to 19.1), feed-rate total variation 1406 against
+  # 2.1 in the same run undisturbed. With no cooling authority left, F is the
+  # only remaining lever on T_R (dilution cooling, ~8x stronger by beta=0.2,
+  # F-016/D4), so the F-tracking term and the T_R soft constraint trade blows
+  # every step.
+  # Evidence: controllers/chatter_sweep.py (rterm_F x penalty_term_cons grid
+  # at beta=0.2+disturbance AND beta=1.0 nominal; both must pass).
+  # At rterm_F=300: severe TV 1406 -> 23.5 (60x), sign changes 76/76 -> 3/76,
+  # |dF| max 19.1 -> 0.59, AND T_R violation IMPROVES 0.718 -> 0.524 -- the
+  # limit cycle was not buying safety, it was pure loss. Nominal is unharmed:
+  # settles in 2 steps, T_R offset 0.0000, F offset 4e-4, TV 19.8.
+  # 300 is the LEAST damping that passes; 1000 and 3000 also pass but cost
+  # authority for no further benefit.
+  # NOTE penalty_term_cons is deliberately NOT raised: higher values make the
+  # chatter WORSE (a higher price on the T_R constraint makes the controller
+  # fight harder with its only lever), which is why 1e2 stays.
+  rterm_F: 300.0        # move suppression on feed rate, in SCALED units (F/100)
+  rterm_Q_dot: 1.0e-3   # move suppression on cooling duty, scaled (Q_dot/2000)
+
+economics:
+  # Illustrative economic parameters, not real market quotes -- and not meant to be.
+  # Standard practice for this class of benchmark reactor study: the widely-cited
+  # Williams-Otto EMPC objective (1043.38*x_P*(F_A+F_B) + 20.92*x_E*(F_A+F_B)
+  # - 79.23*F_A - 118.34*F_B) also uses illustrative prices, not real ones. Van de Vusse
+  # is real chemistry (cyclopentadiene -> cyclopentenol) but both are specialty
+  # intermediates with no public market pricing, so real numbers aren't obtainable here
+  # even in principle. The bar is internal consistency (positive profit achievable, a
+  # genuine throughput-vs-selectivity trade-off, an interior optimum) and transparency
+  # about the choice -- document this reasoning in the methodology, citing Williams-Otto
+  # as precedent. Resolved 27 July 2026.
+  price_B: 100.0            # currency units per mol of B produced
+  price_A0: 5.0              # currency units per mol of A fed (raw material cost),
+                              # charged as price_A0 * F * C_A0. Ratio price_A0:price_B
+                              # = 1:20 (A = cheap bulk feedstock, B = higher-value
+                              # product) -- a starting point, not final. Run the nominal
+                              # steady-state oracle sweep and confirm the optimum lands
+                              # interior (not glued to a bound); if not, adjust. Then run
+                              # a price-ratio sensitivity sweep before treating any single
+                              # ratio as final.
+  price_energy: 0.02         # currency units per kJ of cooling duty
+  # safety_penalty_weight -- lambda_safety in the RL reward.
+  #
+  # SUPERSEDED VALUE: 250.0, set 14 Aug 2026. Its derivation was internally
+  # sound but measured the wrong quantity, so it is recorded here rather
+  # than kept as a live key:
+  #   "the steady-state oracle shows the first 1 degC of T_R headroom above
+  #    the 140 soft bound is worth ~209 currency/hr ... the penalty weight
+  #    must exceed the constraint's shadow price, or a rational
+  #    profit-maximiser will happily pay the penalty and violate.
+  #    250 = ~20% margin above the measured 209."
+  # That prices the shadow value of HEADROOM. But the profit from running
+  # unsafe comes from PROXIMITY to the limit, and proximity produces
+  # excursions far smaller than the profit it buys.
+  #
+  # WHY 250 IS STILL HERE, AND WHAT REPLACES IT. 250 is measurably far too
+  # small: the pilot reached 101.6% of the constrained ceiling (F-049),
+  # which no safe policy can do, so at this price violating is rational.
+  #
+  # A break-even weight of 109,984 was computed from the unconstrained vs
+  # constrained oracle pair and briefly written here as 3x that. That was
+  # WRONG and is recorded rather than quietly removed:
+  #   - the break-even comes from ONE pair of runs at ONE operating point,
+  #     while the weight applies to every episode. A different beta or
+  #     disturbance gives a different break-even.
+  #   - the 3x had nothing behind it. D-011's safety factor was on a margin
+  #     in DEGREES, where the cost of the factor is visible on the frontier;
+  #     a multiplier on a shaky currency figure is an invented constant.
+  #   - D-013 already settled this: NO single weight is principled, because
+  #     any weight just moves the price at which violating becomes rational.
+  #     Deriving the price more carefully does not escape that -- it is
+  #     still a price on something declared not purchasable.
+  #   - at 330,000 the violation term (~23,600) swamps the profit on offer
+  #     (~7,900), so any touch of the limit wipes out the episode and the
+  #     agent buys safety with economics it should have kept. The frontier
+  #     says margin 5.0 costs 34%.
+  #
+  # REPLACED BY A RULE, NOT A NUMBER: sweep the weight and take the
+  # SMALLEST value that achieves zero violations -- exactly D-011's rule for
+  # margin, applied to the price. `rl/train.py --safety-weight` overrides
+  # this default; the sweep and its return-vs-violation curve are the
+  # evidence. The proper form is a Lagrangian/constrained-RL formulation
+  # where a violation BUDGET is set and the multiplier is solved for, so
+  # nobody picks the number at all.
+  safety_penalty_weight: 250.0
+
+measurement:
+  # Sensor model for the estimator (2026-09-05). T_R and C_b are measured;
+  # C_a and T_K are NOT -- the EKF has to infer them, which is the whole
+  # reason it exists rather than a direct beta calculation.
+  #
+  # Noise std is expressed as a FRACTION OF OPERATING RANGE, not of the
+  # instantaneous value, so a low-C_b measurement isn't implausibly precise.
+  noise_frac: 0.005          # 0.5% of range, 1-sigma
+  # Ranges are the physical operating spans, deliberately NOT state_bounds:
+  # those C_a/C_b bounds are numerical guards the config itself describes as
+  # "chosen ABOVE any physically reachable value ... inert by construction",
+  # so using 3.0 as a C_b range would inflate the noise ~2.5x over anything
+  # the plant actually does.
+  T_R_range: 50.0            # degC, the [100,150] operating window used
+                              # throughout the open-loop characterisation
+  C_b_range: 1.25            # mol/L, the max-achievable-C_b ceiling already
+                              # computed for the RL action space below
+  # => T_R sigma = 0.25 degC, C_b sigma = 0.00625 mol/L at noise_frac=0.005.
+
+estimator:
+  # EKF process noise. The physical states get small values (the model is
+  # good -- F-032 verified it IS the plant), beta gets a much larger one
+  # because it is a random walk with no dynamics: its process noise is the
+  # only thing that lets beta_hat move at all, so it sets the
+  # tracking-speed vs noise-rejection trade directly.
+  q_states: 1.0e-8           # per physical state (C_a, C_b, T_R, T_K)
+  q_beta: 1.0e-6             # random-walk variance on beta
+  p0_states: 1.0e-4          # initial covariance, physical states
+  p0_beta: 1.0e-2            # initial covariance on beta -- deliberately
+                              # loose, the estimator starts genuinely unsure
+  beta_min: 0.05             # clamp: beta is a physical activity fraction.
+  beta_max: 1.0              # Outside [0.05, 1] the kinetics are meaningless
+                              # and the extrapolation is not defensible.
+
+rl:
+  # RL/RTO decision interval, in hours of simulated process time (not raw NMPC
+  # steps). 0.25 h = 50 NMPC steps at t_step=0.005h,
+  # chosen because the verified closed-loop regression test settles to
+  # setpoint within this window at the nominal operating point. NOT yet
+  # confirmed with the supervisor -- flag before relying on it downstream.
+  decision_interval_h: 0.25
+  # RL action space for the C_b target. Bounds set
+  # 31 July 2026 from measured data, not guessed: the lower bound sits below
+  # both the naive 0.6 baseline and the lowest ageing-era economic optimum
+  # observed (~0.67); the upper bound sits ~0.15 above the reactor's computed
+  # physical ceiling for C_b (~1.25 mol/L -- max-achievable-C_b steady-state
+  # solve across every feed/ageing condition in the scenario set), so the
+  # bound structurally cannot exclude any achievable operating point. Targets
+  # in the (1.25, 1.4] headroom are unreachable and simply saturate the NMPC
+  # at the achievable ceiling (safe by construction).
+  # E6's adversarial stress test does NOT use these bounds --
+  # it injects targets directly through PlantLoop up to C_b's state bound.
+  # SUPERSEDED 2026-09-06, kept only so the number in the paragraph above is
+  # not orphaned. That paragraph describes the RETIRED branch's architecture,
+  # in which the agent set a C_b target directly. It does not describe this
+  # branch and must not be cited for it.
+  c_b_action_low: 0.5
+  c_b_action_high: 1.4
+
+  # CURRENT action space (rl/env.py, D-017). The agent writes to the SAME
+  # supervisory interface as T0a/T0b/T2 -- the triple (F_ref, T_R_ref,
+  # margin) -- which is what makes the tier comparison attributable to
+  # strategy rather than to interface. The network sees a normalised
+  # [-1, 1]^3 box; these are the physical ends it maps onto.
+  #   F_ref, T_R_ref : the input/state bounds already declared above.
+  #   margin         : 0 to 5 degC. The upper end is deliberately above
+  #                    D-011's scheduled maximum of 2.5, because D-015
+  #                    measured the REQUIRED back-off at up to 4.78 degC.
+  #                    A ceiling of 2.5 would have made the schedule's own
+  #                    error unreachable by the agent.
+  margin_action_low: 0.0
+  margin_action_high: 5.0
+  # Background feed variation during training (D-016). Coloured, not white:
+  # tau sits between the NMPC step (0.005 h) and the ageing timescale
+  # (~47 h), or the disturbance is either invisible or indistinguishable
+  # from deactivation.
+  feed_noise_std: 0.05       # mol/L, 1-sigma about nominal C_A0
+  feed_noise_tau_h: 0.5      # correlation time, = two supervisory intervals
+  # Per-episode ageing severity for training. Spans both sides of
+  # beta* = 0.385, where the binding constraint switches identity (F-003).
+  # --- Training distribution (D-019). CHOSEN, NOT DERIVED. -------------
+  # Rationale for every number below: "surrounds the evaluation range with
+  # margin without reproducing any evaluation scenario exactly."
+  # DO NOT TUNE THESE AFTER SEEING RESULTS. Adjusting a training
+  # distribution until test performance improves is overfitting that leaves
+  # no trace in any training curve and is correspondingly hard to detect.
+  #
+  # Ageing: beta starts at 1.0 (fresh catalyst) and decays exponentially to
+  # beta_final. The range extends past BOTH evaluation endpoints (S3 ages to
+  # 0.20, S2 to 0.35) so those are interpolation, and stops short of 1.0
+  # because "no ageing at all" is S1, a deliberate holdout.
+  train_beta_final_low: 0.15
+  train_beta_final_high: 0.95
+  # Background drift, always on, on BOTH feed channels. Not a test
+  # condition -- this is what a real feed does. T_in drifts too because
+  # evaluation moves it (V3) and a policy that had only ever seen T_in
+  # constant would treat it as a flag rather than a measurement.
+  feed_noise_std: 0.05        # mol/L, 1-sigma on C_A0
+  train_T_in_noise_std: 0.5   # degC, 1-sigma on T_in
+  feed_noise_tau_h: 1.0       # correlation time, both channels
+  # One large event in half of episodes; if drawn, one of three kinds with
+  # equal probability (C_A0 step / C_A0 ramp / T_in step). Half quiet: the
+  # policy must learn both steady operation under ageing AND disturbance
+  # response, and an always-disturbed distribution over-invests in the
+  # second at the expense of the first.
+  train_p_event: 0.5
+  train_C_A0_event_mag_low: 0.2
+  train_C_A0_event_mag_high: 0.8
+  train_T_in_event_mag_low: 1.0
+  train_T_in_event_mag_high: 5.0
+  train_step_onset_h: [15.0, 50.0]
+  train_ramp_onset_h: [10.0, 40.0]
+  train_ramp_duration_h: [5.0, 25.0]

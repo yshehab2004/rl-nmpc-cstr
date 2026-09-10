@@ -1,0 +1,374 @@
+{
+  "script": "/users/elp25yrs/rl-nmpc-cstr-v2/supervisors/run_margin_ladder.py",
+  "git_commit": null,
+  "git_dirty": true,
+  "timestamp": "2026-09-07T06:50:20Z",
+  "params": {
+    "betas": [
+      0.25,
+      0.368,
+      0.6
+    ],
+    "margins": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0,
+      1.25,
+      1.5,
+      2.0,
+      2.5,
+      3.0
+    ],
+    "campaign_h": 6.0,
+    "step_magnitude": 0.6,
+    "step_at_h": 2.0,
+    "seed": 20260907,
+    "beta_star": 0.385,
+    "use_estimator": false
+  },
+  "config_hash": "sha256:8f144e91fa78be81aef73f59e6473102b4c067cb1c0bf66f2da1110e8c99d44c",
+  "outputs": [
+    "supervisors/margin_ladder.json"
+  ],
+  "duration_s": 34.88930821418762,
+  "results": {
+    "beta_0.6": {
+      "margin_3.0": {
+        "beta": 0.6,
+        "margin": 3.0,
+        "peak_T_R": 137.011910368815,
+        "peak_excursion": 0.0,
+        "violation_integral": 0.0,
+        "profit_per_hour": 1604.6868994994486,
+        "cooling_saturated_at_peak": false,
+        "frac_cooling_saturated": 0.0,
+        "wall_s": 24.6146719455719
+      },
+      "margin_2.5": {
+        "beta": 0.6,
+        "margin": 2.5,
+        "peak_T_R": 137.52036794406976,
+        "peak_excursion": 0.0,
+        "violation_integral": 0.0,
+        "profit_per_hour": 1777.0847083053513,
+        "cooling_saturated_at_peak": false,
+        "frac_cooling_saturated": 0.0,
+        "wall_s": 24.68459439277649
+      },
+      "margin_2.0": {
+        "beta": 0.6,
+        "margin": 2.0,
+        "peak_T_R": 138.07314975926383,
+        "peak_excursion": 0.0,
+        "violation_integral": 0.0,
+        "profit_per_hour": 1991.19962601172,
+        "cooling_saturated_at_peak": false,
+        "frac_cooling_saturated": 0.0025,
+        "wall_s": 24.90056324005127
+      },
+      "margin_1.5": {
+        "beta": 0.6,
+        "margin": 1.5,
+        "peak_T_R": 138.56790180060062,
+        "peak_excursion": 0.0,
+        "violation_integral": 0.0,
+        "profit_per_hour": 2176.2254114926213,
+        "cooling_saturated_at_peak": false,
+        "frac_cooling_saturated": 0.00375,
+        "wall_s": 27.673864126205444
+      },
+      "margin_1.0": {
+        "beta": 0.6,
+        "margin": 1.0,
+        "peak_T_R": 139.00128921904712,
+        "peak_excursion": 0.0,
+        "violation_integral": 0.0,
+        "profit_per_hour": 2356.144226693838,
+        "cooling_saturated_at_peak": false,
+        "frac_cooling_saturated": 0.00125,
+        "wall_s": 28.605502367019653
+      },
+      "margin_0.5": {
+        "beta": 0.6,
+        "margin": 0.5,
+        "peak_T_R": 139.51023656339362,
+        "peak_excursion": 0.0,
+        "violation_integral": 0.0,
+        "profit_per_hour": 2587.2852840735245,
+        "cooling_saturated_at_peak": false,
+        "frac_cooling_saturated": 0.0,
+        "wall_s": 28.623043298721313
+      },
+      "margin_1.25": {
+        "beta": 0.6,
+        "margin": 1.25,
+        "peak_T_R": 138.7742635165825,
+        "peak_excursion": 0.0,
+        "violation_integral": 0.0,
+        "profit_per_hour": 2261.0181560665005,
+        "cooling_saturated_at_peak": false,
+        "frac_cooling_saturated": 0.00125,
+        "wall_s": 28.636658668518066
+      },
+      "margin_0.75": {
+        "beta": 0.6,
+        "margin": 0.75,
+        "peak_T_R": 139.25518714339185,
+        "peak_excursion": 0.0,
+        "violation_integral": 0.0,
+        "profit_per_hour": 2463.8811849026374,
+        "cooling_saturated_at_peak": false,
+        "frac_cooling_saturated": 0.0,
+        "wall_s": 28.71281862258911
+      },
+      "margin_0.25": {
+        "beta": 0.6,
+        "margin": 0.25,
+        "peak_T_R": 139.7666416557049,
+        "peak_excursion": 0.0,
+        "violation_integral": 0.0,
+        "profit_per_hour": 2730.8187195749942,
+        "cooling_saturated_at_peak": false,
+        "frac_cooling_saturated": 0.0,
+        "wall_s": 30.505345106124878
+      },
+      "margin_0.0": {
+        "beta": 0.6,
+        "margin": 0.0,
+        "peak_T_R": 139.99998290743142,
+        "peak_excursion": 0.0,
+        "violation_integral": 0.0,
+        "profit_per_hour": 2740.4786721717123,
+        "cooling_saturated_at_peak": false,
+        "frac_cooling_saturated": 0.0,
+        "wall_s": 31.535244464874268
+      }
+    },
+    "beta_0.368": {
+      "margin_2.0": {
+        "beta": 0.368,
+        "margin": 2.0,
+        "peak_T_R": 138.01627335457673,
+        "peak_excursion": 0.0,
+        "violation_integral": 0.04788823812137736,
+        "profit_per_hour": 1185.9016209960196,
+        "cooling_saturated_at_peak": true,
+        "frac_cooling_saturated": 0.00125,
+        "wall_s": 25.539292812347412
+      },
+      "margin_2.5": {
+        "beta": 0.368,
+        "margin": 2.5,
+        "peak_T_R": 137.50470392188856,
+        "peak_excursion": 0.0,
+        "violation_integral": 0.04911682213946733,
+        "profit_per_hour": 1106.3748584141536,
+        "cooling_saturated_at_peak": true,
+        "frac_cooling_saturated": 0.0,
+        "wall_s": 25.584715127944946
+      },
+      "margin_1.5": {
+        "beta": 0.368,
+        "margin": 1.5,
+        "peak_T_R": 138.596042021814,
+        "peak_excursion": 0.0,
+        "violation_integral": 0.046845358009381215,
+        "profit_per_hour": 1277.726146844406,
+        "cooling_saturated_at_peak": true,
+        "frac_cooling_saturated": 0.005,
+        "wall_s": 25.721715927124023
+      },
+      "margin_3.0": {
+        "beta": 0.368,
+        "margin": 3.0,
+        "peak_T_R": 137.0014858104222,
+        "peak_excursion": 0.0,
+        "violation_integral": 0.05028923056891458,
+        "profit_per_hour": 1036.813374296802,
+        "cooling_saturated_at_peak": true,
+        "frac_cooling_saturated": 0.0,
+        "wall_s": 25.935258865356445
+      },
+      "margin_1.25": {
+        "beta": 0.368,
+        "margin": 1.25,
+        "peak_T_R": 138.9216541438342,
+        "peak_excursion": 0.0,
+        "violation_integral": 0.04613846284026394,
+        "profit_per_hour": 1329.211172895506,
+        "cooling_saturated_at_peak": true,
+        "frac_cooling_saturated": 0.0075,
+        "wall_s": 27.01571822166443
+      },
+      "margin_1.0": {
+        "beta": 0.368,
+        "margin": 1.0,
+        "peak_T_R": 139.27211906917498,
+        "peak_excursion": 0.0,
+        "violation_integral": 0.04540460015256528,
+        "profit_per_hour": 1385.043878629461,
+        "cooling_saturated_at_peak": true,
+        "frac_cooling_saturated": 0.01125,
+        "wall_s": 27.0187566280365
+      },
+      "margin_0.75": {
+        "beta": 0.368,
+        "margin": 0.75,
+        "peak_T_R": 139.63892834208164,
+        "peak_excursion": 0.0,
+        "violation_integral": 0.044680172556304285,
+        "profit_per_hour": 1445.9230858245048,
+        "cooling_saturated_at_peak": true,
+        "frac_cooling_saturated": 0.01375,
+        "wall_s": 27.704322814941406
+      },
+      "margin_0.5": {
+        "beta": 0.368,
+        "margin": 0.5,
+        "peak_T_R": 139.84316581818507,
+        "peak_excursion": 0.0,
+        "violation_integral": 0.04402318509354288,
+        "profit_per_hour": 1512.0416385553256,
+        "cooling_saturated_at_peak": true,
+        "frac_cooling_saturated": 0.01125,
+        "wall_s": 27.98477554321289
+      },
+      "margin_0.25": {
+        "beta": 0.368,
+        "margin": 0.25,
+        "peak_T_R": 140.4576498013708,
+        "peak_excursion": 0.4576498013707919,
+        "violation_integral": 0.04643324176086708,
+        "profit_per_hour": 1585.9648635392116,
+        "cooling_saturated_at_peak": true,
+        "frac_cooling_saturated": 0.03125,
+        "wall_s": 29.571014881134033
+      },
+      "margin_0.0": {
+        "beta": 0.368,
+        "margin": 0.0,
+        "peak_T_R": 140.93847605201472,
+        "peak_excursion": 0.9384760520147211,
+        "violation_integral": 0.05481804515113623,
+        "profit_per_hour": 1659.168655351442,
+        "cooling_saturated_at_peak": true,
+        "frac_cooling_saturated": 0.0225,
+        "wall_s": 34.770182847976685
+      }
+    },
+    "beta_0.25": {
+      "margin_3.0": {
+        "beta": 0.25,
+        "margin": 3.0,
+        "peak_T_R": 137.00077957004825,
+        "peak_excursion": 0.0,
+        "violation_integral": 0.8361697939429249,
+        "profit_per_hour": 714.131894786622,
+        "cooling_saturated_at_peak": true,
+        "frac_cooling_saturated": 0.0,
+        "wall_s": 26.388974905014038
+      },
+      "margin_2.0": {
+        "beta": 0.25,
+        "margin": 2.0,
+        "peak_T_R": 138.00812941307038,
+        "peak_excursion": 0.0,
+        "violation_integral": 0.8133393544244111,
+        "profit_per_hour": 790.2020334115223,
+        "cooling_saturated_at_peak": true,
+        "frac_cooling_saturated": 0.00125,
+        "wall_s": 26.733959674835205
+      },
+      "margin_2.5": {
+        "beta": 0.25,
+        "margin": 2.5,
+        "peak_T_R": 137.5006000118847,
+        "peak_excursion": 0.0,
+        "violation_integral": 0.8237664001773165,
+        "profit_per_hour": 750.2108440323713,
+        "cooling_saturated_at_peak": true,
+        "frac_cooling_saturated": 0.0,
+        "wall_s": 26.735164403915405
+      },
+      "margin_1.5": {
+        "beta": 0.25,
+        "margin": 1.5,
+        "peak_T_R": 138.5537072057112,
+        "peak_excursion": 0.0,
+        "violation_integral": 0.8022623092879252,
+        "profit_per_hour": 834.6464274271722,
+        "cooling_saturated_at_peak": true,
+        "frac_cooling_saturated": 0.005,
+        "wall_s": 27.104230165481567
+      },
+      "margin_1.25": {
+        "beta": 0.25,
+        "margin": 1.25,
+        "peak_T_R": 138.85590781156546,
+        "peak_excursion": 0.0,
+        "violation_integral": 0.7963667651326531,
+        "profit_per_hour": 858.7967899108813,
+        "cooling_saturated_at_peak": true,
+        "frac_cooling_saturated": 0.0075,
+        "wall_s": 27.164790868759155
+      },
+      "margin_1.0": {
+        "beta": 0.25,
+        "margin": 1.0,
+        "peak_T_R": 139.1756134178291,
+        "peak_excursion": 0.0,
+        "violation_integral": 0.7916252703079255,
+        "profit_per_hour": 884.3723059651107,
+        "cooling_saturated_at_peak": true,
+        "frac_cooling_saturated": 0.01,
+        "wall_s": 27.832555770874023
+      },
+      "margin_0.75": {
+        "beta": 0.25,
+        "margin": 0.75,
+        "peak_T_R": 139.5083112405312,
+        "peak_excursion": 0.0,
+        "violation_integral": 0.7867423430284906,
+        "profit_per_hour": 911.5271502417846,
+        "cooling_saturated_at_peak": true,
+        "frac_cooling_saturated": 0.01375,
+        "wall_s": 28.000141143798828
+      },
+      "margin_0.5": {
+        "beta": 0.25,
+        "margin": 0.5,
+        "peak_T_R": 139.8096866042889,
+        "peak_excursion": 0.0,
+        "violation_integral": 0.7817825427167833,
+        "profit_per_hour": 940.3062831055177,
+        "cooling_saturated_at_peak": true,
+        "frac_cooling_saturated": 0.0175,
+        "wall_s": 28.746099948883057
+      },
+      "margin_0.25": {
+        "beta": 0.25,
+        "margin": 0.25,
+        "peak_T_R": 140.0934971287707,
+        "peak_excursion": 0.09349712877070715,
+        "violation_integral": 0.7775773532953558,
+        "profit_per_hour": 970.3466877274551,
+        "cooling_saturated_at_peak": true,
+        "frac_cooling_saturated": 0.00375,
+        "wall_s": 29.89056158065796
+      },
+      "margin_0.0": {
+        "beta": 0.25,
+        "margin": 0.0,
+        "peak_T_R": 140.54176414697525,
+        "peak_excursion": 0.5417641469752539,
+        "violation_integral": 0.7776827049323056,
+        "profit_per_hour": 994.7590878375241,
+        "cooling_saturated_at_peak": true,
+        "frac_cooling_saturated": 0.01875,
+        "wall_s": 34.49257516860962
+      }
+    }
+  }
+}

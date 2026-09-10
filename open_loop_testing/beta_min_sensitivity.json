@@ -1,0 +1,47 @@
+{
+  "rows": [
+    {
+      "beta_min": 0.2,
+      "t_end_h": 75.0,
+      "campaign_fraction_below_beta_min": 0.0,
+      "fixed_F": 18.25,
+      "fixed_T_R": 140.0,
+      "fixed_total_profit": 79106.77545399257,
+      "adaptive_total_profit": 158819.4251177677,
+      "gap_pct": 50.19074310630872
+    },
+    {
+      "beta_min": 0.25,
+      "t_end_h": 64.60148371124887,
+      "campaign_fraction_below_beta_min": 0.138646883850015,
+      "fixed_F": 21.75,
+      "fixed_T_R": 140.0,
+      "fixed_total_profit": 88027.109386633,
+      "adaptive_total_profit": 148327.21926106574,
+      "gap_pct": 40.65343513809191
+    },
+    {
+      "beta_min": 0.3,
+      "t_end_h": 56.10527726885266,
+      "campaign_fraction_below_beta_min": 0.25192963641529786,
+      "fixed_F": 25.75,
+      "fixed_T_R": 140.0,
+      "fixed_total_profit": 96671.59447679897,
+      "adaptive_total_profit": 136995.14502061487,
+      "gap_pct": 29.434291658838028
+    },
+    {
+      "beta_min": 0.35,
+      "t_end_h": 48.92183707697768,
+      "campaign_fraction_below_beta_min": 0.3477088389736309,
+      "fixed_F": 30.75,
+      "fixed_T_R": 140.0,
+      "fixed_total_profit": 106560.60263016555,
+      "adaptive_total_profit": 124676.85612031084,
+      "gap_pct": 14.53056650118242
+    }
+  ],
+  "campaign_h": 75.0,
+  "severity": "severe",
+  "profile": "exponential"
+}

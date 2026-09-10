@@ -1,0 +1,120 @@
+{
+  "script": "rl-nmpc-cstr/evaluation/price_sweep.py",
+  "git_commit": "cbc78ae21942c824127981d550cde6a2210cb8c6",
+  "git_dirty": true,
+  "timestamp": "2026-09-04T23:43:11Z",
+  "params": {
+    "ratios": [
+      0.004999999999999999,
+      0.007924465962305569,
+      0.012559432157547895,
+      0.019905358527674864,
+      0.03154786722400966,
+      0.049999999999999996,
+      0.0792446596230557,
+      0.12559432157547903,
+      0.19905358527674863,
+      0.3154786722400966,
+      0.49999999999999994
+    ],
+    "nominal_ratio": 0.05,
+    "beta": 1.0,
+    "price_B": 100.0,
+    "price_energy": 0.02
+  },
+  "config_hash": "sha256:8f1f2b301fe74851e0701a90902c5124d362cae7f70d54eda06124e936103ae2",
+  "outputs": [
+    "evaluation/price_sweep.json"
+  ],
+  "duration_s": 0.0444028377532959,
+  "rows": [
+    {
+      "price_A0_over_price_B": 0.004999999999999999,
+      "price_A0": 0.49999999999999994,
+      "F_star": 35.0,
+      "T_R_star": 133.0,
+      "profit_star": 3547.7300796108266,
+      "at_F_upper_bound": true
+    },
+    {
+      "price_A0_over_price_B": 0.007924465962305569,
+      "price_A0": 0.7924465962305569,
+      "F_star": 35.0,
+      "T_R_star": 133.0,
+      "profit_star": 3495.528362183672,
+      "at_F_upper_bound": true
+    },
+    {
+      "price_A0_over_price_B": 0.012559432157547895,
+      "price_A0": 1.2559432157547896,
+      "F_star": 35.0,
+      "T_R_star": 133.0,
+      "profit_star": 3412.7942155985966,
+      "at_F_upper_bound": true
+    },
+    {
+      "price_A0_over_price_B": 0.019905358527674864,
+      "price_A0": 1.9905358527674863,
+      "F_star": 35.0,
+      "T_R_star": 133.0,
+      "profit_star": 3281.66942989183,
+      "at_F_upper_bound": true
+    },
+    {
+      "price_A0_over_price_B": 0.03154786722400966,
+      "price_A0": 3.154786722400966,
+      "F_star": 35.0,
+      "T_R_star": 133.0,
+      "profit_star": 3073.850649662254,
+      "at_F_upper_bound": true
+    },
+    {
+      "price_A0_over_price_B": 0.049999999999999996,
+      "price_A0": 5.0,
+      "F_star": 35.0,
+      "T_R_star": 133.0,
+      "profit_star": 2744.4800796108266,
+      "at_F_upper_bound": true
+    },
+    {
+      "price_A0_over_price_B": 0.0792446596230557,
+      "price_A0": 7.92446596230557,
+      "F_star": 35.0,
+      "T_R_star": 133.0,
+      "profit_star": 2222.4629053392823,
+      "at_F_upper_bound": true
+    },
+    {
+      "price_A0_over_price_B": 0.12559432157547903,
+      "price_A0": 12.559432157547903,
+      "F_star": 35.0,
+      "T_R_star": 133.0,
+      "profit_star": 1395.121439488526,
+      "at_F_upper_bound": true
+    },
+    {
+      "price_A0_over_price_B": 0.19905358527674863,
+      "price_A0": 19.905358527674863,
+      "F_star": 35.0,
+      "T_R_star": 133.0,
+      "profit_star": 83.87358242086376,
+      "at_F_upper_bound": true
+    },
+    {
+      "price_A0_over_price_B": 0.3154786722400966,
+      "price_A0": 31.547867224009664,
+      "F_star": 5.0,
+      "T_R_star": 101.0,
+      "profit_star": -390.3711253229626,
+      "at_F_upper_bound": false
+    },
+    {
+      "price_A0_over_price_B": 0.49999999999999994,
+      "price_A0": 49.99999999999999,
+      "F_star": 5.0,
+      "T_R_star": 101.0,
+      "profit_star": -860.9005111107159,
+      "at_F_upper_bound": false
+    }
+  ]
+}

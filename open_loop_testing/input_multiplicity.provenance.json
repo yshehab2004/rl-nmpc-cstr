@@ -1,0 +1,79 @@
+{
+  "script": "rl-nmpc-cstr/open_loop_testing/input_multiplicity.py",
+  "git_commit": "cbc78ae21942c824127981d550cde6a2210cb8c6",
+  "git_dirty": true,
+  "timestamp": "2026-09-05T07:55:08Z",
+  "params": {
+    "theta_reference": 134.14,
+    "betas": [
+      1.0,
+      0.8,
+      0.6,
+      0.4,
+      0.385,
+      0.3,
+      0.2
+    ],
+    "price_B": 100.0,
+    "price_A0": 5.0,
+    "price_energy": 0.02
+  },
+  "config_hash": "sha256:8f1f2b301fe74851e0701a90902c5124d362cae7f70d54eda06124e936103ae2",
+  "outputs": [
+    "open_loop_testing/input_multiplicity.png"
+  ],
+  "duration_s": 0.46712231636047363,
+  "beta_upper_crossover_at_reference_T_R": 0.6915004353781535,
+  "beta_lower_crossover_at_reference_T_R": 0.09878577648259336,
+  "real_trajectory_rows": [
+    {
+      "beta": 1.0,
+      "F_star": 35.0,
+      "T_R_star": 133.0,
+      "F_peak_at_T_R_star": 47.32270010815458,
+      "past_peak": false
+    },
+    {
+      "beta": 0.8,
+      "F_star": 35.0,
+      "T_R_star": 135.5,
+      "F_peak_at_T_R_star": 43.85253942071883,
+      "past_peak": false
+    },
+    {
+      "beta": 0.6,
+      "F_star": 35.0,
+      "T_R_star": 140.0,
+      "F_peak_at_T_R_star": 42.659193628820084,
+      "past_peak": false
+    },
+    {
+      "beta": 0.4,
+      "F_star": 35.0,
+      "T_R_star": 140.0,
+      "F_peak_at_T_R_star": 28.439462419213392,
+      "past_peak": true
+    },
+    {
+      "beta": 0.385,
+      "F_star": 34.75,
+      "T_R_star": 140.0,
+      "F_peak_at_T_R_star": 27.372982578492888,
+      "past_peak": true
+    },
+    {
+      "beta": 0.3,
+      "F_star": 25.75,
+      "T_R_star": 140.0,
+      "F_peak_at_T_R_star": 21.329596814410042,
+      "past_peak": true
+    },
+    {
+      "beta": 0.2,
+      "F_star": 18.25,
+      "T_R_star": 140.0,
+      "F_peak_at_T_R_star": 14.219731209606696,
+      "past_peak": true
+    }
+  ]
+}

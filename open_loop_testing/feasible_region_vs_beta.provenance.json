@@ -1,0 +1,39 @@
+{
+  "script": "rl-nmpc-cstr/open_loop_testing/feasible_region.py",
+  "git_commit": "cbc78ae21942c824127981d550cde6a2210cb8c6",
+  "git_dirty": true,
+  "timestamp": "2026-09-05T07:55:25Z",
+  "params": {
+    "source_map": "open_loop_testing/steady_state_map.npz",
+    "q_lower": -8500.0,
+    "q_upper": 0.0,
+    "T_R_max": 140.0
+  },
+  "config_hash": "sha256:8f1f2b301fe74851e0701a90902c5124d362cae7f70d54eda06124e936103ae2",
+  "outputs": [
+    "open_loop_testing/feasible_region_vs_beta.png"
+  ],
+  "duration_s": 0.6460957527160645,
+  "feasible_area_by_beta": {
+    "1.00": {
+      "area": 506.734375,
+      "pct_of_domain": 33.782291666666666
+    },
+    "0.80": {
+      "area": 466.953125,
+      "pct_of_domain": 31.130208333333332
+    },
+    "0.60": {
+      "area": 406.609375,
+      "pct_of_domain": 27.107291666666665
+    },
+    "0.40": {
+      "area": 306.984375,
+      "pct_of_domain": 20.465625
+    },
+    "0.20": {
+      "area": 173.484375,
+      "pct_of_domain": 11.565625
+    }
+  }
+}

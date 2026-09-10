@@ -1,0 +1,47 @@
+{
+  "script": "/users/elp25yrs/rl-nmpc-cstr-v2/rl/run_fixed_margin_baseline.py",
+  "git_commit": null,
+  "git_dirty": true,
+  "timestamp": "2026-09-07T23:01:33Z",
+  "params": {
+    "margins": [
+      2.5,
+      2.0
+    ],
+    "fixed_target": [
+      18.25,
+      140.0
+    ],
+    "n_episodes": 10,
+    "campaign_h": 75.0,
+    "episode_seeds": [
+      5000,
+      5001,
+      5002,
+      5003,
+      5004,
+      5005,
+      5006,
+      5007,
+      5008,
+      5009
+    ],
+    "decision_interval_h": 0.25,
+    "n_horizon": 20,
+    "use_estimator": true
+  },
+  "config_hash": "sha256:8f144e91fa78be81aef73f59e6473102b4c067cb1c0bf66f2da1110e8c99d44c",
+  "outputs": [
+    "rl/fixed_margin_baseline.json"
+  ],
+  "duration_s": 480.2379629611969,
+  "mean_return_at_2.0": 323.7390490954118,
+  "mean_return_at_2.5": 325.4044358849304,
+  "reproduction_check": {
+    "expected_at_2.5": 325.4044358849304,
+    "got_at_2.5": 325.4044358849304,
+    "abs_delta": 0.0,
+    "tolerance": 1e-06,
+    "reproduced": true
+  }
+}

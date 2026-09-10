@@ -1,0 +1,73 @@
+{
+  "script": "rl-nmpc-cstr/controllers/severe_stress_check.py",
+  "git_commit": "cbc78ae21942c824127981d550cde6a2210cb8c6",
+  "git_dirty": true,
+  "timestamp": "2026-09-05T11:46:03Z",
+  "params": {
+    "beta": 0.2,
+    "n_steps": 100,
+    "n_horizon": 20,
+    "C_A0_step": {
+      "magnitude": 0.6,
+      "t_start": 0.1
+    },
+    "config_under_test": {
+      "n_horizon": 20,
+      "n_robust": 0,
+      "t_step": 0.005,
+      "collocation_deg": 2,
+      "C_b_setpoint_default": 0.6,
+      "penalty_term_cons": 100.0,
+      "rterm_F": 300.0,
+      "rterm_Q_dot": 0.001
+    }
+  },
+  "config_hash": "sha256:d0a7000c0298a694e1d408db4eb07e96d0057bf17f9f7aff93dde5e65e8ed449",
+  "outputs": [
+    "controllers/severe_stress_check.json"
+  ],
+  "duration_s": 5.423205852508545,
+  "report": {
+    "target": {
+      "F": 18.35297362594917,
+      "T_R": 139.99982666785914
+    },
+    "rterm_Q_dot": {
+      "total_variation": 8582.783102757721,
+      "sign_changes_post_step": 2,
+      "sign_change_fraction": 0.02631578947368421,
+      "max_abs_delta": 5033.600091841648
+    },
+    "rterm_F": {
+      "total_variation": 23.499792092663746,
+      "sign_changes_post_step": 3,
+      "sign_change_fraction": 0.039473684210526314,
+      "max_abs_delta": 8.547471260363142
+    },
+    "penalty_term_cons": {
+      "T_R_max": 140.52428514690726,
+      "violation": 0.5242851469072605,
+      "steps_above_limit": 80,
+      "constraint_is_active": true
+    },
+    "state_guards": {
+      "C_a_margin_to_lower": 0.7000000000000001,
+      "C_a_margin_to_upper": 4.068849948410628,
+      "C_b_margin_to_lower": 0.3880169792048126,
+      "C_b_margin_to_upper": 2.095796046828004,
+      "T_K_margin_to_lower": 80.0,
+      "T_K_max": 135.71383561078608,
+      "T_K_would_breach_unimposed_upper": false
+    },
+    "solver": {
+      "steps": 100,
+      "successes": 100,
+      "all_converged": true
+    },
+    "collocation_deg": {
+      "max_abs_diff_T_R": 0.0002710803070158363,
+      "max_abs_diff_F": 0.0038794195429119327,
+      "max_abs_diff_C_b": 1.5056195621032664e-05
+    }
+  }
+}

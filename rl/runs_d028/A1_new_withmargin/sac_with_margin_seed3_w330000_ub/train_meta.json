@@ -1,0 +1,67 @@
+{
+  "tag": "sac_with_margin_seed3_w330000_ub",
+  "algo": "sac",
+  "seed": 3,
+  "timesteps": 150000,
+  "n_envs": 48,
+  "uniform_in_beta": true,
+  "margin_hi": 5.0,
+  "gamma": 0.995,
+  "campaign_h": 75.0,
+  "n_horizon": 20,
+  "observe_cooling_margin": true,
+  "decision_interval_h": 0.25,
+  "safety_penalty_weight": 330000.0,
+  "beta_final_range": [
+    0.15,
+    0.95
+  ],
+  "feed_noise_std": 0.05,
+  "feed_noise_tau_h": 1.0,
+  "training_distribution": {
+    "feed_noise_std": 0.05,
+    "feed_noise_tau_h": 1.0,
+    "train_beta_final_low": 0.15,
+    "train_beta_final_high": 0.95,
+    "train_T_in_noise_std": 0.5,
+    "train_p_event": 0.5,
+    "train_C_A0_event_mag_low": 0.2,
+    "train_C_A0_event_mag_high": 0.8,
+    "train_T_in_event_mag_low": 1.0,
+    "train_T_in_event_mag_high": 5.0,
+    "train_step_onset_h": [
+      15.0,
+      50.0
+    ],
+    "train_ramp_onset_h": [
+      10.0,
+      40.0
+    ],
+    "train_ramp_duration_h": [
+      5.0,
+      25.0
+    ]
+  },
+  "lagrangian": false,
+  "violation_budget": null,
+  "lambda_history": null,
+  "lambda_final": null,
+  "random_policy_baseline": {
+    "mean_return": 209.63927475145783,
+    "mean_profit_per_hour": 719.9691059712377,
+    "mean_violation_integral": 0.004811709878722279,
+    "n_episodes": 3
+  },
+  "t0b_fixed_tier_baseline": {
+    "mean_return": 317.03492778792275,
+    "mean_profit_per_hour": 1056.7830926264091,
+    "mean_violation_integral": 0.0,
+    "target": [
+      18.25,
+      140.0,
+      2.5
+    ],
+    "n_episodes": 3
+  },
+  "wall_time_s": 8867.694635868073
+}

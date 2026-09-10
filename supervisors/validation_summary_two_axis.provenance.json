@@ -1,0 +1,21 @@
+{
+  "script": "supervisors/run_validation.py",
+  "git_commit": "cbc78ae21942c824127981d550cde6a2210cb8c6",
+  "git_dirty": true,
+  "timestamp": "2026-09-06T14:22:20Z",
+  "params": {
+    "seed": 20260905,
+    "scenarios": [
+      "V1_C_A0_step",
+      "V2_C_A0_ramp",
+      "V3_T_in_step",
+      "V4_step_under_ageing"
+    ],
+    "regenerated_from": "supervisors/validation_results.json"
+  },
+  "config_hash": "sha256:ffb326174eb057d7c4f14a336b912aed5fdf3ac2f46b3b84c6f8d2ab49ae0190",
+  "outputs": [
+    "supervisors/validation_summary_two_axis.png"
+  ],
+  "duration_s": null
+}

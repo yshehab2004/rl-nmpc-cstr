@@ -1,0 +1,325 @@
+{
+  "script": "rl-nmpc-cstr/supervisors/run_validation.py",
+  "git_commit": "cbc78ae21942c824127981d550cde6a2210cb8c6",
+  "git_dirty": true,
+  "timestamp": "2026-09-06T14:18:08Z",
+  "params": {
+    "seed": 20260905,
+    "short_h": 20.0,
+    "long_h": 75.0,
+    "C_A0_magnitude": 0.6,
+    "T_in_magnitude": 3.0,
+    "rto_cadence_h": 2.0,
+    "n_horizon": 20,
+    "scenarios": [
+      "V1_C_A0_step",
+      "V2_C_A0_ramp",
+      "V3_T_in_step",
+      "V4_step_under_ageing"
+    ]
+  },
+  "config_hash": "sha256:ffb326174eb057d7c4f14a336b912aed5fdf3ac2f46b3b84c6f8d2ab49ae0190",
+  "outputs": [
+    "supervisors/validation_results.json"
+  ],
+  "duration_s": 1510.1812031269073,
+  "results": {
+    "V1_C_A0_step": {
+      "campaign_h": 20.0,
+      "tiers": {
+        "T0a_naive": {
+          "total_profit": 56879.85322853371,
+          "mean_profit": 2843.9926614266856,
+          "violation_max": 0.0,
+          "violation_integral_degC_h": 0.0,
+          "steps_above_limit": 0,
+          "fraction_time_violating": 0.0,
+          "T_R_max": 135.53805427875847,
+          "mean_F": 34.82397195505869,
+          "mean_C_b": 1.1383183822451062,
+          "beta_hat_max_error": 0.023449022689425614,
+          "passed": true,
+          "checks": {
+            "finite": true,
+            "T_R_bounded": true,
+            "F_in_bounds": true,
+            "Q_dot_in_bounds": true,
+            "not_oscillating": true,
+            "violation_bounded": true
+          },
+          "wall_time_s": 65.50162506103516,
+          "profit_per_hour": 2843.9926614266856
+        },
+        "T0b_prudent": {
+          "total_profit": 20266.346976103494,
+          "mean_profit": 1013.3173488051747,
+          "violation_max": 0.0,
+          "violation_integral_degC_h": 0.0,
+          "steps_above_limit": 0,
+          "fraction_time_violating": 0.0,
+          "T_R_max": 137.5727741911848,
+          "mean_F": 18.244141451122296,
+          "mean_C_b": 0.8648719406459677,
+          "beta_hat_max_error": 0.04356104123933047,
+          "passed": true,
+          "checks": {
+            "finite": true,
+            "T_R_bounded": true,
+            "F_in_bounds": true,
+            "Q_dot_in_bounds": true,
+            "not_oscillating": true,
+            "violation_bounded": true
+          },
+          "wall_time_s": 55.67387795448303,
+          "profit_per_hour": 1013.3173488051747
+        },
+        "T2_rto": {
+          "total_profit": 57087.324966876695,
+          "mean_profit": 2854.3662483438347,
+          "violation_max": 0.0,
+          "violation_integral_degC_h": 0.0,
+          "steps_above_limit": 0,
+          "fraction_time_violating": 0.0,
+          "T_R_max": 135.97733916673184,
+          "mean_F": 34.98817318402516,
+          "mean_C_b": 1.1353365437088219,
+          "beta_hat_max_error": 0.023428749939620408,
+          "passed": true,
+          "checks": {
+            "finite": true,
+            "T_R_bounded": true,
+            "F_in_bounds": true,
+            "Q_dot_in_bounds": true,
+            "not_oscillating": true,
+            "violation_bounded": true
+          },
+          "wall_time_s": 66.59114909172058,
+          "profit_per_hour": 2854.3662483438347
+        }
+      }
+    },
+    "V2_C_A0_ramp": {
+      "campaign_h": 20.0,
+      "tiers": {
+        "T0a_naive": {
+          "total_profit": 56482.900426502034,
+          "mean_profit": 2824.1450213251014,
+          "violation_max": 0.0,
+          "violation_integral_degC_h": 0.0,
+          "steps_above_limit": 0,
+          "fraction_time_violating": 0.0,
+          "T_R_max": 135.38962426103413,
+          "mean_F": 34.858599426843945,
+          "mean_C_b": 1.1280254672092518,
+          "beta_hat_max_error": 0.023449022689425614,
+          "passed": true,
+          "checks": {
+            "finite": true,
+            "T_R_bounded": true,
+            "F_in_bounds": true,
+            "Q_dot_in_bounds": true,
+            "not_oscillating": true,
+            "violation_bounded": true
+          },
+          "wall_time_s": 63.794331073760986,
+          "profit_per_hour": 2824.145021325102
+        },
+        "T0b_prudent": {
+          "total_profit": 20067.195554021928,
+          "mean_profit": 1003.3597777010964,
+          "violation_max": 0.0,
+          "violation_integral_degC_h": 0.0,
+          "steps_above_limit": 0,
+          "fraction_time_violating": 0.0,
+          "T_R_max": 137.5727741911848,
+          "mean_F": 18.244142381339714,
+          "mean_C_b": 0.8540981581430447,
+          "beta_hat_max_error": 0.04356104123933047,
+          "passed": true,
+          "checks": {
+            "finite": true,
+            "T_R_bounded": true,
+            "F_in_bounds": true,
+            "Q_dot_in_bounds": true,
+            "not_oscillating": true,
+            "violation_bounded": true
+          },
+          "wall_time_s": 58.33258605003357,
+          "profit_per_hour": 1003.3597777010964
+        },
+        "T2_rto": {
+          "total_profit": 56653.29976912165,
+          "mean_profit": 2832.6649884560825,
+          "violation_max": 0.0,
+          "violation_integral_degC_h": 0.0,
+          "steps_above_limit": 0,
+          "fraction_time_violating": 0.0,
+          "T_R_max": 135.82480060283487,
+          "mean_F": 34.98241067515178,
+          "mean_C_b": 1.1260205467868074,
+          "beta_hat_max_error": 0.023428749939620408,
+          "passed": true,
+          "checks": {
+            "finite": true,
+            "T_R_bounded": true,
+            "F_in_bounds": true,
+            "Q_dot_in_bounds": true,
+            "not_oscillating": true,
+            "violation_bounded": true
+          },
+          "wall_time_s": 65.16215205192566,
+          "profit_per_hour": 2832.6649884560825
+        }
+      }
+    },
+    "V3_T_in_step": {
+      "campaign_h": 20.0,
+      "tiers": {
+        "T0a_naive": {
+          "total_profit": 53066.87236693472,
+          "mean_profit": 2653.3436183467356,
+          "violation_max": 0.0,
+          "violation_integral_degC_h": 0.0,
+          "steps_above_limit": 0,
+          "fraction_time_violating": 0.0,
+          "T_R_max": 136.3130396504885,
+          "mean_F": 34.766870582593,
+          "mean_C_b": 1.0667331299418752,
+          "beta_hat_max_error": 0.023449022689425614,
+          "passed": true,
+          "checks": {
+            "finite": true,
+            "T_R_bounded": true,
+            "F_in_bounds": true,
+            "Q_dot_in_bounds": true,
+            "not_oscillating": true,
+            "violation_bounded": true
+          },
+          "wall_time_s": 65.12443113327026,
+          "profit_per_hour": 2653.3436183467356
+        },
+        "T0b_prudent": {
+          "total_profit": 18933.607636848843,
+          "mean_profit": 946.6803818424421,
+          "violation_max": 0.0,
+          "violation_integral_degC_h": 0.0,
+          "steps_above_limit": 0,
+          "fraction_time_violating": 0.0,
+          "T_R_max": 137.5727741911848,
+          "mean_F": 18.244143601941218,
+          "mean_C_b": 0.8130598797967111,
+          "beta_hat_max_error": 0.04356104123933047,
+          "passed": true,
+          "checks": {
+            "finite": true,
+            "T_R_bounded": true,
+            "F_in_bounds": true,
+            "Q_dot_in_bounds": true,
+            "not_oscillating": true,
+            "violation_bounded": true
+          },
+          "wall_time_s": 52.09405279159546,
+          "profit_per_hour": 946.6803818424421
+        },
+        "T2_rto": {
+          "total_profit": 53368.240215762926,
+          "mean_profit": 2668.4120107881463,
+          "violation_max": 0.0,
+          "violation_integral_degC_h": 0.0,
+          "steps_above_limit": 0,
+          "fraction_time_violating": 0.0,
+          "T_R_max": 136.70512112953207,
+          "mean_F": 34.988207864684725,
+          "mean_C_b": 1.0643961027945739,
+          "beta_hat_max_error": 0.023428749939620408,
+          "passed": true,
+          "checks": {
+            "finite": true,
+            "T_R_bounded": true,
+            "F_in_bounds": true,
+            "Q_dot_in_bounds": true,
+            "not_oscillating": true,
+            "violation_bounded": true
+          },
+          "wall_time_s": 66.33122611045837,
+          "profit_per_hour": 2668.4120107881463
+        }
+      }
+    },
+    "V4_step_under_ageing": {
+      "campaign_h": 75.0,
+      "tiers": {
+        "T0a_naive": {
+          "total_profit": 139335.80554528016,
+          "mean_profit": 1857.8107406037352,
+          "violation_max": 0.10422948063808235,
+          "violation_integral_degC_h": 0.9950134753464775,
+          "steps_above_limit": 8993,
+          "fraction_time_violating": 0.5995333333333334,
+          "T_R_max": 140.10422948063808,
+          "mean_F": 26.18018538615807,
+          "mean_C_b": 1.0302991700013797,
+          "beta_hat_max_error": 0.04270381038654769,
+          "passed": true,
+          "checks": {
+            "finite": true,
+            "T_R_bounded": true,
+            "F_in_bounds": true,
+            "Q_dot_in_bounds": true,
+            "not_oscillating": true,
+            "violation_bounded": true
+          },
+          "wall_time_s": 334.7630331516266,
+          "profit_per_hour": 1857.8107406037354
+        },
+        "T0b_prudent": {
+          "total_profit": 73195.16637429179,
+          "mean_profit": 975.9355516572239,
+          "violation_max": 0.0,
+          "violation_integral_degC_h": 0.0,
+          "steps_above_limit": 0,
+          "fraction_time_violating": 0.0,
+          "T_R_max": 137.57200644363888,
+          "mean_F": 16.125841777220895,
+          "mean_C_b": 0.9512916284681899,
+          "beta_hat_max_error": 0.0430819356542711,
+          "passed": true,
+          "checks": {
+            "finite": true,
+            "T_R_bounded": true,
+            "F_in_bounds": true,
+            "Q_dot_in_bounds": true,
+            "not_oscillating": true,
+            "violation_bounded": true
+          },
+          "wall_time_s": 272.49174213409424,
+          "profit_per_hour": 975.9355516572239
+        },
+        "T2_rto": {
+          "total_profit": 120928.6166979504,
+          "mean_profit": 1612.381555972672,
+          "violation_max": 0.001970394786610541,
+          "violation_integral_degC_h": 0.003994664589947803,
+          "steps_above_limit": 789,
+          "fraction_time_violating": 0.0526,
+          "T_R_max": 140.0019703947866,
+          "mean_F": 22.90429782317919,
+          "mean_C_b": 1.0175332319556338,
+          "beta_hat_max_error": 0.042696540586608656,
+          "passed": true,
+          "checks": {
+            "finite": true,
+            "T_R_bounded": true,
+            "F_in_bounds": true,
+            "Q_dot_in_bounds": true,
+            "not_oscillating": true,
+            "violation_bounded": true
+          },
+          "wall_time_s": 307.67047214508057,
+          "profit_per_hour": 1612.381555972672
+        }
+      }
+    }
+  },
+  "all_passed": true
+}

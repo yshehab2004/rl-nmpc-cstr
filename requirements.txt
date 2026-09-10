@@ -1,0 +1,19 @@
+# Core (verified working during scaffolding)
+do-mpc>=5.1.1
+casadi>=3.7.2
+PyYAML>=6.0
+numpy
+pandas
+matplotlib
+
+# RL. Installed 2026-09-06; versions below are what Phase 2 was built and
+# tested against. torch arrives as an SB3 dependency.
+gymnasium>=1.3.0
+stable-baselines3>=2.9.0
+# cloudpickle ships with SB3 and is what SubprocVecEnv uses to send the env
+# FACTORY to each worker. Note the environment itself is not picklable by
+# anything: do-mpc holds CasADi SX objects, so the controller is always
+# constructed inside the worker process (rl/env.py, D-017).
+
+# Testing
+pytest

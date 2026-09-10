@@ -1,0 +1,101 @@
+{
+  "script": "rl-nmpc-cstr/supervisors/run_cadence_study.py",
+  "git_commit": "cbc78ae21942c824127981d550cde6a2210cb8c6",
+  "git_dirty": true,
+  "timestamp": "2026-09-06T14:53:21Z",
+  "params": {
+    "seed": 20260906,
+    "campaign_h": 20.0,
+    "cadences_h": [
+      2.0,
+      0.25
+    ],
+    "C_A0_magnitude": 0.6,
+    "n_horizon": 20,
+    "scenarios": [
+      "mild_no_ageing",
+      "severe_ageing"
+    ]
+  },
+  "config_hash": "sha256:e94a2d3b4bd74baa115c4ac746d0d4538e303355e41149199b170633c2a6176c",
+  "outputs": [
+    "supervisors/cadence_study.json"
+  ],
+  "duration_s": 293.1759810447693,
+  "results": {
+    "mild_no_ageing": {
+      "cadence_2.0h": {
+        "total_profit": 57087.385679223706,
+        "mean_profit": 2854.3692839611854,
+        "violation_max": 0.0,
+        "violation_integral_degC_h": 0.0,
+        "steps_above_limit": 0,
+        "fraction_time_violating": 0.0,
+        "T_R_max": 135.9769931773803,
+        "mean_F": 34.98817199692221,
+        "mean_C_b": 1.135338262897411,
+        "beta_hat_max_error": 0.03308507466555388,
+        "profit_per_hour": 2854.3692839611854,
+        "n_solves": 10,
+        "wall_time_s": 72.95725536346436,
+        "F_s_std": 0.0,
+        "F_s_reversals": 0.0
+      },
+      "cadence_0.25h": {
+        "total_profit": 57087.1250148091,
+        "mean_profit": 2854.356250740455,
+        "violation_max": 0.0,
+        "violation_integral_degC_h": 0.0,
+        "steps_above_limit": 0,
+        "fraction_time_violating": 0.0,
+        "T_R_max": 135.97699317240588,
+        "mean_F": 34.98817194135962,
+        "mean_C_b": 1.1353280175936258,
+        "beta_hat_max_error": 0.03308507466555388,
+        "profit_per_hour": 2854.356250740455,
+        "n_solves": 80,
+        "wall_time_s": 70.18472003936768,
+        "F_s_std": 0.0,
+        "F_s_reversals": 0.0
+      },
+      "fast_vs_slow_pct": -0.00045660597609718155
+    },
+    "severe_ageing": {
+      "cadence_2.0h": {
+        "total_profit": 35389.86093160032,
+        "mean_profit": 1769.4930465800162,
+        "violation_max": 0.0,
+        "violation_integral_degC_h": 0.0,
+        "steps_above_limit": 0,
+        "fraction_time_violating": 0.0,
+        "T_R_max": 138.66537954728196,
+        "mean_F": 24.574059970732733,
+        "mean_C_b": 1.0406774634595013,
+        "beta_hat_max_error": 0.08015787840235733,
+        "profit_per_hour": 1769.493046580016,
+        "n_solves": 10,
+        "wall_time_s": 83.90826392173767,
+        "F_s_std": 8.923454629266823,
+        "F_s_reversals": 0.0
+      },
+      "cadence_0.25h": {
+        "total_profit": 35345.342090573016,
+        "mean_profit": 1767.2671045286506,
+        "violation_max": 0.007663527977456397,
+        "violation_integral_degC_h": 0.0042279104406839,
+        "steps_above_limit": 147,
+        "fraction_time_violating": 0.03675,
+        "T_R_max": 140.00766352797746,
+        "mean_F": 24.5160454971249,
+        "mean_C_b": 1.0396900372415854,
+        "beta_hat_max_error": 0.08185381136516467,
+        "profit_per_hour": 1767.2671045286509,
+        "n_solves": 80,
+        "wall_time_s": 65.57535481452942,
+        "F_s_std": 8.987772730180431,
+        "F_s_reversals": 0.0
+      },
+      "fast_vs_slow_pct": -0.12579546755876178
+    }
+  }
+}

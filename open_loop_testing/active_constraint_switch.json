@@ -1,0 +1,45 @@
+{
+  "peak_cooling_floor_T_R_by_beta": {
+    "0.60": {
+      "peak_required_T_R": 136.34446191367147,
+      "F_at_peak": 35.0,
+      "temp_limit_binds": false
+    },
+    "0.50": {
+      "peak_required_T_R": 137.77912529411083,
+      "F_at_peak": 35.0,
+      "temp_limit_binds": false
+    },
+    "0.45": {
+      "peak_required_T_R": 138.6535011462911,
+      "F_at_peak": 35.0,
+      "temp_limit_binds": false
+    },
+    "0.40": {
+      "peak_required_T_R": 139.66561657989587,
+      "F_at_peak": 35.0,
+      "temp_limit_binds": false
+    },
+    "0.35": {
+      "peak_required_T_R": 140.85202426662704,
+      "F_at_peak": 35.0,
+      "temp_limit_binds": true
+    },
+    "0.30": {
+      "peak_required_T_R": 142.26510586162533,
+      "F_at_peak": 35.0,
+      "temp_limit_binds": true
+    },
+    "0.25": {
+      "peak_required_T_R": 143.98351905683455,
+      "F_at_peak": 35.0,
+      "temp_limit_binds": true
+    },
+    "0.20": {
+      "peak_required_T_R": 146.1328825374295,
+      "F_at_peak": 35.0,
+      "temp_limit_binds": true
+    }
+  },
+  "switch_beta": 0.3850536346435547
+}

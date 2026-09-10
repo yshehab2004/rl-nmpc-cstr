@@ -1,0 +1,65 @@
+{
+  "script": "rl-nmpc-cstr/evaluation/boundary_gradient.py",
+  "git_commit": "cbc78ae21942c824127981d550cde6a2210cb8c6",
+  "git_dirty": true,
+  "timestamp": "2026-09-04T23:43:10Z",
+  "params": {
+    "F": 35.0,
+    "h": 0.001,
+    "price_B": 100.0,
+    "price_A0": 5.0,
+    "price_energy": 0.02
+  },
+  "config_hash": "sha256:8f1f2b301fe74851e0701a90902c5124d362cae7f70d54eda06124e936103ae2",
+  "outputs": [
+    "evaluation/boundary_gradient.json"
+  ],
+  "duration_s": 0.04697299003601074,
+  "results": [
+    {
+      "beta": 1.0,
+      "T_R_used": 133.0,
+      "dC_b_dF": 0.0041255675777840395,
+      "dPi_dF": 94.07983523828989
+    },
+    {
+      "beta": 0.8,
+      "T_R_used": 135.5,
+      "dC_b_dF": 0.0029849129363768157,
+      "dPi_dF": 88.92540441956953
+    },
+    {
+      "beta": 0.6,
+      "T_R_used": 140.0,
+      "dC_b_dF": 0.0024697064496814747,
+      "dPi_dF": 84.79713531005473
+    },
+    {
+      "beta": 0.4,
+      "T_R_used": 140.0,
+      "dC_b_dF": -0.002306302183396891,
+      "dPi_dF": 59.907413533210274
+    },
+    {
+      "beta": 0.385,
+      "T_R_used": null,
+      "dC_b_dF": null,
+      "dPi_dF": null,
+      "note": "no feasible T_R at F=35 for this beta"
+    },
+    {
+      "beta": 0.3,
+      "T_R_used": null,
+      "dC_b_dF": null,
+      "dPi_dF": null,
+      "note": "no feasible T_R at F=35 for this beta"
+    },
+    {
+      "beta": 0.2,
+      "T_R_used": null,
+      "dC_b_dF": null,
+      "dPi_dF": null,
+      "note": "no feasible T_R at F=35 for this beta"
+    }
+  ]
+}

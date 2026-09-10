@@ -1,0 +1,113 @@
+{
+  "script": "rl-nmpc-cstr/open_loop_testing/optimum_trajectory.py",
+  "git_commit": "cbc78ae21942c824127981d550cde6a2210cb8c6",
+  "git_dirty": true,
+  "timestamp": "2026-09-05T07:55:28Z",
+  "params": {
+    "betas": [
+      1.0,
+      0.8,
+      0.6,
+      0.4,
+      0.385,
+      0.3,
+      0.2
+    ],
+    "F_range": [
+      5.0,
+      35.0
+    ],
+    "T_R_range": [
+      100.0,
+      150.0
+    ],
+    "price_B": 100.0,
+    "price_A0": 5.0,
+    "price_energy": 0.02
+  },
+  "config_hash": "sha256:8f1f2b301fe74851e0701a90902c5124d362cae7f70d54eda06124e936103ae2",
+  "outputs": [
+    "open_loop_testing/optimum_trajectory.json",
+    "open_loop_testing/optimum_trajectory.png"
+  ],
+  "duration_s": 0.3915116786956787,
+  "gap_table": [
+    {
+      "beta": 1.0,
+      "F_star": 35.0,
+      "T_R_star": 133.0,
+      "Pi_star": 2744.4800796108266,
+      "F_fixed": 35.0,
+      "T_R_fixed": 133.0,
+      "Pi_fixed": 2744.4800796108266,
+      "fixed_feasible": true,
+      "gap_pct": 0.0
+    },
+    {
+      "beta": 0.8,
+      "F_star": 35.0,
+      "T_R_star": 135.5,
+      "Pi_star": 2704.626681608775,
+      "F_fixed": 35.0,
+      "T_R_fixed": 133.0,
+      "Pi_fixed": 2686.4966199863434,
+      "fixed_feasible": false,
+      "gap_pct": null
+    },
+    {
+      "beta": 0.6,
+      "F_star": 35.0,
+      "T_R_star": 140.0,
+      "Pi_star": 2626.2328917415425,
+      "F_fixed": 35.0,
+      "T_R_fixed": 133.0,
+      "Pi_fixed": 2467.788898322505,
+      "fixed_feasible": false,
+      "gap_pct": null
+    },
+    {
+      "beta": 0.4,
+      "F_star": 35.0,
+      "T_R_star": 140.0,
+      "Pi_star": 2318.6597581160477,
+      "F_fixed": 35.0,
+      "T_R_fixed": 133.0,
+      "Pi_fixed": 1952.483704895573,
+      "fixed_feasible": false,
+      "gap_pct": null
+    },
+    {
+      "beta": 0.385,
+      "F_star": 34.75,
+      "T_R_star": 140.0,
+      "Pi_star": 2261.9557839041777,
+      "F_fixed": 35.0,
+      "T_R_fixed": 133.0,
+      "Pi_fixed": 1895.6644703199672,
+      "fixed_feasible": false,
+      "gap_pct": null
+    },
+    {
+      "beta": 0.3,
+      "F_star": 25.75,
+      "T_R_star": 140.0,
+      "Pi_star": 1519.0462779029212,
+      "F_fixed": 35.0,
+      "T_R_fixed": 133.0,
+      "Pi_fixed": 1507.552325877418,
+      "fixed_feasible": false,
+      "gap_pct": null
+    },
+    {
+      "beta": 0.2,
+      "F_star": 18.25,
+      "T_R_star": 140.0,
+      "Pi_star": 867.1169194574261,
+      "F_fixed": 35.0,
+      "T_R_fixed": 133.0,
+      "Pi_fixed": 868.2326976067196,
+      "fixed_feasible": false,
+      "gap_pct": null
+    }
+  ]
+}

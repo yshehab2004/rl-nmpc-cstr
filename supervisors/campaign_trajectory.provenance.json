@@ -1,0 +1,60 @@
+{
+  "script": "rl-nmpc-cstr/supervisors/campaign_trajectory.py",
+  "git_commit": "deee5c13d670d711d3a6b40d5910f9d552026c71",
+  "git_dirty": true,
+  "timestamp": "2026-09-08T05:36:42Z",
+  "params": {
+    "traces": "supervisors/campaign_traces_S3.json",
+    "scenario": "S3_severe",
+    "seed": 7000,
+    "beta_final": 0.2,
+    "step_at_h": 30.0,
+    "T_limit": 140.0,
+    "Q_floor": -8500.0,
+    "lines": [
+      "T0a_naive",
+      "T0b_prudent",
+      "T2_rto",
+      "T3_median"
+    ],
+    "T_R_ylim": [
+      128.0,
+      141.5
+    ]
+  },
+  "config_hash": "sha256:8f144e91fa78be81aef73f59e6473102b4c067cb1c0bf66f2da1110e8c99d44c",
+  "outputs": [
+    "supervisors/campaign_trajectory.png"
+  ],
+  "duration_s": 0.8684380054473877,
+  "T0a_naive": {
+    "profit_per_hour": 1857.8007076548222,
+    "T_R_max": 140.10635379534506,
+    "fraction_time_violating": 0.5995333333333334
+  },
+  "T0b_prudent": {
+    "profit_per_hour": 997.5215304991344,
+    "T_R_max": 138.05841003783658,
+    "fraction_time_violating": 0.0
+  },
+  "T2_rto": {
+    "profit_per_hour": 1625.1979812775064,
+    "T_R_max": 138.10364222529208,
+    "fraction_time_violating": 0.0
+  },
+  "T3_best": {
+    "profit_per_hour": 1653.6561288762014,
+    "T_R_max": 139.48856554751424,
+    "fraction_time_violating": 0.0
+  },
+  "T3_median": {
+    "profit_per_hour": 1221.4004330448404,
+    "T_R_max": 139.6786402581258,
+    "fraction_time_violating": 0.0
+  },
+  "T3_worst": {
+    "profit_per_hour": 846.8353431891371,
+    "T_R_max": 138.71526843167095,
+    "fraction_time_violating": 0.0
+  }
+}

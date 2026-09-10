@@ -1,0 +1,27 @@
+{
+  "script": "/users/elp25yrs/rl-nmpc-cstr-v2/supervisors/run_traces.py",
+  "git_commit": null,
+  "git_dirty": true,
+  "timestamp": "2026-09-08T05:32:16Z",
+  "params": {
+    "scenario": "S3_severe",
+    "cases": [
+      "T0a_naive",
+      "T0b_prudent",
+      "T2_rto",
+      "T3_best",
+      "T3_median",
+      "T3_worst"
+    ],
+    "arm": "rl/runs_d028/A1_new_withmargin",
+    "seed": 7000,
+    "campaign_h": 75.0,
+    "beta_final": 0.2,
+    "t0b_margin": 2.0
+  },
+  "config_hash": "sha256:8f144e91fa78be81aef73f59e6473102b4c067cb1c0bf66f2da1110e8c99d44c",
+  "outputs": [
+    "supervisors/campaign_traces_S3.json"
+  ],
+  "duration_s": 2558.7031967639923
+}

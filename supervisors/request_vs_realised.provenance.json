@@ -1,0 +1,40 @@
+{
+  "script": "rl-nmpc-cstr/supervisors/request_vs_realised.py",
+  "git_commit": "deee5c13d670d711d3a6b40d5910f9d552026c71",
+  "git_dirty": true,
+  "timestamp": "2026-09-08T06:05:28Z",
+  "params": {
+    "traces": "supervisors/campaign_traces_S3.json",
+    "cases": [
+      "T2_rto",
+      "T3_median"
+    ],
+    "T_limit": 140.0,
+    "F_bounds": [
+      5.0,
+      35.0
+    ],
+    "tau_h": 46.60012009197089,
+    "T_R_ylim": [
+      119.0,
+      142.0
+    ]
+  },
+  "config_hash": "sha256:8f144e91fa78be81aef73f59e6473102b4c067cb1c0bf66f2da1110e8c99d44c",
+  "outputs": [
+    "supervisors/request_vs_realised.png"
+  ],
+  "duration_s": 0.3484816551208496,
+  "T2_rto": {
+    "median_displacement_frac_of_range": 0.021999087364678906,
+    "mean_displacement_frac_of_range": 0.030173985120690167,
+    "p90_displacement": 0.07752333333333335,
+    "frac_requests_moved_over_5pct": 0.20333333333333334
+  },
+  "T3_median": {
+    "median_displacement_frac_of_range": 0.3112917249690761,
+    "mean_displacement_frac_of_range": 0.3259224966945019,
+    "p90_displacement": 0.7030020577935828,
+    "frac_requests_moved_over_5pct": 0.6566666666666666
+  }
+}

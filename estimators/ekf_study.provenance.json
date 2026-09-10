@@ -1,0 +1,48 @@
+{
+  "script": "rl-nmpc-cstr/estimators/run_ekf_study.py",
+  "git_commit": "cbc78ae21942c824127981d550cde6a2210cb8c6",
+  "git_dirty": true,
+  "timestamp": "2026-09-06T13:50:28Z",
+  "params": {
+    "noise_frac": 0.005,
+    "estimator": {
+      "q_states": 1e-08,
+      "q_beta": 1e-06,
+      "p0_states": 0.0001,
+      "p0_beta": 0.01,
+      "beta_min": 0.05,
+      "beta_max": 1.0
+    },
+    "x0": [
+      1.2348438778324562,
+      0.9000141156253105,
+      134.14,
+      128.94853010224594
+    ],
+    "u": [
+      18.83,
+      -4500.381424965028
+    ],
+    "C_A0_step": 0.6,
+    "seed": 1
+  },
+  "config_hash": "sha256:ffb326174eb057d7c4f14a336b912aed5fdf3ac2f46b3b84c6f8d2ab49ae0190",
+  "outputs": [
+    "estimators/ekf_study.json"
+  ],
+  "duration_s": 16.29392695426941,
+  "tracking_summary": {
+    "real_75h": {
+      "max_lag": 0.039963149270161535,
+      "mean_lag": 0.013543175825198253
+    },
+    "compressed_2h": {
+      "max_lag": 0.18837140434888378,
+      "mean_lag": 0.12769514666515758
+    }
+  },
+  "aliasing_summary": {
+    "measured_C_A0": 1.2537515470256722e-08,
+    "blind_nominal_C_A0": 0.266061809593815
+  }
+}

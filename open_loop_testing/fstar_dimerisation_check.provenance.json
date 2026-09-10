@@ -1,0 +1,32 @@
+{
+  "script": "rl-nmpc-cstr/open_loop_testing/fstar_dimerisation_check.py",
+  "git_commit": "deee5c13d670d711d3a6b40d5910f9d552026c71",
+  "git_dirty": true,
+  "timestamp": "2026-09-07T22:39:41Z",
+  "params": {
+    "betas": [
+      1.0,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "temperatures_degC": [
+      140.0,
+      120.0
+    ],
+    "C_A0": 5.1,
+    "alpha": 1.0,
+    "F_scan": [
+      0.001,
+      400.0,
+      200001
+    ],
+    "golden_iters": 200
+  },
+  "config_hash": "sha256:8f144e91fa78be81aef73f59e6473102b4c067cb1c0bf66f2da1110e8c99d44c",
+  "outputs": [
+    "open_loop_testing/fstar_dimerisation_check.json"
+  ],
+  "duration_s": 357.8357901573181,
+  "control_max_pct_error_k3_zero": 2.117384444973767e-06
+}

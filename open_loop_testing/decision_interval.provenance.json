@@ -1,0 +1,120 @@
+{
+  "script": "rl-nmpc-cstr/open_loop_testing/decision_interval.py",
+  "git_commit": "cbc78ae21942c824127981d550cde6a2210cb8c6",
+  "git_dirty": true,
+  "timestamp": "2026-09-05T09:01:45Z",
+  "params": {
+    "beta_star": 0.385,
+    "bandwidth_rule_divisor": 3.0,
+    "candidate_intervals_h": {
+      "15 min": 0.25,
+      "30 min": 0.5,
+      "60 min": 1.0
+    }
+  },
+  "config_hash": "sha256:8f1f2b301fe74851e0701a90902c5124d362cae7f70d54eda06124e936103ae2",
+  "outputs": [
+    "open_loop_testing/decision_interval.json"
+  ],
+  "duration_s": 0.4335188865661621,
+  "results": [
+    {
+      "beta": 1.0,
+      "F": 35.0,
+      "T_R": 133.0,
+      "active_channel": "Q_dot->T_R",
+      "settling_time_h": 0.152007600380019,
+      "min_rhp_zero": null,
+      "bandwidth_cap_h_inv": null,
+      "ratio_settle_to_interval": {
+        "15 min": 0.608030401520076,
+        "30 min": 0.304015200760038,
+        "60 min": 0.152007600380019
+      }
+    },
+    {
+      "beta": 0.8,
+      "F": 35.0,
+      "T_R": 135.5,
+      "active_channel": "Q_dot->T_R",
+      "settling_time_h": 0.14900745037251864,
+      "min_rhp_zero": null,
+      "bandwidth_cap_h_inv": null,
+      "ratio_settle_to_interval": {
+        "15 min": 0.5960298014900746,
+        "30 min": 0.2980149007450373,
+        "60 min": 0.14900745037251864
+      }
+    },
+    {
+      "beta": 0.6,
+      "F": 35.0,
+      "T_R": 140.0,
+      "active_channel": "Q_dot->T_R",
+      "settling_time_h": 0.14500725036251813,
+      "min_rhp_zero": null,
+      "bandwidth_cap_h_inv": null,
+      "ratio_settle_to_interval": {
+        "15 min": 0.5800290014500725,
+        "30 min": 0.29001450072503626,
+        "60 min": 0.14500725036251813
+      }
+    },
+    {
+      "beta": 0.4,
+      "F": 35.0,
+      "T_R": 140.0,
+      "active_channel": "Q_dot->T_R",
+      "settling_time_h": 0.1480074003700185,
+      "min_rhp_zero": null,
+      "bandwidth_cap_h_inv": null,
+      "ratio_settle_to_interval": {
+        "15 min": 0.592029601480074,
+        "30 min": 0.296014800740037,
+        "60 min": 0.1480074003700185
+      }
+    },
+    {
+      "beta": 0.385,
+      "F": 34.75,
+      "T_R": 140.0,
+      "active_channel": "F->C_b",
+      "settling_time_h": 0.08650432521626082,
+      "min_rhp_zero": null,
+      "bandwidth_cap_h_inv": null,
+      "ratio_settle_to_interval": {
+        "15 min": 0.3460173008650433,
+        "30 min": 0.17300865043252164,
+        "60 min": 0.08650432521626082
+      }
+    },
+    {
+      "beta": 0.3,
+      "F": 25.75,
+      "T_R": 140.0,
+      "active_channel": "F->C_b",
+      "settling_time_h": 0.2375118755937797,
+      "min_rhp_zero": null,
+      "bandwidth_cap_h_inv": null,
+      "ratio_settle_to_interval": {
+        "15 min": 0.9500475023751188,
+        "30 min": 0.4750237511875594,
+        "60 min": 0.2375118755937797
+      }
+    },
+    {
+      "beta": 0.2,
+      "F": 18.25,
+      "T_R": 140.0,
+      "active_channel": "F->C_b",
+      "settling_time_h": 0.3447672383619181,
+      "min_rhp_zero": 1.0832037108770796,
+      "bandwidth_cap_h_inv": 0.3610679036256932,
+      "ratio_settle_to_interval": {
+        "15 min": 1.3790689534476723,
+        "30 min": 0.6895344767238362,
+        "60 min": 0.3447672383619181
+      }
+    }
+  ]
+}

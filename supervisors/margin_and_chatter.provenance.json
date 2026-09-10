@@ -1,0 +1,52 @@
+{
+  "script": "rl-nmpc-cstr/supervisors/margin_and_chatter.py",
+  "git_commit": "deee5c13d670d711d3a6b40d5910f9d552026c71",
+  "git_dirty": true,
+  "timestamp": "2026-09-08T05:39:10Z",
+  "params": {
+    "traces": "supervisors/campaign_traces_S3.json",
+    "scenario": "S3_severe",
+    "seed": 7000,
+    "scheduled_margin": 2.0,
+    "learned_cases": [
+      "T3_best",
+      "T3_median",
+      "T3_worst"
+    ]
+  },
+  "config_hash": "sha256:8f144e91fa78be81aef73f59e6473102b4c067cb1c0bf66f2da1110e8c99d44c",
+  "outputs": [
+    "supervisors/margin_and_chatter.png"
+  ],
+  "duration_s": 0.8350019454956055,
+  "T3_best": {
+    "margin_mean": 1.646346427500248,
+    "margin_sd": 1.2796088430633739,
+    "margin_min": 0.29694870114326477,
+    "margin_max": 3.7413403391838074,
+    "mean_abs_step_F_ref": 0.1900574644672432,
+    "mean_abs_step_F_projected": 0.23977635843698028
+  },
+  "T3_median": {
+    "margin_mean": 1.967702000339826,
+    "margin_sd": 0.8437359827100563,
+    "margin_min": 0.36256954073905945,
+    "margin_max": 3.4905585646629333,
+    "mean_abs_step_F_ref": 3.613965056811687,
+    "mean_abs_step_F_projected": 3.621834478052962
+  },
+  "T3_worst": {
+    "margin_mean": 2.435075798134009,
+    "margin_sd": 1.2700120394823133,
+    "margin_min": 0.5393673479557037,
+    "margin_max": 4.967156648635864,
+    "mean_abs_step_F_ref": 5.175909210606961,
+    "mean_abs_step_F_projected": 6.854202774306205
+  },
+  "T2_rto": {
+    "margin_mean": 2.0,
+    "margin_sd": 0.0,
+    "mean_abs_step_F_ref": 0.07909698996655518,
+    "mean_abs_step_F_projected": 0.08072742474916393
+  }
+}

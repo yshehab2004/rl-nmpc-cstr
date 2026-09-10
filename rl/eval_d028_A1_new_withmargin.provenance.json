@@ -1,0 +1,34 @@
+{
+  "script": "rl/eval_d028.py",
+  "git_commit": null,
+  "git_dirty": true,
+  "timestamp": "2026-09-07T19:26:49Z",
+  "params": {
+    "runs_dir": "rl/runs_d028/A1_new_withmargin",
+    "n_seeds": 10,
+    "betas_low": [
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "prereg": {
+      "P1_baseline_mean_abs_dF_low_beta": 8.27,
+      "P1_threshold": 2.0,
+      "P2_legacy_pinned": 9,
+      "P2_legacy_total": 24,
+      "P2_threshold_fraction_of_40": 2,
+      "margin_ceiling": 5.0,
+      "reference_by_regime": {
+        "high": 0.49,
+        "mid": 3.8,
+        "low": 8.27
+      }
+    }
+  },
+  "config_hash": "sha256:8f144e91fa78be81aef73f59e6473102b4c067cb1c0bf66f2da1110e8c99d44c",
+  "outputs": [
+    "rl/eval_d028_A1_new_withmargin.json"
+  ],
+  "duration_s": 1.6267049312591553
+}

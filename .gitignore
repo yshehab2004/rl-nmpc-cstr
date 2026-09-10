@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+venv/
+.venv/
+
+# macOS
+.DS_Store
+
+# Training logs written by SLURM and TensorBoard during a run. Scratch
+# output; the per-policy record that matters is train_meta.json and the
+# .provenance.json sidecar, both versioned here alongside the weights.
+rl/logs/
+
+# NOTE ON WHAT IS *NOT* EXCLUDED.
+# The 51 trained SAC policies (rl/runs*/**/model.zip, 159 MB) and the cached
+# steady-state map (.npz) ARE versioned, deliberately. A checkpoint is not
+# reproducible from its commit, seed and configs/reactor_params.yaml alone:
+# this project's own central finding is that ten policies trained on
+# identical data with identical hyperparameters, differing only in random
+# seed, span 2.05 to 3.04 times in delivered profit. Retraining reproduces
+# the distribution, not these ten policies, so the weights are the only way
+# to check the numbers reported in Chapter 5.
+
+# Working notes, not part of the published repo.
+docs/
+PHASE0_PROVENANCE.md

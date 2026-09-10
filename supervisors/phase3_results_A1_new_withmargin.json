@@ -1,0 +1,3497 @@
+{
+  "S1_no_ageing": {
+    "kind": "holdout_extrapolation",
+    "tiers": {
+      "T3_rl": {
+        "n": 50,
+        "runs": [
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed9_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2349.6193641923155,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 555.1696834564209
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed9_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2349.7163117949767,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 563.2094078063965
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed9_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2349.5515850865504,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 563.8121585845947
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed7_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1749.7108724776908,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 600.7934741973877
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed7_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1749.8161859250388,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 602.2400457859039
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed9_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2349.4544678700904,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 608.7955000400543
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed7_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1749.67801097791,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 608.7837636470795
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed8_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2116.7535532408815,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 620.1928098201752
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed8_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2116.765379351629,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 623.5360493659973
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed6_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2369.2713730532705,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 626.6577260494232
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed8_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2116.8105026025323,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 637.1749029159546
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed6_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2369.450305108409,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 648.5526204109192
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed8_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2116.783002352684,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 653.087450504303
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed8_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2116.719830582454,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 657.3068115711212
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed7_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1749.9315216102768,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 660.4415299892426
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed5_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2155.6036651322775,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 668.4089670181274
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed7_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1749.7360169556935,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 672.3953442573547
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed5_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2155.5935415859235,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 673.0598576068878
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed5_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2155.582281835944,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 678.8750541210175
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed6_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2369.2820740818265,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 679.7789471149445
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed6_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2369.3728824664313,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 687.1876058578491
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed5_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2155.6400533196775,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 695.651828289032
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed6_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2369.319820320813,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 700.0895562171936
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed4_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2676.9316926998076,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 706.836118221283
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed4_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2676.98792605661,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 721.8408532142639
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed4_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2677.0721667051007,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 725.2975900173187
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed5_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2155.698674155763,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 738.0561859607697
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed4_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2676.8039621009943,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 770.5472331047058
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed4_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2676.9619759538064,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 770.9475605487823
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed3_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 877.7437626265954,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 771.710791349411
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed3_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 880.7596536752743,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 775.8301770687103
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed2_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2644.6033392379054,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 782.3123707771301
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed2_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2644.3537063462254,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 783.087158203125
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed3_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 881.0074142246652,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 791.9111313819885
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed3_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 879.6527882245878,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 799.5023229122162
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed1_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2651.2908412753313,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 811.9541487693787
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed3_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 877.8004988374414,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 812.5762250423431
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed2_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2644.3076266278736,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 816.048944234848
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed1_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2651.4643938504737,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 816.0764591693878
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed1_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2651.8417072329303,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 816.932336807251
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed1_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2651.2286658293447,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 823.3443281650543
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed1_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2650.788401605884,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 836.0588064193726
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed2_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2644.279261013239,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 841.1211290359497
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed2_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2644.6806234508836,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 843.4925816059113
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed10_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2330.707788316424,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 869.011123418808
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed10_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2332.1599066456083,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 878.5697388648987
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed10_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2331.9700034157836,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 878.83220744133
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed10_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2332.302164070635,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 888.9247279167175
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed10_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2333.0928243531107,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 895.6737577915192
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed9_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2349.7662696971997,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 553.0753793716431
+          }
+        ],
+        "mean_profit_per_hour": 2192.528412803096,
+        "std_profit_per_hour": 515.0002816216522,
+        "mean_violation_integral": 0.0,
+        "max_violation_integral": 0.0,
+        "mean_fraction_time_violating": 0.0,
+        "runs_violating": 0
+      },
+      "T2_rto": {
+        "n": 5,
+        "runs": [
+          {
+            "seed": 7004,
+            "rl_run": null,
+            "label": "T2_rto",
+            "profit_per_hour": 2798.6352826595944,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 829.0688858032227
+          },
+          {
+            "seed": 7001,
+            "rl_run": null,
+            "label": "T2_rto",
+            "profit_per_hour": 2798.677684628832,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 847.8306505680084
+          },
+          {
+            "seed": 7000,
+            "rl_run": null,
+            "label": "T2_rto",
+            "profit_per_hour": 2798.592350102496,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 853.0435712337494
+          },
+          {
+            "seed": 7002,
+            "rl_run": null,
+            "label": "T2_rto",
+            "profit_per_hour": 2798.6338383440316,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 855.09748005867
+          },
+          {
+            "seed": 7003,
+            "rl_run": null,
+            "label": "T2_rto",
+            "profit_per_hour": 2798.610811260855,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 869.7001512050629
+          }
+        ],
+        "mean_profit_per_hour": 2798.629993399162,
+        "std_profit_per_hour": 0.028643273131222634,
+        "mean_violation_integral": 0.0,
+        "max_violation_integral": 0.0,
+        "mean_fraction_time_violating": 0.0,
+        "runs_violating": 0
+      },
+      "T0b_prudent": {
+        "n": 5,
+        "runs": [
+          {
+            "seed": 7004,
+            "rl_run": null,
+            "label": "T0b_prudent",
+            "profit_per_hour": 997.0816963795512,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 876.92245054245
+          },
+          {
+            "seed": 7000,
+            "rl_run": null,
+            "label": "T0b_prudent",
+            "profit_per_hour": 997.0799031971549,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 887.1296062469482
+          },
+          {
+            "seed": 7002,
+            "rl_run": null,
+            "label": "T0b_prudent",
+            "profit_per_hour": 997.0811123966389,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 890.1867496967316
+          },
+          {
+            "seed": 7003,
+            "rl_run": null,
+            "label": "T0b_prudent",
+            "profit_per_hour": 997.0807068859208,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 895.4597871303558
+          },
+          {
+            "seed": 7001,
+            "rl_run": null,
+            "label": "T0b_prudent",
+            "profit_per_hour": 997.0804351748556,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 901.8603508472443
+          }
+        ],
+        "mean_profit_per_hour": 997.0807708068241,
+        "std_profit_per_hour": 0.0006070996150680466,
+        "mean_violation_integral": 0.0,
+        "max_violation_integral": 0.0,
+        "mean_fraction_time_violating": 0.0,
+        "runs_violating": 0
+      },
+      "T0a_naive": {
+        "n": 5,
+        "runs": [
+          {
+            "seed": 7004,
+            "rl_run": null,
+            "label": "T0a_naive",
+            "profit_per_hour": 2846.2580090933125,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 928.540851354599
+          },
+          {
+            "seed": 7002,
+            "rl_run": null,
+            "label": "T0a_naive",
+            "profit_per_hour": 2846.2807764000545,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 938.9531936645508
+          },
+          {
+            "seed": 7003,
+            "rl_run": null,
+            "label": "T0a_naive",
+            "profit_per_hour": 2846.2695012781264,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 947.5226678848267
+          },
+          {
+            "seed": 7000,
+            "rl_run": null,
+            "label": "T0a_naive",
+            "profit_per_hour": 2846.2335171171403,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 951.4236171245575
+          },
+          {
+            "seed": 7001,
+            "rl_run": null,
+            "label": "T0a_naive",
+            "profit_per_hour": 2846.2922038654133,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 961.8625395298004
+          }
+        ],
+        "mean_profit_per_hour": 2846.266801550809,
+        "std_profit_per_hour": 0.02016444077950882,
+        "mean_violation_integral": 0.0,
+        "max_violation_integral": 0.0,
+        "mean_fraction_time_violating": 0.0,
+        "runs_violating": 0
+      }
+    }
+  },
+  "S2_moderate": {
+    "kind": "holdout_interpolation",
+    "tiers": {
+      "T0a_naive": {
+        "n": 5,
+        "runs": [
+          {
+            "seed": 7001,
+            "rl_run": null,
+            "label": "T0a_naive",
+            "profit_per_hour": 2360.092398953816,
+            "violation_integral": 0.8287177638043532,
+            "violation_max": 0.07859816068997816,
+            "fraction_time_violating": 0.4483333333333333,
+            "wall_s": 586.3780221939087
+          },
+          {
+            "seed": 7000,
+            "rl_run": null,
+            "label": "T0a_naive",
+            "profit_per_hour": 2360.0053113145154,
+            "violation_integral": 0.7897171945983974,
+            "violation_max": 0.08303167118236843,
+            "fraction_time_violating": 0.4483333333333333,
+            "wall_s": 646.4469840526581
+          },
+          {
+            "seed": 7004,
+            "rl_run": null,
+            "label": "T0a_naive",
+            "profit_per_hour": 2360.058125181252,
+            "violation_integral": 0.816246711659878,
+            "violation_max": 0.07399933460115449,
+            "fraction_time_violating": 0.4483333333333333,
+            "wall_s": 601.3724737167358
+          },
+          {
+            "seed": 7002,
+            "rl_run": null,
+            "label": "T0a_naive",
+            "profit_per_hour": 2360.0417413844025,
+            "violation_integral": 0.8069514376837792,
+            "violation_max": 0.08020380702990337,
+            "fraction_time_violating": 0.4483333333333333,
+            "wall_s": 629.7993810176849
+          },
+          {
+            "seed": 7003,
+            "rl_run": null,
+            "label": "T0a_naive",
+            "profit_per_hour": 2360.0750209170005,
+            "violation_integral": 0.815060048103037,
+            "violation_max": 0.08258970180887104,
+            "fraction_time_violating": 0.4483333333333333,
+            "wall_s": 650.368816614151
+          }
+        ],
+        "mean_profit_per_hour": 2360.0545195501973,
+        "std_profit_per_hour": 0.029842546186978958,
+        "mean_violation_integral": 0.8113386311698889,
+        "max_violation_integral": 0.8287177638043532,
+        "mean_fraction_time_violating": 0.44833333333333336,
+        "runs_violating": 5
+      },
+      "T0b_prudent": {
+        "n": 5,
+        "runs": [
+          {
+            "seed": 7002,
+            "rl_run": null,
+            "label": "T0b_prudent",
+            "profit_per_hour": 1140.5758346898597,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 533.6624073982239
+          },
+          {
+            "seed": 7000,
+            "rl_run": null,
+            "label": "T0b_prudent",
+            "profit_per_hour": 1140.4842651145404,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 556.8268423080444
+          },
+          {
+            "seed": 7001,
+            "rl_run": null,
+            "label": "T0b_prudent",
+            "profit_per_hour": 1140.6940378040415,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 554.4428124427795
+          },
+          {
+            "seed": 7003,
+            "rl_run": null,
+            "label": "T0b_prudent",
+            "profit_per_hour": 1140.5589661330205,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 553.8395397663116
+          },
+          {
+            "seed": 7004,
+            "rl_run": null,
+            "label": "T0b_prudent",
+            "profit_per_hour": 1140.5865952775384,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 543.9166226387024
+          }
+        ],
+        "mean_profit_per_hour": 1140.5799398038002,
+        "std_profit_per_hour": 0.06733950100963752,
+        "mean_violation_integral": 0.0,
+        "max_violation_integral": 0.0,
+        "mean_fraction_time_violating": 0.0,
+        "runs_violating": 0
+      },
+      "T2_rto": {
+        "n": 5,
+        "runs": [
+          {
+            "seed": 7003,
+            "rl_run": null,
+            "label": "T2_rto",
+            "profit_per_hour": 1936.8545033682065,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 542.9528920650482
+          },
+          {
+            "seed": 7000,
+            "rl_run": null,
+            "label": "T2_rto",
+            "profit_per_hour": 1936.8867981600858,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 576.4957618713379
+          },
+          {
+            "seed": 7001,
+            "rl_run": null,
+            "label": "T2_rto",
+            "profit_per_hour": 1937.194473325143,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 586.8677544593811
+          },
+          {
+            "seed": 7002,
+            "rl_run": null,
+            "label": "T2_rto",
+            "profit_per_hour": 1937.0210978487428,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 593.710102558136
+          },
+          {
+            "seed": 7004,
+            "rl_run": null,
+            "label": "T2_rto",
+            "profit_per_hour": 1936.9516437740642,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 618.4696311950684
+          }
+        ],
+        "mean_profit_per_hour": 1936.9817032952483,
+        "std_profit_per_hour": 0.12075876564448311,
+        "mean_violation_integral": 0.0,
+        "max_violation_integral": 0.0,
+        "mean_fraction_time_violating": 0.0,
+        "runs_violating": 0
+      },
+      "T3_rl": {
+        "n": 50,
+        "runs": [
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed10_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1867.3750472237857,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 594.1347913742065
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed10_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1865.2135170059275,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 604.9681217670441
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed10_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1864.7048534019718,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 599.1506028175354
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed10_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1867.5561189483412,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 618.6508195400238
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed10_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1867.438783197122,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 641.0046002864838
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed1_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2057.937577844945,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 627.5900852680206
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed1_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2057.1078584043967,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 638.0683958530426
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed1_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2057.6422826241565,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 653.2233240604401
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed1_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2058.257103044343,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 656.7760608196259
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed2_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2075.673280062376,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 662.6026091575623
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed1_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2056.480938393274,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 695.0991449356079
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed2_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2075.9513489909687,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 660.8503963947296
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed2_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2077.052816672702,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 671.4415674209595
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed2_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2076.5469957908276,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 697.1265122890472
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed2_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2076.1608110936136,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 713.0362701416016
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed3_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 774.358678198098,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 693.2829372882843
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed3_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 773.9451740800581,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 711.0980217456818
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed3_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 773.7984959262378,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 715.4325330257416
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed3_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 773.7739116378599,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 755.8417036533356
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed4_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2225.920677574281,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 734.6328587532043
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed4_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2227.4855600455608,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 748.555144071579
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed4_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2225.922363218031,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 746.8981873989105
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed3_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 774.5360481457507,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 763.4013302326202
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed4_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2227.1103041510846,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 764.6699483394623
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed5_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1623.2085779352958,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 751.8053331375122
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed5_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1623.2373243624584,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 764.2583603858948
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed4_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2227.1467335231905,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 793.2960667610168
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed5_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1623.6651935439609,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 776.3893513679504
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed7_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1428.7965343240267,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 782.7320325374603
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed9_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1668.9517795691063,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 553.4188008308411
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed5_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1622.8093109524607,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 839.5702843666077
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed7_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1428.8212304778644,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 803.0938560962677
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed9_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1669.2340943912916,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 542.8634417057037
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed6_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2005.2782141671244,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 825.2388927936554
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed7_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1428.7179026557496,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 807.6227099895477
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed5_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1623.0711602422678,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 857.1890842914581
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed7_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1428.2101723779708,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 820.8091423511505
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed8_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1335.748332361123,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 815.6651039123535
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed6_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2005.4216729339446,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 865.9927268028259
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed6_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2005.4095288552678,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 854.8694922924042
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed6_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2005.8590925093592,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 873.9414114952087
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed8_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1335.0438306048954,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 842.500645160675
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed7_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1428.691021979603,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 853.9096851348877
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed6_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 2005.561696624598,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 865.6415209770203
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed8_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1335.5068692685727,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 853.7162504196167
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed9_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1669.0944662837107,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 827.1437335014343
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed9_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1669.3220445514391,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 829.9233069419861
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed8_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1335.4510001044516,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 851.3997745513916
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed8_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1335.3484813802113,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 861.9037048816681
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed9_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1669.2535045495101,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 849.0714726448059
+          }
+        ],
+        "mean_profit_per_hour": 1706.2962063241032,
+        "std_profit_per_hour": 416.91519851983077,
+        "mean_violation_integral": 0.0,
+        "max_violation_integral": 0.0,
+        "mean_fraction_time_violating": 0.0,
+        "runs_violating": 0
+      }
+    }
+  },
+  "S3_severe": {
+    "kind": "holdout_interpolation",
+    "tiers": {
+      "T0b_prudent": {
+        "n": 5,
+        "runs": [
+          {
+            "seed": 7002,
+            "rl_run": null,
+            "label": "T0b_prudent",
+            "profit_per_hour": 997.6126929985278,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 519.4991998672485
+          },
+          {
+            "seed": 7001,
+            "rl_run": null,
+            "label": "T0b_prudent",
+            "profit_per_hour": 997.6856220635716,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 529.9071967601776
+          },
+          {
+            "seed": 7000,
+            "rl_run": null,
+            "label": "T0b_prudent",
+            "profit_per_hour": 997.5215304991344,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 583.7654347419739
+          },
+          {
+            "seed": 7003,
+            "rl_run": null,
+            "label": "T0b_prudent",
+            "profit_per_hour": 997.6400206744764,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 584.0775609016418
+          },
+          {
+            "seed": 7004,
+            "rl_run": null,
+            "label": "T0b_prudent",
+            "profit_per_hour": 997.626971329888,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 591.125385761261
+          }
+        ],
+        "mean_profit_per_hour": 997.6173675131197,
+        "std_profit_per_hour": 0.05379715050008993,
+        "mean_violation_integral": 0.0,
+        "max_violation_integral": 0.0,
+        "mean_fraction_time_violating": 0.0,
+        "runs_violating": 0
+      },
+      "T2_rto": {
+        "n": 5,
+        "runs": [
+          {
+            "seed": 7000,
+            "rl_run": null,
+            "label": "T2_rto",
+            "profit_per_hour": 1625.1979812775064,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 547.6858658790588
+          },
+          {
+            "seed": 7001,
+            "rl_run": null,
+            "label": "T2_rto",
+            "profit_per_hour": 1625.046803943804,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 578.1543736457825
+          },
+          {
+            "seed": 7002,
+            "rl_run": null,
+            "label": "T2_rto",
+            "profit_per_hour": 1625.4119448786857,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 596.4733128547668
+          },
+          {
+            "seed": 7004,
+            "rl_run": null,
+            "label": "T2_rto",
+            "profit_per_hour": 1625.1180122602573,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 583.6569180488586
+          },
+          {
+            "seed": 7003,
+            "rl_run": null,
+            "label": "T2_rto",
+            "profit_per_hour": 1624.8438046580457,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 626.5961458683014
+          }
+        ],
+        "mean_profit_per_hour": 1625.1237094036599,
+        "std_profit_per_hour": 0.18595137758243277,
+        "mean_violation_integral": 0.0,
+        "max_violation_integral": 0.0,
+        "mean_fraction_time_violating": 0.0,
+        "runs_violating": 0
+      },
+      "T0a_naive": {
+        "n": 5,
+        "runs": [
+          {
+            "seed": 7002,
+            "rl_run": null,
+            "label": "T0a_naive",
+            "profit_per_hour": 1857.754209056735,
+            "violation_integral": 0.9774301165240398,
+            "violation_max": 0.10182752048868338,
+            "fraction_time_violating": 0.5995333333333334,
+            "wall_s": 661.0285022258759
+          },
+          {
+            "seed": 7000,
+            "rl_run": null,
+            "label": "T0a_naive",
+            "profit_per_hour": 1857.8007076548222,
+            "violation_integral": 0.9769194336755238,
+            "violation_max": 0.10635379534505773,
+            "fraction_time_violating": 0.5995333333333334,
+            "wall_s": 682.1049847602844
+          },
+          {
+            "seed": 7004,
+            "rl_run": null,
+            "label": "T0a_naive",
+            "profit_per_hour": 1857.7526044540216,
+            "violation_integral": 0.9778996931122764,
+            "violation_max": 0.0994741375211845,
+            "fraction_time_violating": 0.5995333333333334,
+            "wall_s": 661.0058789253235
+          },
+          {
+            "seed": 7001,
+            "rl_run": null,
+            "label": "T0a_naive",
+            "profit_per_hour": 1857.789008406736,
+            "violation_integral": 0.996638806538311,
+            "violation_max": 0.09478371663632856,
+            "fraction_time_violating": 0.5995333333333334,
+            "wall_s": 702.0517039299011
+          },
+          {
+            "seed": 7003,
+            "rl_run": null,
+            "label": "T0a_naive",
+            "profit_per_hour": 1857.7402085959693,
+            "violation_integral": 0.9757927381171455,
+            "violation_max": 0.10016986522691695,
+            "fraction_time_violating": 0.5995333333333334,
+            "wall_s": 698.7983567714691
+          }
+        ],
+        "mean_profit_per_hour": 1857.7673476336568,
+        "std_profit_per_hour": 0.0232748405727541,
+        "mean_violation_integral": 0.9809361575934593,
+        "max_violation_integral": 0.996638806538311,
+        "mean_fraction_time_violating": 0.5995333333333334,
+        "runs_violating": 5
+      },
+      "T3_rl": {
+        "n": 50,
+        "runs": [
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed10_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1052.7880028522725,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 607.3147356510162
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed10_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1055.256413775327,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 631.8071236610413
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed1_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1465.7908512513827,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 585.7236230373383
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed10_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1046.0985758878132,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 639.1504437923431
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed10_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1057.275738016849,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 622.5786755084991
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed10_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1054.4554923917167,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 658.7279276847839
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed1_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1465.8412297127752,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 620.6246042251587
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed1_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1465.9698951328835,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 635.4088795185089
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed1_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1465.953209608857,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 679.4119205474854
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed1_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1464.6309700460836,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 678.6904270648956
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed2_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1599.9985985143473,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 668.3761587142944
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed2_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1600.4249310433518,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 677.2278943061829
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed2_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1599.2086352205922,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 660.2598283290863
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed2_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1600.359912307633,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 699.7627830505371
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed2_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1599.142641016699,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 712.6891248226166
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed3_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 847.154077308999,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 709.3102989196777
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed3_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 846.8353431891371,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 732.9942848682404
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed3_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 658.9569067973601,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 712.1036608219147
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed5_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1055.5759953760603,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 594.9966943264008
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed3_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 846.9100563831933,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 726.8090124130249
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed8_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 966.2707624735565,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 548.0542087554932
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed3_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 833.9791300815481,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 729.4239451885223
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed6_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1476.774345287334,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 601.087696313858
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed4_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1653.7523119036546,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 728.8996503353119
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed9_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1350.2862544870115,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 542.3917498588562
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed4_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1653.6561288762014,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 767.5104169845581
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed8_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 966.9547440703768,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 601.6579248905182
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed5_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1052.766473420099,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 729.4560446739197
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed4_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1653.6017656806778,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 772.2029786109924
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed4_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1653.16604214646,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 772.9132747650146
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed4_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1653.0384702981146,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 751.5270156860352
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed5_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1053.2514226996236,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 781.6945171356201
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed5_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1054.9042917032284,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 807.178302526474
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed5_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1053.1714374467854,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 804.6146955490112
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed6_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1476.7694241744662,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 817.7754254341125
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed7_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1221.4004330448404,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 793.6177463531494
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed7_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1221.2234004057507,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 797.3056292533875
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed6_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1476.5053743694325,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 815.5347955226898
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed6_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1478.8102220296348,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 818.5587110519409
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed6_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1476.7628427702273,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 837.7698020935059
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed7_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1222.0162417613235,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 816.4056386947632
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed7_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1221.8514371341687,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 812.4853024482727
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed8_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 966.6857217012763,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 801.7608776092529
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed8_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 966.7125833830453,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 811.3487746715546
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed7_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1221.7337816120894,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 828.2219111919403
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed8_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 966.715384980654,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 836.6414935588837
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed9_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1350.7135301075264,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 828.9607455730438
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed9_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1350.7539478719066,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 814.3945877552032
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed9_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1350.5910139608259,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 800.0438375473022
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed9_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1350.6508631474512,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 818.1648845672607
+          }
+        ],
+        "mean_profit_per_hour": 1264.8819451772524,
+        "std_profit_per_hour": 274.1092238294086,
+        "mean_violation_integral": 0.0,
+        "max_violation_integral": 0.0,
+        "mean_fraction_time_violating": 0.0,
+        "runs_violating": 0
+      }
+    }
+  },
+  "OOD_beta010_100h": {
+    "kind": "ood",
+    "tiers": {
+      "T0b_prudent": {
+        "n": 5,
+        "runs": [
+          {
+            "seed": 7000,
+            "rl_run": null,
+            "label": "T0b_prudent",
+            "profit_per_hour": 807.0604290909531,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 961.3117728233337
+          },
+          {
+            "seed": 7003,
+            "rl_run": null,
+            "label": "T0b_prudent",
+            "profit_per_hour": 807.1573315105346,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 965.0984678268433
+          },
+          {
+            "seed": 7001,
+            "rl_run": null,
+            "label": "T0b_prudent",
+            "profit_per_hour": 807.2224808128694,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 980.6037378311157
+          },
+          {
+            "seed": 7002,
+            "rl_run": null,
+            "label": "T0b_prudent",
+            "profit_per_hour": 807.1662100014754,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 994.5032050609589
+          },
+          {
+            "seed": 7004,
+            "rl_run": null,
+            "label": "T0b_prudent",
+            "profit_per_hour": 807.0719742797377,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 999.362247467041
+          }
+        ],
+        "mean_profit_per_hour": 807.135685139114,
+        "std_profit_per_hour": 0.06108415177079342,
+        "mean_violation_integral": 0.0,
+        "max_violation_integral": 0.0,
+        "mean_fraction_time_violating": 0.0,
+        "runs_violating": 0
+      },
+      "T2_rto": {
+        "n": 5,
+        "runs": [
+          {
+            "seed": 7003,
+            "rl_run": null,
+            "label": "T2_rto",
+            "profit_per_hour": 1253.6627005883745,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 948.1123669147491
+          },
+          {
+            "seed": 7001,
+            "rl_run": null,
+            "label": "T2_rto",
+            "profit_per_hour": 1253.8799506539956,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 989.048321723938
+          },
+          {
+            "seed": 7002,
+            "rl_run": null,
+            "label": "T2_rto",
+            "profit_per_hour": 1253.9647507605414,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 980.7629652023315
+          },
+          {
+            "seed": 7000,
+            "rl_run": null,
+            "label": "T2_rto",
+            "profit_per_hour": 1253.8190507616264,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1015.2480616569519
+          },
+          {
+            "seed": 7004,
+            "rl_run": null,
+            "label": "T2_rto",
+            "profit_per_hour": 1253.6163119663388,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 975.876030921936
+          }
+        ],
+        "mean_profit_per_hour": 1253.7885529461753,
+        "std_profit_per_hour": 0.13102297403779287,
+        "mean_violation_integral": 0.0,
+        "max_violation_integral": 0.0,
+        "mean_fraction_time_violating": 0.0,
+        "runs_violating": 0
+      },
+      "T0a_naive": {
+        "n": 5,
+        "runs": [
+          {
+            "seed": 7000,
+            "rl_run": null,
+            "label": "T0a_naive",
+            "profit_per_hour": 1434.8473382881684,
+            "violation_integral": 1.0229674106560247,
+            "violation_max": 0.10044697755637344,
+            "fraction_time_violating": 0.69865,
+            "wall_s": 1092.2207939624786
+          },
+          {
+            "seed": 7004,
+            "rl_run": null,
+            "label": "T0a_naive",
+            "profit_per_hour": 1434.8170949601438,
+            "violation_integral": 1.0172754483133153,
+            "violation_max": 0.09410372852943283,
+            "fraction_time_violating": 0.698,
+            "wall_s": 1144.374320268631
+          },
+          {
+            "seed": 7003,
+            "rl_run": null,
+            "label": "T0a_naive",
+            "profit_per_hour": 1434.8106870573702,
+            "violation_integral": 1.0195352677438747,
+            "violation_max": 0.0945251779816374,
+            "fraction_time_violating": 0.69885,
+            "wall_s": 1218.9629900455475
+          },
+          {
+            "seed": 7001,
+            "rl_run": null,
+            "label": "T0a_naive",
+            "profit_per_hour": 1434.8415284919956,
+            "violation_integral": 1.0410454046162747,
+            "violation_max": 0.08804922836574747,
+            "fraction_time_violating": 0.6979,
+            "wall_s": 1577.2988743782043
+          },
+          {
+            "seed": 7002,
+            "rl_run": null,
+            "label": "T0a_naive",
+            "profit_per_hour": 1434.8176926877077,
+            "violation_integral": 1.0187036910699865,
+            "violation_max": 0.09435352577258982,
+            "fraction_time_violating": 0.69865,
+            "wall_s": 1587.9024760723114
+          }
+        ],
+        "mean_profit_per_hour": 1434.826868297077,
+        "std_profit_per_hour": 0.014666180763201104,
+        "mean_violation_integral": 1.0239054444798952,
+        "max_violation_integral": 1.0410454046162747,
+        "mean_fraction_time_violating": 0.69841,
+        "runs_violating": 5
+      },
+      "T3_rl": {
+        "n": 50,
+        "runs": [
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed10_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 796.8516954007824,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1008.3179550170898
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed10_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 795.6913344943838,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1051.323324918747
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed10_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 795.6841893287196,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1064.0784561634064
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed10_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 795.0958257771464,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1049.455875635147
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed10_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 791.5776609805954,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1132.9005861282349
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed1_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1053.2050836805986,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1100.5639836788177
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed1_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1053.9556911287243,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1128.6680691242218
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed3_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 458.45930610040705,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 896.6944584846497
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed2_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1244.0674412054448,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1051.7099981307983
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed1_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1051.3318730067936,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1077.8992495536804
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed1_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1053.7981956725262,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1111.1620121002197
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed1_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1053.036589437304,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1164.0120606422424
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed2_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1244.5340354051662,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1118.7688856124878
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed3_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 461.56976311198736,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 981.5841813087463
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed5_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 743.384684423693,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 954.193567276001
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed4_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1200.213559760629,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1002.9580824375153
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed4_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1199.693299840332,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1016.1644096374512
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed2_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1243.7013414160092,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1181.3073360919952
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed2_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1243.6689783280851,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1208.5414834022522
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed2_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1244.536741075984,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1218.5079827308655
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed3_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 461.2864440683299,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1222.2805709838867
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed4_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1199.5955787614898,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1132.320440530777
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed3_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 460.16648539117176,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1182.302531003952
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed3_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 459.6679379077501,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1239.5946159362793
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed4_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1199.2228960099012,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1239.0587277412415
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed4_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1202.1140880681326,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1243.6587009429932
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed5_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 743.3819299354432,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1270.3677146434784
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed5_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 742.4166462756695,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1264.3226997852325
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed5_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 742.3577608350774,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1284.7987546920776
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed5_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 743.5725379522528,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1294.6140666007996
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed6_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1075.6888152355414,
+            "violation_integral": 0.5010593415911155,
+            "violation_max": 0.07880796523329536,
+            "fraction_time_violating": 0.2029,
+            "wall_s": 1309.9476516246796
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed9_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1048.4956659194947,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 947.8117532730103
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed7_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 966.6351331181971,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1252.9116234779358
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed7_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 966.5828520255222,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1256.5596237182617
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed6_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1066.3676618091697,
+            "violation_integral": 0.00013456557825946902,
+            "violation_max": 0.0016614376523591545,
+            "fraction_time_violating": 0.00095,
+            "wall_s": 1329.0279121398926
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed6_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1066.1800049887468,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1317.3111271858215
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed6_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1066.1914173537857,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1350.7579119205475
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed7_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 966.7685662581525,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1336.9535024166107
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed7_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 966.5266102459012,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1332.4784429073334
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed7_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 966.7187412189473,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1338.1694223880768
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed8_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 684.4650383522737,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1322.3692877292633
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed8_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 684.5311362276335,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1338.0656335353851
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed8_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 684.6048578914357,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1346.8344676494598
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed9_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1048.5910955028194,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1299.2475306987762
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed8_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 684.4933776408627,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1340.2255492210388
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed6_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1075.5764318216814,
+            "violation_integral": 0.48685337312320076,
+            "violation_max": 0.07250726972969801,
+            "fraction_time_violating": 0.2004,
+            "wall_s": 1394.150310754776
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed8_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 684.5988074489541,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1354.5537939071655
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed9_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1048.545119822338,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1341.1548280715942
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed9_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1048.5185263962119,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1353.9242630004883
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed9_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1048.0794586674251,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 1343.0745022296906
+          }
+        ],
+        "mean_profit_per_hour": 926.5199782545126,
+        "std_profit_per_hour": 235.75437670782074,
+        "mean_violation_integral": 0.019760945605851513,
+        "max_violation_integral": 0.5010593415911155,
+        "mean_fraction_time_violating": 0.008085,
+        "runs_violating": 3
+      }
+    }
+  },
+  "OOD_simultaneous": {
+    "kind": "ood",
+    "tiers": {
+      "T0b_prudent": {
+        "n": 5,
+        "runs": [
+          {
+            "seed": 7000,
+            "rl_run": null,
+            "label": "T0b_prudent",
+            "profit_per_hour": 958.2087605584601,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 587.3334205150604
+          },
+          {
+            "seed": 7002,
+            "rl_run": null,
+            "label": "T0b_prudent",
+            "profit_per_hour": 958.3273492518605,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 579.3788652420044
+          },
+          {
+            "seed": 7004,
+            "rl_run": null,
+            "label": "T0b_prudent",
+            "profit_per_hour": 958.3059145119064,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 602.1678833961487
+          },
+          {
+            "seed": 7001,
+            "rl_run": null,
+            "label": "T0b_prudent",
+            "profit_per_hour": 958.438447215032,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 626.5191423892975
+          },
+          {
+            "seed": 7003,
+            "rl_run": null,
+            "label": "T0b_prudent",
+            "profit_per_hour": 958.2775159014399,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 622.5624918937683
+          }
+        ],
+        "mean_profit_per_hour": 958.3115974877398,
+        "std_profit_per_hour": 0.07497767154260947,
+        "mean_violation_integral": 0.0,
+        "max_violation_integral": 0.0,
+        "mean_fraction_time_violating": 0.0,
+        "runs_violating": 0
+      },
+      "T0a_naive": {
+        "n": 5,
+        "runs": [
+          {
+            "seed": 7000,
+            "rl_run": null,
+            "label": "T0a_naive",
+            "profit_per_hour": 1773.3984032907058,
+            "violation_integral": 0.47424230798742245,
+            "violation_max": 0.03275412749835027,
+            "fraction_time_violating": 0.5994,
+            "wall_s": 686.0158557891846
+          },
+          {
+            "seed": 7001,
+            "rl_run": null,
+            "label": "T0a_naive",
+            "profit_per_hour": 1773.410900839169,
+            "violation_integral": 0.487490665853975,
+            "violation_max": 0.02930191568808027,
+            "fraction_time_violating": 0.5994,
+            "wall_s": 679.0569355487823
+          },
+          {
+            "seed": 7004,
+            "rl_run": null,
+            "label": "T0a_naive",
+            "profit_per_hour": 1773.3953983359531,
+            "violation_integral": 0.47833065715577633,
+            "violation_max": 0.029829898577389713,
+            "fraction_time_violating": 0.5994,
+            "wall_s": 665.5521285533905
+          },
+          {
+            "seed": 7002,
+            "rl_run": null,
+            "label": "T0a_naive",
+            "profit_per_hour": 1773.398023466678,
+            "violation_integral": 0.4798298689563542,
+            "violation_max": 0.030786833849589357,
+            "fraction_time_violating": 0.5994,
+            "wall_s": 696.6273894309998
+          },
+          {
+            "seed": 7003,
+            "rl_run": null,
+            "label": "T0a_naive",
+            "profit_per_hour": 1773.3875283848802,
+            "violation_integral": 0.47670608305965617,
+            "violation_max": 0.03090217200275447,
+            "fraction_time_violating": 0.5994,
+            "wall_s": 708.5358445644379
+          }
+        ],
+        "mean_profit_per_hour": 1773.398050863477,
+        "std_profit_per_hour": 0.007523367449583127,
+        "mean_violation_integral": 0.47931991660263684,
+        "max_violation_integral": 0.487490665853975,
+        "mean_fraction_time_violating": 0.5994,
+        "runs_violating": 5
+      },
+      "T2_rto": {
+        "n": 5,
+        "runs": [
+          {
+            "seed": 7001,
+            "rl_run": null,
+            "label": "T2_rto",
+            "profit_per_hour": 1593.645716878278,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 610.9129750728607
+          },
+          {
+            "seed": 7000,
+            "rl_run": null,
+            "label": "T2_rto",
+            "profit_per_hour": 1593.6155164084553,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 660.8852417469025
+          },
+          {
+            "seed": 7002,
+            "rl_run": null,
+            "label": "T2_rto",
+            "profit_per_hour": 1593.9523152434354,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 674.505978345871
+          },
+          {
+            "seed": 7003,
+            "rl_run": null,
+            "label": "T2_rto",
+            "profit_per_hour": 1593.5423646065865,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 675.1694269180298
+          },
+          {
+            "seed": 7004,
+            "rl_run": null,
+            "label": "T2_rto",
+            "profit_per_hour": 1593.75330148998,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 657.8314740657806
+          }
+        ],
+        "mean_profit_per_hour": 1593.7018429253471,
+        "std_profit_per_hour": 0.14242197922761526,
+        "mean_violation_integral": 0.0,
+        "max_violation_integral": 0.0,
+        "mean_fraction_time_violating": 0.0,
+        "runs_violating": 0
+      },
+      "T3_rl": {
+        "n": 50,
+        "runs": [
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed10_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1085.3008244166965,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 666.1956572532654
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed10_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1086.2116541345374,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 552.1928548812866
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed10_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1086.3563117197991,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 677.7455010414124
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed2_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1089.9881859963393,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 515.0544576644897
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed10_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1085.982690247324,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 691.1657452583313
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed10_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1086.9933372306307,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 650.8359150886536
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed2_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1089.9328269274188,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 550.8096787929535
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed2_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1090.2880811263792,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 554.5065286159515
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed1_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1120.1906804522966,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 688.7941946983337
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed1_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1119.9575331696308,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 724.4835081100464
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed1_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1119.5519398149709,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 700.5877013206482
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed2_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1089.8372721700935,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 582.5530426502228
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed1_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1118.6408693299932,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 719.2536578178406
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed1_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1117.871498047228,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 707.0472042560577
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed5_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 917.7068006994647,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 513.5626087188721
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed3_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 667.4349205438925,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 570.9473562240601
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed3_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 667.3230080459416,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 653.3167724609375
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed5_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 917.6264048098282,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 527.7402946949005
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed5_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 918.7353220185399,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 536.5116548538208
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed6_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1030.611603257752,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 510.4234232902527
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed4_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1721.6639541052157,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 560.7976095676422
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed4_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1721.7270886464155,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 589.0377306938171
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed5_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 917.9596448005633,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 558.4193027019501
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed3_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 668.9228701564219,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 616.3160967826843
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed6_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1030.716119069219,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 546.3307955265045
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed3_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 667.402794535773,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 658.871719121933
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed2_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1090.293283288398,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 699.668726682663
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed3_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 667.117067707416,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 675.3631303310394
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed4_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1721.4344968383564,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 617.3034410476685
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed6_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1030.5481527344432,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 506.4697299003601
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed5_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 917.563994394539,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 615.6450448036194
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed6_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1030.4435066187864,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 556.1976721286774
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed4_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1721.7274690544073,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 661.6691389083862
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed4_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1721.417961830033,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 669.233913898468
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed7_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1146.600141789442,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 541.089634180069
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed7_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1146.7672732013639,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 504.08848237991333
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed6_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1030.55063060887,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 594.9964520931244
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed7_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1146.594612517688,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 527.8568801879883
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed9_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1317.6698247012291,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 401.96996665000916
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed9_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1317.6054798267533,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 446.94013595581055
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed7_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1146.7280463277823,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 561.6918756961823
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed7_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1146.7354915981402,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 552.0254263877869
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed8_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1087.8195958336273,
+            "violation_integral": 0.18739607165452923,
+            "violation_max": 0.04723971553778483,
+            "fraction_time_violating": 0.3596,
+            "wall_s": 524.5221378803253
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed9_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1317.320807509887,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 460.52001214027405
+          },
+          {
+            "seed": 7001,
+            "rl_run": "sac_with_margin_seed8_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1085.3634879207798,
+            "violation_integral": 0.18944319364464093,
+            "violation_max": 0.04461278275576319,
+            "fraction_time_violating": 0.3562666666666667,
+            "wall_s": 554.9672002792358
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed9_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1317.4604910801347,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 501.8064603805542
+          },
+          {
+            "seed": 7002,
+            "rl_run": "sac_with_margin_seed9_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1317.7297121505312,
+            "violation_integral": 0.0,
+            "violation_max": 0.0,
+            "fraction_time_violating": 0.0,
+            "wall_s": 481.4557616710663
+          },
+          {
+            "seed": 7003,
+            "rl_run": "sac_with_margin_seed8_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1087.7363479317455,
+            "violation_integral": 0.18468126702367285,
+            "violation_max": 0.045533733702427526,
+            "fraction_time_violating": 0.3596,
+            "wall_s": 536.7471158504486
+          },
+          {
+            "seed": 7000,
+            "rl_run": "sac_with_margin_seed8_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1085.3254069587772,
+            "violation_integral": 0.18733000127318689,
+            "violation_max": 0.046939167432554996,
+            "fraction_time_violating": 0.3562666666666667,
+            "wall_s": 583.1673712730408
+          },
+          {
+            "seed": 7004,
+            "rl_run": "sac_with_margin_seed8_w330000_ub",
+            "label": "T3_rl[w330000]",
+            "profit_per_hour": 1087.8315422665823,
+            "violation_integral": 0.1837099081971701,
+            "violation_max": 0.043230963477611795,
+            "fraction_time_violating": 0.3596,
+            "wall_s": 536.3631262779236
+          }
+        ],
+        "mean_profit_per_hour": 1118.4263812032418,
+        "std_profit_per_hour": 256.5620115639707,
+        "mean_violation_integral": 0.018651208835864002,
+        "max_violation_integral": 0.18944319364464093,
+        "mean_fraction_time_violating": 0.035826666666666666,
+        "runs_violating": 5
+      }
+    }
+  }
+}

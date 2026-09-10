@@ -1,0 +1,27 @@
+/Users/yousefshehab/Library/Python/3.13/lib/python/site-packages/do_mpc/sysid/__init__.py:15: UserWarning: The ONNX feature is not available. Please install the full version of do-mpc to access this feature.
+  warnings.warn('The ONNX feature is not available. Please install the full version of do-mpc to access this feature.')
+/Users/yousefshehab/Library/Python/3.13/lib/python/site-packages/do_mpc/opcua/__init__.py:14: UserWarning: The opcua feature is not available. Please install the full version of do-mpc to access this feature.
+  warnings.warn('The opcua feature is not available. Please install the full version of do-mpc to access this feature.')
+
+=== E1_nominal  (20h) ===
+/Users/yousefshehab/Library/Python/3.13/lib/python/site-packages/casadi/casadi.py:913: FutureWarning: 
+casadi: a numpy function was called on a casadi value (issue #2959).
+This used legacy casadi 3.7.2 behaviour, where the result type follows
+the input:
+  - a numeric input (DM)       -> a plain numpy array
+  - a symbolic input (SX / MX) -> a casadi value, or an error if the
+                                  function has no casadi equivalent
+
+For a shape-correct, type-preserving result, opt in to the
+casadi-aware numpy support:
+
+    try:
+        ca.GlobalOptions.setNumpyMode(1)
+    except AttributeError:
+        pass
+
+Or use setNumpyMode(-1) to keep legacy behaviour silently.
+Shown once; run python with -W always to see every occurrence.
+
+  _w.warn(_NUMPY_LEGACY_NOTICE, FutureWarning)
+  T0a_naive      profit/h=    2741.4  viol=   0.000 degC.h  viol_max= 0.000  T_R_max= 133.78  beta_err=0.023  solves=   0  (34s)

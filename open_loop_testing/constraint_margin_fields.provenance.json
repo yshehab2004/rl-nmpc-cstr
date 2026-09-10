@@ -1,0 +1,16 @@
+{
+  "script": "rl-nmpc-cstr/open_loop_testing/constraint_margins.py",
+  "git_commit": "cbc78ae21942c824127981d550cde6a2210cb8c6",
+  "git_dirty": true,
+  "timestamp": "2026-09-05T07:55:27Z",
+  "params": {
+    "q_lower": -8500.0,
+    "T_R_max": 140.0,
+    "source_map": "open_loop_testing/steady_state_map.npz"
+  },
+  "config_hash": "sha256:8f1f2b301fe74851e0701a90902c5124d362cae7f70d54eda06124e936103ae2",
+  "outputs": [
+    "open_loop_testing/constraint_margin_fields.png"
+  ],
+  "duration_s": 0.5323588848114014
+}

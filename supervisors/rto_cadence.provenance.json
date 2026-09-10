@@ -1,0 +1,15 @@
+{
+  "script": "rl-nmpc-cstr/supervisors/run_cadence_study.py",
+  "git_commit": "cbc78ae21942c824127981d550cde6a2210cb8c6",
+  "git_dirty": true,
+  "timestamp": "2026-09-06T14:53:21Z",
+  "params": {
+    "seed": 20260906,
+    "campaign_h": 20.0
+  },
+  "config_hash": "sha256:e94a2d3b4bd74baa115c4ac746d0d4538e303355e41149199b170633c2a6176c",
+  "outputs": [
+    "supervisors/rto_cadence.png"
+  ],
+  "duration_s": 293.0689101219177
+}

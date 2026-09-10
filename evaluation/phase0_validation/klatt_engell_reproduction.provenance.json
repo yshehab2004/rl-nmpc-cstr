@@ -1,0 +1,28 @@
+{
+  "script": "rl-nmpc-cstr/evaluation/phase0_validation.py",
+  "git_commit": "cbc78ae21942c824127981d550cde6a2210cb8c6",
+  "git_dirty": true,
+  "timestamp": "2026-09-05T07:55:06Z",
+  "params": {
+    "theta_degC": 134.14,
+    "C_A0_values": [
+      4.5,
+      5.1,
+      5.7
+    ],
+    "F_range": [
+      0.5,
+      100.0
+    ]
+  },
+  "config_hash": "sha256:8f1f2b301fe74851e0701a90902c5124d362cae7f70d54eda06124e936103ae2",
+  "outputs": [
+    "evaluation/phase0_validation/klatt_engell_reproduction.png"
+  ],
+  "duration_s": 0.3144350051879883,
+  "k1": 50.61457406148981,
+  "k2": 50.61457406148981,
+  "k3": 6.741557736389688,
+  "F_peak": 50.61457406148981,
+  "C_b_at_F35_C_A0_5p1": 1.0778498356069828
+}

@@ -1,0 +1,35 @@
+{
+  "script": "rl-nmpc-cstr/evaluation/active_constraint_switch.py",
+  "git_commit": "cbc78ae21942c824127981d550cde6a2210cb8c6",
+  "git_dirty": true,
+  "timestamp": "2026-09-04T23:04:09Z",
+  "params": {
+    "beta_sweep": [
+      0.6,
+      0.5,
+      0.45,
+      0.4,
+      0.35,
+      0.3,
+      0.25,
+      0.2
+    ],
+    "beta_lo": 0.35,
+    "beta_hi": 0.4,
+    "T_R_max": 140.0,
+    "F_range": [
+      5.0,
+      35.0
+    ],
+    "n_F": 121,
+    "alpha": 1.0,
+    "C_A0": 5.1,
+    "T_in": 130.0
+  },
+  "config_hash": "sha256:8f1f2b301fe74851e0701a90902c5124d362cae7f70d54eda06124e936103ae2",
+  "outputs": [
+    "evaluation/active_constraint_switch.json"
+  ],
+  "duration_s": 1.3505990505218506,
+  "switch_beta": 0.3850536346435547
+}

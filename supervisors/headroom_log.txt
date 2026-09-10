@@ -1,0 +1,95 @@
+/Users/yousefshehab/Library/Python/3.13/lib/python/site-packages/do_mpc/sysid/__init__.py:15: UserWarning: The ONNX feature is not available. Please install the full version of do-mpc to access this feature.
+  warnings.warn('The ONNX feature is not available. Please install the full version of do-mpc to access this feature.')
+/Users/yousefshehab/Library/Python/3.13/lib/python/site-packages/do_mpc/opcua/__init__.py:14: UserWarning: The opcua feature is not available. Please install the full version of do-mpc to access this feature.
+  warnings.warn('The opcua feature is not available. Please install the full version of do-mpc to access this feature.')
+/Users/yousefshehab/Library/Python/3.13/lib/python/site-packages/casadi/casadi.py:913: FutureWarning: 
+casadi: a numpy function was called on a casadi value (issue #2959).
+This used legacy casadi 3.7.2 behaviour, where the result type follows
+the input:
+  - a numeric input (DM)       -> a plain numpy array
+  - a symbolic input (SX / MX) -> a casadi value, or an error if the
+                                  function has no casadi equivalent
+
+For a shape-correct, type-preserving result, opt in to the
+casadi-aware numpy support:
+
+    try:
+        ca.GlobalOptions.setNumpyMode(1)
+    except AttributeError:
+        pass
+
+Or use setNumpyMode(-1) to keep legacy behaviour silently.
+Shown once; run python with -W always to see every occurrence.
+
+  _w.warn(_NUMPY_LEGACY_NOTICE, FutureWarning)
+beta=0.90 step=+0.6 (C_A0=5.7)
+   margin 0.0: peak +0.000 degC  F@bound 98%  cool_sat 2%  profit/h 2858
+   margin 2.5: peak +0.000 degC  F@bound 0%  cool_sat 0%  profit/h 2474
+   -> excursion prevented +0.000 degC (sensor sigma 0.25), profit given up +384/h
+beta=0.90 step=+1.2 (C_A0=6.3)  [OUTSIDE PUBLISHED RANGE]
+   margin 0.0: peak +0.000 degC  F@bound 98%  cool_sat 2%  profit/h 2954
+   margin 2.5: peak +0.000 degC  F@bound 0%  cool_sat 0%  profit/h 2056
+   -> excursion prevented +0.000 degC (sensor sigma 0.25), profit given up +899/h
+beta=0.90 step=+1.8 (C_A0=6.9)  [OUTSIDE PUBLISHED RANGE]
+   margin 0.0: peak +0.000 degC  F@bound 0%  cool_sat 2%  profit/h 2559
+   margin 2.5: peak +0.000 degC  F@bound 0%  cool_sat 0%  profit/h 1793
+   -> excursion prevented +0.000 degC (sensor sigma 0.25), profit given up +766/h
+beta=0.90 step=+2.4 (C_A0=7.5)  [OUTSIDE PUBLISHED RANGE]
+   margin 0.0: peak +0.000 degC  F@bound 0%  cool_sat 1%  profit/h 2102
+   margin 2.5: peak +0.000 degC  F@bound 0%  cool_sat 0%  profit/h 1610
+   -> excursion prevented +0.000 degC (sensor sigma 0.25), profit given up +492/h
+beta=0.90 step=+3.0 (C_A0=8.1)  [OUTSIDE PUBLISHED RANGE]
+   margin 0.0: peak +0.000 degC  F@bound 0%  cool_sat 1%  profit/h 1820
+   margin 2.5: peak +0.000 degC  F@bound 0%  cool_sat 1%  profit/h 1475
+   -> excursion prevented +0.000 degC (sensor sigma 0.25), profit given up +345/h
+beta=0.60 step=+0.6 (C_A0=5.7)
+   margin 0.0: peak +0.000 degC  F@bound 99%  cool_sat 0%  profit/h 2740
+   margin 2.5: peak +0.000 degC  F@bound 0%  cool_sat 0%  profit/h 1777
+   -> excursion prevented +0.000 degC (sensor sigma 0.25), profit given up +963/h
+beta=0.60 step=+1.2 (C_A0=6.3)  [OUTSIDE PUBLISHED RANGE]
+   margin 0.0: peak +0.775 degC  F@bound 0%  cool_sat 2%  profit/h 2217
+   margin 2.5: peak +0.000 degC  F@bound 0%  cool_sat 1%  profit/h 1546
+   -> excursion prevented +0.775 degC (sensor sigma 0.25), profit given up +671/h
+beta=0.60 step=+1.8 (C_A0=6.9)  [OUTSIDE PUBLISHED RANGE]
+   margin 0.0: peak +1.066 degC  F@bound 0%  cool_sat 2%  profit/h 1869
+   margin 2.5: peak +0.000 degC  F@bound 0%  cool_sat 1%  profit/h 1385
+   -> excursion prevented +1.066 degC (sensor sigma 0.25), profit given up +484/h
+beta=0.60 step=+2.4 (C_A0=7.5)  [OUTSIDE PUBLISHED RANGE]
+   margin 0.0: peak +1.239 degC  F@bound 0%  cool_sat 1%  profit/h 1644
+   margin 2.5: peak +0.000 degC  F@bound 0%  cool_sat 1%  profit/h 1265
+   -> excursion prevented +1.239 degC (sensor sigma 0.25), profit given up +378/h
+beta=0.60 step=+3.0 (C_A0=8.1)  [OUTSIDE PUBLISHED RANGE]
+   margin 0.0: peak +1.249 degC  F@bound 0%  cool_sat 1%  profit/h 1486
+   margin 2.5: peak +0.000 degC  F@bound 0%  cool_sat 2%  profit/h 1173
+   -> excursion prevented +1.249 degC (sensor sigma 0.25), profit given up +313/h
+beta=0.45 step=+0.6 (C_A0=5.7)
+   margin 0.0: peak +0.778 degC  F@bound 0%  cool_sat 2%  profit/h 2078
+   margin 2.5: peak +0.000 degC  F@bound 0%  cool_sat 0%  profit/h 1337
+   -> excursion prevented +0.778 degC (sensor sigma 0.25), profit given up +742/h
+beta=0.45 step=+1.2 (C_A0=6.3)  [OUTSIDE PUBLISHED RANGE]
+   margin 0.0: peak +1.234 degC  F@bound 0%  cool_sat 2%  profit/h 1735
+   margin 2.5: peak +0.000 degC  F@bound 0%  cool_sat 0%  profit/h 1179
+   -> excursion prevented +1.234 degC (sensor sigma 0.25), profit given up +556/h
+beta=0.45 step=+1.8 (C_A0=6.9)  [OUTSIDE PUBLISHED RANGE]
+   margin 0.0: peak +1.283 degC  F@bound 0%  cool_sat 2%  profit/h 1525
+   margin 2.5: peak +0.000 degC  F@bound 0%  cool_sat 1%  profit/h 1063
+   -> excursion prevented +1.283 degC (sensor sigma 0.25), profit given up +462/h
+beta=0.45 step=+2.4 (C_A0=7.5)  [OUTSIDE PUBLISHED RANGE]
+   margin 0.0: peak +1.296 degC  F@bound 0%  cool_sat 2%  profit/h 1379
+   margin 2.5: peak +0.000 degC  F@bound 0%  cool_sat 1%  profit/h 974
+   -> excursion prevented +1.296 degC (sensor sigma 0.25), profit given up +406/h
+beta=0.45 step=+3.0 (C_A0=8.1)  [OUTSIDE PUBLISHED RANGE]
+   margin 0.0: peak +1.309 degC  F@bound 0%  cool_sat 1%  profit/h 1270
+   margin 2.5: peak +0.000 degC  F@bound 0%  cool_sat 2%  profit/h 903
+   -> excursion prevented +1.309 degC (sensor sigma 0.25), profit given up +368/h
+
+==============================================================================
+DOES HEADROOM PAY?  An excursion only counts if it exceeds the
+sensor's own noise (0.25 degC); below that nothing
+on a real plant could tell the two policies apart.
+==============================================================================
+cases where margin prevents a DETECTABLE excursion: 9 of 15
+  ... of those, inside the published C_A0 range: 1
+  beta0.45_step0.6: prevents 0.78 degC for 742/h
+
+Saved supervisors/headroom_value.json, supervisors/headroom_value.provenance.json

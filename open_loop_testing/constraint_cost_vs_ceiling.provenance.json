@@ -1,0 +1,36 @@
+{
+  "script": "rl-nmpc-cstr/open_loop_testing/constraint_cost_vs_ceiling.py",
+  "git_commit": "deee5c13d670d711d3a6b40d5910f9d552026c71",
+  "git_dirty": true,
+  "timestamp": "2026-09-07T22:58:15Z",
+  "params": {
+    "betas": [
+      1.0,
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "ceilings": [
+      145.0,
+      150.0
+    ],
+    "reference_ceiling": 140.0,
+    "F_grid": [
+      5.0,
+      35.0,
+      601
+    ],
+    "T_R_grid": [
+      100.0,
+      200.0,
+      1001
+    ]
+  },
+  "config_hash": "sha256:8f144e91fa78be81aef73f59e6473102b4c067cb1c0bf66f2da1110e8c99d44c",
+  "outputs": [
+    "open_loop_testing/constraint_cost_vs_ceiling.json"
+  ],
+  "duration_s": 0.5274498462677002,
+  "cached_T_R_max": 150.0
+}

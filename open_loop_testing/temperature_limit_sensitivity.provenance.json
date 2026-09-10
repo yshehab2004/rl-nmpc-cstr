@@ -1,0 +1,35 @@
+{
+  "script": "rl-nmpc-cstr/open_loop_testing/temperature_limit_sensitivity.py",
+  "git_commit": "cbc78ae21942c824127981d550cde6a2210cb8c6",
+  "git_dirty": true,
+  "timestamp": "2026-09-05T07:55:54Z",
+  "params": {
+    "T_lims": [
+      135.0,
+      140.0,
+      145.0
+    ],
+    "betas": [
+      1.0,
+      0.8,
+      0.6,
+      0.4,
+      0.3,
+      0.2
+    ],
+    "price_B": 100.0,
+    "price_A0": 5.0,
+    "price_energy": 0.02
+  },
+  "config_hash": "sha256:8f1f2b301fe74851e0701a90902c5124d362cae7f70d54eda06124e936103ae2",
+  "outputs": [
+    "open_loop_testing/temperature_limit_sensitivity.json",
+    "open_loop_testing/switch_beta_vs_temperature_limit.png"
+  ],
+  "duration_s": 8.348829984664917,
+  "switch_betas": {
+    "135.0": 0.7223650810046076,
+    "140.0": 0.38505362975291724,
+    "145.0": 0.22485265487279646
+  }
+}

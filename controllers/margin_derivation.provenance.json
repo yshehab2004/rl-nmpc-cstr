@@ -1,0 +1,341 @@
+{
+  "script": "rl-nmpc-cstr/controllers/margin_derivation.py",
+  "git_commit": "cbc78ae21942c824127981d550cde6a2210cb8c6",
+  "git_dirty": true,
+  "timestamp": "2026-09-05T12:08:54Z",
+  "params": {
+    "betas": [
+      1.0,
+      0.6,
+      0.4,
+      0.3,
+      0.2
+    ],
+    "margins": [
+      0.0,
+      1.0,
+      2.0,
+      3.0
+    ],
+    "n_steps": 100,
+    "safety_penalty_weight": 250.0,
+    "C_A0_step": 0.6,
+    "price_B": 100.0,
+    "price_A0": 5.0,
+    "price_energy": 0.02
+  },
+  "config_hash": "sha256:ffb326174eb057d7c4f14a336b912aed5fdf3ac2f46b3b84c6f8d2ab49ae0190",
+  "outputs": [
+    "controllers/margin_derivation.json"
+  ],
+  "duration_s": 45.17699480056763,
+  "results": [
+    {
+      "beta": 1.0,
+      "margin": 0.0,
+      "target_F": 35.0,
+      "target_T_R": 133.0,
+      "achieved_F_final": 34.92486104133349,
+      "T_R_max": 135.4194351140698,
+      "violation_max": 0.0,
+      "violation_integral": 0.0,
+      "steps_above_limit": 0,
+      "mean_profit": 2778.2704511490597,
+      "saturated_fraction": 0.79
+    },
+    {
+      "beta": 1.0,
+      "margin": 1.0,
+      "target_F": 34.89223240074615,
+      "target_T_R": 133.95363016466234,
+      "achieved_F_final": 34.89156388189902,
+      "T_R_max": 135.41272765100706,
+      "violation_max": 0.0,
+      "violation_integral": 0.0,
+      "steps_above_limit": 0,
+      "mean_profit": 2771.430006561404,
+      "saturated_fraction": 0.75
+    },
+    {
+      "beta": 1.0,
+      "margin": 2.0,
+      "target_F": 34.779998990075484,
+      "target_T_R": 134.93099785271198,
+      "achieved_F_final": 34.78482114902553,
+      "T_R_max": 135.41395390725813,
+      "violation_max": 0.0,
+      "violation_integral": 0.0,
+      "steps_above_limit": 0,
+      "mean_profit": 2757.0922397139134,
+      "saturated_fraction": 0.0
+    },
+    {
+      "beta": 1.0,
+      "margin": 3.0,
+      "target_F": 34.66615170056443,
+      "target_T_R": 135.90784945456912,
+      "achieved_F_final": 34.670971763870156,
+      "T_R_max": 136.3224121122837,
+      "violation_max": 0.0,
+      "violation_integral": 0.0,
+      "steps_above_limit": 0,
+      "mean_profit": 2728.3592384317303,
+      "saturated_fraction": 0.0
+    },
+    {
+      "beta": 0.6,
+      "margin": 0.0,
+      "target_F": 34.64190647738221,
+      "target_T_R": 136.27592106325534,
+      "achieved_F_final": 34.60399442928558,
+      "T_R_max": 139.4494473625353,
+      "violation_max": 0.0,
+      "violation_integral": 0.0,
+      "steps_above_limit": 0,
+      "mean_profit": 2606.7287639644933,
+      "saturated_fraction": 0.83
+    },
+    {
+      "beta": 0.6,
+      "margin": 1.0,
+      "target_F": 34.531811420119475,
+      "target_T_R": 137.25448544547461,
+      "achieved_F_final": 34.55853104317369,
+      "T_R_max": 139.4404026967606,
+      "violation_max": 0.0,
+      "violation_integral": 0.0,
+      "steps_above_limit": 0,
+      "mean_profit": 2606.855809741762,
+      "saturated_fraction": 0.77
+    },
+    {
+      "beta": 0.6,
+      "margin": 2.0,
+      "target_F": 33.289249178389845,
+      "target_T_R": 137.99988474702747,
+      "achieved_F_final": 33.31434309138476,
+      "T_R_max": 139.18053629241717,
+      "violation_max": 0.0,
+      "violation_integral": 0.0,
+      "steps_above_limit": 0,
+      "mean_profit": 2502.42625932763,
+      "saturated_fraction": 0.75
+    },
+    {
+      "beta": 0.6,
+      "margin": 3.0,
+      "target_F": 26.30458383329786,
+      "target_T_R": 136.9998651571929,
+      "achieved_F_final": 26.30992328941119,
+      "T_R_max": 137.39893707524672,
+      "violation_max": 0.0,
+      "violation_integral": 0.0,
+      "steps_above_limit": 0,
+      "mean_profit": 1890.4775722092527,
+      "saturated_fraction": 0.0
+    },
+    {
+      "beta": 0.4,
+      "margin": 0.0,
+      "target_F": 34.3205748066166,
+      "target_T_R": 139.54359809029052,
+      "achieved_F_final": 26.900194171418107,
+      "T_R_max": 141.4585202338584,
+      "violation_max": 1.458520233858394,
+      "violation_integral": 111.2398320795862,
+      "steps_above_limit": 78,
+      "mean_profit": 1882.5144261738665,
+      "saturated_fraction": 0.9
+    },
+    {
+      "beta": 0.4,
+      "margin": 1.0,
+      "target_F": 27.963882970359176,
+      "target_T_R": 138.99984749873775,
+      "achieved_F_final": 26.898830868383616,
+      "T_R_max": 141.45708717444475,
+      "violation_max": 1.4570871744447516,
+      "violation_integral": 103.48609298297757,
+      "steps_above_limit": 75,
+      "mean_profit": 1812.2586540861,
+      "saturated_fraction": 0.78
+    },
+    {
+      "beta": 0.4,
+      "margin": 2.0,
+      "target_F": 22.93859287140938,
+      "target_T_R": 137.99998332378092,
+      "achieved_F_final": 22.939414515276642,
+      "T_R_max": 139.7827640583318,
+      "violation_max": 0.0,
+      "violation_integral": 0.0,
+      "steps_above_limit": 0,
+      "mean_profit": 1481.30782455524,
+      "saturated_fraction": 0.77
+    },
+    {
+      "beta": 0.4,
+      "margin": 3.0,
+      "target_F": 19.585462661696216,
+      "target_T_R": 136.99985442592404,
+      "achieved_F_final": 19.59309554918034,
+      "T_R_max": 137.77918867792985,
+      "violation_max": 0.0,
+      "violation_integral": 0.0,
+      "steps_above_limit": 0,
+      "mean_profit": 1222.2654202365215,
+      "saturated_fraction": 0.62
+    },
+    {
+      "beta": 0.3,
+      "margin": 0.0,
+      "target_F": 25.910454747355807,
+      "target_T_R": 139.9998622819019,
+      "achieved_F_final": 19.25853462952502,
+      "T_R_max": 140.80209340196458,
+      "violation_max": 0.8020934019645836,
+      "violation_integral": 63.158661876703974,
+      "steps_above_limit": 80,
+      "mean_profit": 1171.835882488239,
+      "saturated_fraction": 0.86
+    },
+    {
+      "beta": 0.3,
+      "margin": 1.0,
+      "target_F": 21.535204689539867,
+      "target_T_R": 138.99985885364552,
+      "achieved_F_final": 19.255050064810234,
+      "T_R_max": 140.79946692849953,
+      "violation_max": 0.7994669284995268,
+      "violation_integral": 57.79404206691254,
+      "steps_above_limit": 74,
+      "mean_profit": 1136.5843096135804,
+      "saturated_fraction": 0.78
+    },
+    {
+      "beta": 0.3,
+      "margin": 2.0,
+      "target_F": 18.549415831465762,
+      "target_T_R": 137.99994678215904,
+      "achieved_F_final": 19.24887711661136,
+      "T_R_max": 140.79488099101178,
+      "violation_max": 0.7948809910117802,
+      "violation_integral": 33.70467268576232,
+      "steps_above_limit": 52,
+      "mean_profit": 1081.048990033713,
+      "saturated_fraction": 0.76
+    },
+    {
+      "beta": 0.3,
+      "margin": 3.0,
+      "target_F": 16.34509228331086,
+      "target_T_R": 136.99981463724458,
+      "achieved_F_final": 16.323641597536643,
+      "T_R_max": 138.25314969151057,
+      "violation_max": 0.0,
+      "violation_integral": 0.0,
+      "steps_above_limit": 0,
+      "mean_profit": 896.2538242592268,
+      "saturated_fraction": 0.72
+    },
+    {
+      "beta": 0.2,
+      "margin": 0.0,
+      "target_F": 18.35297362594917,
+      "target_T_R": 139.99982666785914,
+      "achieved_F_final": 14.124879835082105,
+      "T_R_max": 140.52428514690726,
+      "violation_max": 0.5242851469072605,
+      "violation_integral": 41.311133870167396,
+      "steps_above_limit": 80,
+      "mean_profit": 668.4524301054413,
+      "saturated_fraction": 0.86
+    },
+    {
+      "beta": 0.2,
+      "margin": 1.0,
+      "target_F": 16.17555186974615,
+      "target_T_R": 138.99979747816548,
+      "achieved_F_final": 14.124330680108347,
+      "T_R_max": 140.52338854351422,
+      "violation_max": 0.5233885435142156,
+      "violation_integral": 37.72106947150377,
+      "steps_above_limit": 73,
+      "mean_profit": 655.7121387463152,
+      "saturated_fraction": 0.79
+    },
+    {
+      "beta": 0.2,
+      "margin": 2.0,
+      "target_F": 14.497838839463943,
+      "target_T_R": 137.9997555384957,
+      "achieved_F_final": 14.123178084836226,
+      "T_R_max": 140.52178745826558,
+      "violation_max": 0.5217874582655782,
+      "violation_integral": 28.781173049308848,
+      "steps_above_limit": 59,
+      "mean_profit": 638.0195218630031,
+      "saturated_fraction": 0.76
+    },
+    {
+      "beta": 0.2,
+      "margin": 3.0,
+      "target_F": 13.159786666430266,
+      "target_T_R": 136.9997292496886,
+      "achieved_F_final": 12.992883892561302,
+      "T_R_max": 138.80129661054016,
+      "violation_max": 0.0,
+      "violation_integral": 0.0,
+      "steps_above_limit": 0,
+      "mean_profit": 563.6295919602246,
+      "saturated_fraction": 0.74
+    }
+  ],
+  "summary": {
+    "1.0": {
+      "costs": {
+        "0.0": -2778.2704511490597,
+        "1.0": -2771.430006561404,
+        "2.0": -2757.0922397139134,
+        "3.0": -2728.3592384317303
+      },
+      "best_margin": 0.0
+    },
+    "0.6": {
+      "costs": {
+        "0.0": -2606.7287639644933,
+        "1.0": -2606.855809741762,
+        "2.0": -2502.42625932763,
+        "3.0": -1890.4775722092527
+      },
+      "best_margin": 1.0
+    },
+    "0.4": {
+      "costs": {
+        "0.0": -1604.414845974901,
+        "1.0": -1553.5434216286562,
+        "2.0": -1481.30782455524,
+        "3.0": -1222.2654202365215
+      },
+      "best_margin": 0.0
+    },
+    "0.3": {
+      "costs": {
+        "0.0": -1013.9392277964789,
+        "1.0": -992.0992044462992,
+        "2.0": -996.7873083193072,
+        "3.0": -896.2538242592268
+      },
+      "best_margin": 0.0
+    },
+    "0.2": {
+      "costs": {
+        "0.0": -565.1745954300228,
+        "1.0": -561.4094650675557,
+        "2.0": -566.066589239731,
+        "3.0": -563.6295919602246
+      },
+      "best_margin": 2.0
+    }
+  }
+}

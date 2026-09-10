@@ -1,0 +1,441 @@
+{
+  "script": "rl-nmpc-cstr/supervisors/run_headroom_value.py",
+  "git_commit": "887c07a2fc0fd9d6dd31bb3379c9d2e2cb406167",
+  "git_dirty": true,
+  "timestamp": "2026-09-06T19:42:31Z",
+  "params": {
+    "betas": [
+      0.9,
+      0.6,
+      0.45
+    ],
+    "magnitudes": [
+      0.6,
+      1.2,
+      1.8,
+      2.4,
+      3.0
+    ],
+    "margins": [
+      0.0,
+      2.5
+    ],
+    "campaign_h": 6.0,
+    "step_at_h": 2.0,
+    "seed": 20260906,
+    "use_estimator": false,
+    "decision_interval_h": 0.25
+  },
+  "config_hash": "sha256:2e52e09132d3facbf709d2e6a00143481d58c9dd6ed0345664468543e2f1b8ab",
+  "outputs": [
+    "supervisors/headroom_value.json"
+  ],
+  "duration_s": 561.6866612434387,
+  "results": {
+    "beta0.9_step0.6": {
+      "beta": 0.9,
+      "magnitude": 0.6,
+      "inside_published_range": true,
+      "margins": {
+        "margin_0.0": {
+          "peak_excursion": 0.0,
+          "violation_integral": 0.0,
+          "profit_per_hour": 2858.46184310282,
+          "frac_F_at_bound": 0.9775,
+          "frac_cooling_saturated": 0.02375,
+          "C_A0_final": 5.699999999999999,
+          "wall_s": 18.55964183807373
+        },
+        "margin_2.5": {
+          "peak_excursion": 0.0,
+          "violation_integral": 0.0,
+          "profit_per_hour": 2474.1899576635415,
+          "frac_F_at_bound": 0.0,
+          "frac_cooling_saturated": 0.0,
+          "C_A0_final": 5.699999999999999,
+          "wall_s": 15.918394088745117
+        }
+      },
+      "excursion_prevented": 0.0,
+      "profit_given_up": 384.2718854392783
+    },
+    "beta0.9_step1.2": {
+      "beta": 0.9,
+      "magnitude": 1.2,
+      "inside_published_range": false,
+      "margins": {
+        "margin_0.0": {
+          "peak_excursion": 0.0,
+          "violation_integral": 0.0,
+          "profit_per_hour": 2954.4902753234023,
+          "frac_F_at_bound": 0.9825,
+          "frac_cooling_saturated": 0.02,
+          "C_A0_final": 6.3,
+          "wall_s": 19.34371280670166
+        },
+        "margin_2.5": {
+          "peak_excursion": 0.0,
+          "violation_integral": 0.0,
+          "profit_per_hour": 2055.7974994423084,
+          "frac_F_at_bound": 0.0,
+          "frac_cooling_saturated": 0.0,
+          "C_A0_final": 6.3,
+          "wall_s": 16.898721933364868
+        }
+      },
+      "excursion_prevented": 0.0,
+      "profit_given_up": 898.6927758810939
+    },
+    "beta0.9_step1.8": {
+      "beta": 0.9,
+      "magnitude": 1.8,
+      "inside_published_range": false,
+      "margins": {
+        "margin_0.0": {
+          "peak_excursion": 0.0,
+          "violation_integral": 0.0,
+          "profit_per_hour": 2558.801562446968,
+          "frac_F_at_bound": 0.0,
+          "frac_cooling_saturated": 0.015,
+          "C_A0_final": 6.8999999999999995,
+          "wall_s": 22.295562982559204
+        },
+        "margin_2.5": {
+          "peak_excursion": 0.0,
+          "violation_integral": 0.0,
+          "profit_per_hour": 1792.877862660516,
+          "frac_F_at_bound": 0.0,
+          "frac_cooling_saturated": 0.0025,
+          "C_A0_final": 6.8999999999999995,
+          "wall_s": 16.70748996734619
+        }
+      },
+      "excursion_prevented": 0.0,
+      "profit_given_up": 765.9236997864521
+    },
+    "beta0.9_step2.4": {
+      "beta": 0.9,
+      "magnitude": 2.4,
+      "inside_published_range": false,
+      "margins": {
+        "margin_0.0": {
+          "peak_excursion": 0.0,
+          "violation_integral": 0.0,
+          "profit_per_hour": 2101.8591834006893,
+          "frac_F_at_bound": 0.0,
+          "frac_cooling_saturated": 0.01375,
+          "C_A0_final": 7.5,
+          "wall_s": 22.04388928413391
+        },
+        "margin_2.5": {
+          "peak_excursion": 0.0,
+          "violation_integral": 0.0,
+          "profit_per_hour": 1610.1554201256702,
+          "frac_F_at_bound": 0.0,
+          "frac_cooling_saturated": 0.00375,
+          "C_A0_final": 7.5,
+          "wall_s": 16.611483097076416
+        }
+      },
+      "excursion_prevented": 0.0,
+      "profit_given_up": 491.7037632750191
+    },
+    "beta0.9_step3.0": {
+      "beta": 0.9,
+      "magnitude": 3.0,
+      "inside_published_range": false,
+      "margins": {
+        "margin_0.0": {
+          "peak_excursion": 0.0,
+          "violation_integral": 0.0,
+          "profit_per_hour": 1820.277837869898,
+          "frac_F_at_bound": 0.0,
+          "frac_cooling_saturated": 0.01375,
+          "C_A0_final": 8.1,
+          "wall_s": 21.252707958221436
+        },
+        "margin_2.5": {
+          "peak_excursion": 0.0,
+          "violation_integral": 0.0,
+          "profit_per_hour": 1475.045666000047,
+          "frac_F_at_bound": 0.0,
+          "frac_cooling_saturated": 0.0075,
+          "C_A0_final": 8.1,
+          "wall_s": 17.354212999343872
+        }
+      },
+      "excursion_prevented": 0.0,
+      "profit_given_up": 345.23217186985084
+    },
+    "beta0.6_step0.6": {
+      "beta": 0.6,
+      "magnitude": 0.6,
+      "inside_published_range": true,
+      "margins": {
+        "margin_0.0": {
+          "peak_excursion": 0.0,
+          "violation_integral": 0.0,
+          "profit_per_hour": 2740.4786721715154,
+          "frac_F_at_bound": 0.99375,
+          "frac_cooling_saturated": 0.0,
+          "C_A0_final": 5.699999999999999,
+          "wall_s": 19.434276819229126
+        },
+        "margin_2.5": {
+          "peak_excursion": 0.0,
+          "violation_integral": 0.0,
+          "profit_per_hour": 1777.0847083030355,
+          "frac_F_at_bound": 0.0,
+          "frac_cooling_saturated": 0.0,
+          "C_A0_final": 5.699999999999999,
+          "wall_s": 15.72022819519043
+        }
+      },
+      "excursion_prevented": 0.0,
+      "profit_given_up": 963.3939638684799
+    },
+    "beta0.6_step1.2": {
+      "beta": 0.6,
+      "magnitude": 1.2,
+      "inside_published_range": false,
+      "margins": {
+        "margin_0.0": {
+          "peak_excursion": 0.7747572154503359,
+          "violation_integral": 0.006028649709668059,
+          "profit_per_hour": 2217.06763089094,
+          "frac_F_at_bound": 0.0,
+          "frac_cooling_saturated": 0.0175,
+          "C_A0_final": 6.3,
+          "wall_s": 21.08707571029663
+        },
+        "margin_2.5": {
+          "peak_excursion": 0.0,
+          "violation_integral": 0.0,
+          "profit_per_hour": 1546.2428569412214,
+          "frac_F_at_bound": 0.0,
+          "frac_cooling_saturated": 0.00625,
+          "C_A0_final": 6.3,
+          "wall_s": 15.645814657211304
+        }
+      },
+      "excursion_prevented": 0.7747572154503359,
+      "profit_given_up": 670.8247739497187
+    },
+    "beta0.6_step1.8": {
+      "beta": 0.6,
+      "magnitude": 1.8,
+      "inside_published_range": false,
+      "margins": {
+        "margin_0.0": {
+          "peak_excursion": 1.0663534363030465,
+          "violation_integral": 0.01260757561066896,
+          "profit_per_hour": 1869.0076550418232,
+          "frac_F_at_bound": 0.0,
+          "frac_cooling_saturated": 0.01875,
+          "C_A0_final": 6.8999999999999995,
+          "wall_s": 21.997009992599487
+        },
+        "margin_2.5": {
+          "peak_excursion": 0.0,
+          "violation_integral": 0.0,
+          "profit_per_hour": 1385.165566131449,
+          "frac_F_at_bound": 0.0,
+          "frac_cooling_saturated": 0.01,
+          "C_A0_final": 6.8999999999999995,
+          "wall_s": 16.012211084365845
+        }
+      },
+      "excursion_prevented": 1.0663534363030465,
+      "profit_given_up": 483.8420889103743
+    },
+    "beta0.6_step2.4": {
+      "beta": 0.6,
+      "magnitude": 2.4,
+      "inside_published_range": false,
+      "margins": {
+        "margin_0.0": {
+          "peak_excursion": 1.2389668127131586,
+          "violation_integral": 0.016378032763072668,
+          "profit_per_hour": 1643.8670591189473,
+          "frac_F_at_bound": 0.0,
+          "frac_cooling_saturated": 0.01375,
+          "C_A0_final": 7.5,
+          "wall_s": 22.778648853302002
+        },
+        "margin_2.5": {
+          "peak_excursion": 0.0,
+          "violation_integral": 0.0,
+          "profit_per_hour": 1265.4467449490273,
+          "frac_F_at_bound": 0.0,
+          "frac_cooling_saturated": 0.01375,
+          "C_A0_final": 7.5,
+          "wall_s": 15.929909944534302
+        }
+      },
+      "excursion_prevented": 1.2389668127131586,
+      "profit_given_up": 378.42031416991995
+    },
+    "beta0.6_step3.0": {
+      "beta": 0.6,
+      "magnitude": 3.0,
+      "inside_published_range": false,
+      "margins": {
+        "margin_0.0": {
+          "peak_excursion": 1.2493367121372216,
+          "violation_integral": 0.019209541166618608,
+          "profit_per_hour": 1485.8797259354935,
+          "frac_F_at_bound": 0.0,
+          "frac_cooling_saturated": 0.01375,
+          "C_A0_final": 8.1,
+          "wall_s": 21.227179050445557
+        },
+        "margin_2.5": {
+          "peak_excursion": 0.0,
+          "violation_integral": 0.0,
+          "profit_per_hour": 1172.6125864084213,
+          "frac_F_at_bound": 0.0,
+          "frac_cooling_saturated": 0.01625,
+          "C_A0_final": 8.1,
+          "wall_s": 15.912172079086304
+        }
+      },
+      "excursion_prevented": 1.2493367121372216,
+      "profit_given_up": 313.26713952707223
+    },
+    "beta0.45_step0.6": {
+      "beta": 0.45,
+      "magnitude": 0.6,
+      "inside_published_range": true,
+      "margins": {
+        "margin_0.0": {
+          "peak_excursion": 0.7782283229043401,
+          "violation_integral": 0.007063551234468264,
+          "profit_per_hour": 2078.4347687829895,
+          "frac_F_at_bound": 0.0,
+          "frac_cooling_saturated": 0.02375,
+          "C_A0_final": 5.699999999999999,
+          "wall_s": 20.971140146255493
+        },
+        "margin_2.5": {
+          "peak_excursion": 0.0,
+          "violation_integral": 0.0,
+          "profit_per_hour": 1336.7954120582824,
+          "frac_F_at_bound": 0.0,
+          "frac_cooling_saturated": 0.0,
+          "C_A0_final": 5.699999999999999,
+          "wall_s": 16.185899019241333
+        }
+      },
+      "excursion_prevented": 0.7782283229043401,
+      "profit_given_up": 741.6393567247071
+    },
+    "beta0.45_step1.2": {
+      "beta": 0.45,
+      "magnitude": 1.2,
+      "inside_published_range": false,
+      "margins": {
+        "margin_0.0": {
+          "peak_excursion": 1.2335126746858975,
+          "violation_integral": 0.014576279469436031,
+          "profit_per_hour": 1735.1299936201715,
+          "frac_F_at_bound": 0.0,
+          "frac_cooling_saturated": 0.0175,
+          "C_A0_final": 6.3,
+          "wall_s": 21.48412585258484
+        },
+        "margin_2.5": {
+          "peak_excursion": 0.0,
+          "violation_integral": 0.0,
+          "profit_per_hour": 1178.6446777144731,
+          "frac_F_at_bound": 0.0,
+          "frac_cooling_saturated": 0.005,
+          "C_A0_final": 6.3,
+          "wall_s": 15.923094034194946
+        }
+      },
+      "excursion_prevented": 1.2335126746858975,
+      "profit_given_up": 556.4853159056984
+    },
+    "beta0.45_step1.8": {
+      "beta": 0.45,
+      "magnitude": 1.8,
+      "inside_published_range": false,
+      "margins": {
+        "margin_0.0": {
+          "peak_excursion": 1.282850085215557,
+          "violation_integral": 0.018996080782422098,
+          "profit_per_hour": 1525.0944841195023,
+          "frac_F_at_bound": 0.0,
+          "frac_cooling_saturated": 0.015,
+          "C_A0_final": 6.8999999999999995,
+          "wall_s": 22.26403307914734
+        },
+        "margin_2.5": {
+          "peak_excursion": 0.0,
+          "violation_integral": 0.0,
+          "profit_per_hour": 1062.6943401750411,
+          "frac_F_at_bound": 0.0,
+          "frac_cooling_saturated": 0.01,
+          "C_A0_final": 6.8999999999999995,
+          "wall_s": 15.530505895614624
+        }
+      },
+      "excursion_prevented": 1.282850085215557,
+      "profit_given_up": 462.4001439444612
+    },
+    "beta0.45_step2.4": {
+      "beta": 0.45,
+      "magnitude": 2.4,
+      "inside_published_range": false,
+      "margins": {
+        "margin_0.0": {
+          "peak_excursion": 1.2957119665867367,
+          "violation_integral": 0.022416881447074672,
+          "profit_per_hour": 1379.1985920785448,
+          "frac_F_at_bound": 0.0,
+          "frac_cooling_saturated": 0.015,
+          "C_A0_final": 7.5,
+          "wall_s": 22.214738845825195
+        },
+        "margin_2.5": {
+          "peak_excursion": 0.0,
+          "violation_integral": 0.0,
+          "profit_per_hour": 973.5297920916105,
+          "frac_F_at_bound": 0.0,
+          "frac_cooling_saturated": 0.0125,
+          "C_A0_final": 7.5,
+          "wall_s": 16.21751594543457
+        }
+      },
+      "excursion_prevented": 1.2957119665867367,
+      "profit_given_up": 405.66879998693435
+    },
+    "beta0.45_step3.0": {
+      "beta": 0.45,
+      "magnitude": 3.0,
+      "inside_published_range": false,
+      "margins": {
+        "margin_0.0": {
+          "peak_excursion": 1.3086609403553382,
+          "violation_integral": 0.025367576845528247,
+          "profit_per_hour": 1270.1619605502879,
+          "frac_F_at_bound": 0.0,
+          "frac_cooling_saturated": 0.01375,
+          "C_A0_final": 8.1,
+          "wall_s": 21.591274976730347
+        },
+        "margin_2.5": {
+          "peak_excursion": 0.0,
+          "violation_integral": 0.0,
+          "profit_per_hour": 902.620626901661,
+          "frac_F_at_bound": 0.0,
+          "frac_cooling_saturated": 0.015,
+          "C_A0_final": 8.1,
+          "wall_s": 16.417324781417847
+        }
+      },
+      "excursion_prevented": 1.3086609403553382,
+      "profit_given_up": 367.54133364862685
+    }
+  }
+}

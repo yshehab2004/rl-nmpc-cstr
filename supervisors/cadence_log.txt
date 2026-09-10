@@ -1,0 +1,36 @@
+/Users/yousefshehab/Library/Python/3.13/lib/python/site-packages/do_mpc/sysid/__init__.py:15: UserWarning: The ONNX feature is not available. Please install the full version of do-mpc to access this feature.
+  warnings.warn('The ONNX feature is not available. Please install the full version of do-mpc to access this feature.')
+/Users/yousefshehab/Library/Python/3.13/lib/python/site-packages/do_mpc/opcua/__init__.py:14: UserWarning: The opcua feature is not available. Please install the full version of do-mpc to access this feature.
+  warnings.warn('The opcua feature is not available. Please install the full version of do-mpc to access this feature.')
+
+=== mild_no_ageing ===
+/Users/yousefshehab/Library/Python/3.13/lib/python/site-packages/casadi/casadi.py:913: FutureWarning: 
+casadi: a numpy function was called on a casadi value (issue #2959).
+This used legacy casadi 3.7.2 behaviour, where the result type follows
+the input:
+  - a numeric input (DM)       -> a plain numpy array
+  - a symbolic input (SX / MX) -> a casadi value, or an error if the
+                                  function has no casadi equivalent
+
+For a shape-correct, type-preserving result, opt in to the
+casadi-aware numpy support:
+
+    try:
+        ca.GlobalOptions.setNumpyMode(1)
+    except AttributeError:
+        pass
+
+Or use setNumpyMode(-1) to keep legacy behaviour silently.
+Shown once; run python with -W always to see every occurrence.
+
+  _w.warn(_NUMPY_LEGACY_NOTICE, FutureWarning)
+  cadence  2.00h  profit/h=   2854.4  solves=  10  viol= 0.0000  F_s std=0.000  (73s)
+  cadence  0.25h  profit/h=   2854.4  solves=  80  viol= 0.0000  F_s std=0.000  (70s)
+  -> 0.25h vs 2h: -0.00%  (no difference)
+
+=== severe_ageing ===
+  cadence  2.00h  profit/h=   1769.5  solves=  10  viol= 0.0000  F_s std=8.923  (84s)
+  cadence  0.25h  profit/h=   1767.3  solves=  80  viol= 0.0042  F_s std=8.988  (66s)
+  -> 0.25h vs 2h: -0.13%  (fast is WORSE)
+
+Saved supervisors/cadence_study.json, supervisors/cadence_study.provenance.json

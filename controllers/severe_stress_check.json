@@ -1,0 +1,43 @@
+{
+  "target": {
+    "F": 18.35297362594917,
+    "T_R": 139.99982666785914
+  },
+  "rterm_Q_dot": {
+    "total_variation": 8582.783102757721,
+    "sign_changes_post_step": 2,
+    "sign_change_fraction": 0.02631578947368421,
+    "max_abs_delta": 5033.600091841648
+  },
+  "rterm_F": {
+    "total_variation": 23.499792092663746,
+    "sign_changes_post_step": 3,
+    "sign_change_fraction": 0.039473684210526314,
+    "max_abs_delta": 8.547471260363142
+  },
+  "penalty_term_cons": {
+    "T_R_max": 140.52428514690726,
+    "violation": 0.5242851469072605,
+    "steps_above_limit": 80,
+    "constraint_is_active": true
+  },
+  "state_guards": {
+    "C_a_margin_to_lower": 0.7000000000000001,
+    "C_a_margin_to_upper": 4.068849948410628,
+    "C_b_margin_to_lower": 0.3880169792048126,
+    "C_b_margin_to_upper": 2.095796046828004,
+    "T_K_margin_to_lower": 80.0,
+    "T_K_max": 135.71383561078608,
+    "T_K_would_breach_unimposed_upper": false
+  },
+  "solver": {
+    "steps": 100,
+    "successes": 100,
+    "all_converged": true
+  },
+  "collocation_deg": {
+    "max_abs_diff_T_R": 0.0002710803070158363,
+    "max_abs_diff_F": 0.0038794195429119327,
+    "max_abs_diff_C_b": 1.5056195621032664e-05
+  }
+}

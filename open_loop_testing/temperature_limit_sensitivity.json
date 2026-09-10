@@ -1,0 +1,141 @@
+{
+  "switch_betas": {
+    "135.0": 0.7223650810046076,
+    "140.0": 0.38505362975291724,
+    "145.0": 0.22485265487279646
+  },
+  "trajectories": {
+    "135.0": [
+      {
+        "beta": 1.0,
+        "F_star": 35.0,
+        "T_R_star": 133.0,
+        "profit_star": 2744.4800796108266,
+        "feasible": true
+      },
+      {
+        "beta": 0.8,
+        "F_star": 35.0,
+        "T_R_star": 135.0,
+        "profit_star": 2703.6978311337202,
+        "feasible": true
+      },
+      {
+        "beta": 0.6,
+        "F_star": 29.25,
+        "T_R_star": 135.0,
+        "profit_star": 2114.191706302917,
+        "feasible": true
+      },
+      {
+        "beta": 0.4,
+        "F_star": 21.0,
+        "T_R_star": 135.0,
+        "profit_star": 1324.0519746461034,
+        "feasible": true
+      },
+      {
+        "beta": 0.3,
+        "F_star": 17.25,
+        "T_R_star": 135.0,
+        "profit_star": 958.7122423063951,
+        "feasible": true
+      },
+      {
+        "beta": 0.2,
+        "F_star": 13.75,
+        "T_R_star": 135.0,
+        "profit_star": 600.2982936719658,
+        "feasible": true
+      }
+    ],
+    "140.0": [
+      {
+        "beta": 1.0,
+        "F_star": 35.0,
+        "T_R_star": 133.0,
+        "profit_star": 2744.4800796108266,
+        "feasible": true
+      },
+      {
+        "beta": 0.8,
+        "F_star": 35.0,
+        "T_R_star": 135.5,
+        "profit_star": 2704.626681608775,
+        "feasible": true
+      },
+      {
+        "beta": 0.6,
+        "F_star": 35.0,
+        "T_R_star": 140.0,
+        "profit_star": 2626.2328917415425,
+        "feasible": true
+      },
+      {
+        "beta": 0.4,
+        "F_star": 35.0,
+        "T_R_star": 140.0,
+        "profit_star": 2318.6597581160477,
+        "feasible": true
+      },
+      {
+        "beta": 0.3,
+        "F_star": 25.75,
+        "T_R_star": 140.0,
+        "profit_star": 1519.0462779029212,
+        "feasible": true
+      },
+      {
+        "beta": 0.2,
+        "F_star": 18.25,
+        "T_R_star": 140.0,
+        "profit_star": 867.1169194574261,
+        "feasible": true
+      }
+    ],
+    "145.0": [
+      {
+        "beta": 1.0,
+        "F_star": 35.0,
+        "T_R_star": 133.0,
+        "profit_star": 2744.4800796108266,
+        "feasible": true
+      },
+      {
+        "beta": 0.8,
+        "F_star": 35.0,
+        "T_R_star": 135.5,
+        "profit_star": 2704.626681608775,
+        "feasible": true
+      },
+      {
+        "beta": 0.6,
+        "F_star": 35.0,
+        "T_R_star": 141.25,
+        "profit_star": 2629.2544771020343,
+        "feasible": true
+      },
+      {
+        "beta": 0.4,
+        "F_star": 35.0,
+        "T_R_star": 145.0,
+        "profit_star": 2458.2827118846176,
+        "feasible": true
+      },
+      {
+        "beta": 0.3,
+        "F_star": 35.0,
+        "T_R_star": 145.0,
+        "profit_star": 2190.6469298292236,
+        "feasible": true
+      },
+      {
+        "beta": 0.2,
+        "F_star": 29.0,
+        "T_R_star": 145.0,
+        "profit_star": 1444.2225594746424,
+        "feasible": true
+      }
+    ]
+  }
+}

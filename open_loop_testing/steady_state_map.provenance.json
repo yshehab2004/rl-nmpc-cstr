@@ -1,0 +1,33 @@
+{
+  "script": "rl-nmpc-cstr/evaluation/steady_state_map.py",
+  "git_commit": "cbc78ae21942c824127981d550cde6a2210cb8c6",
+  "git_dirty": true,
+  "timestamp": "2026-09-04T23:04:06Z",
+  "params": {
+    "F_range": [
+      5.0,
+      35.0,
+      0.25
+    ],
+    "T_R_range": [
+      100.0,
+      150.0,
+      0.25
+    ],
+    "beta": [
+      1.0,
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "alpha": 1.0,
+    "C_A0": 5.1,
+    "T_in": 130.0
+  },
+  "config_hash": "sha256:8f1f2b301fe74851e0701a90902c5124d362cae7f70d54eda06124e936103ae2",
+  "outputs": [
+    "evaluation/steady_state_map.npz"
+  ],
+  "duration_s": 0.08861804008483887
+}

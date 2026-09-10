@@ -1,0 +1,105 @@
+{
+  "script": "rl-nmpc-cstr/open_loop_testing/profit_contours.py",
+  "git_commit": "cbc78ae21942c824127981d550cde6a2210cb8c6",
+  "git_dirty": true,
+  "timestamp": "2026-09-05T07:55:29Z",
+  "params": {
+    "betas": [
+      1.0,
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ],
+    "price_B": 100.0,
+    "price_A0": 5.0,
+    "price_energy": 0.02
+  },
+  "config_hash": "sha256:8f1f2b301fe74851e0701a90902c5124d362cae7f70d54eda06124e936103ae2",
+  "outputs": [
+    "open_loop_testing/profit_contours.png"
+  ],
+  "duration_s": 0.5612728595733643,
+  "summary": [
+    {
+      "beta": 1.0,
+      "unconstrained": {
+        "F_star": 35.0,
+        "T_R_star": 131.5,
+        "profit_star": 2751.105016715758
+      },
+      "constrained": {
+        "F_star": 35.0,
+        "T_R_star": 133.0,
+        "profit_star": 2744.4800796108266,
+        "C_b_star": 1.0875796099208677,
+        "Q_dot_star": -8477.42775561051,
+        "n_feasible": 8207
+      }
+    },
+    {
+      "beta": 0.8,
+      "unconstrained": {
+        "F_star": 35.0,
+        "T_R_star": 135.5,
+        "profit_star": 2704.626681608775
+      },
+      "constrained": {
+        "F_star": 35.0,
+        "T_R_star": 135.5,
+        "profit_star": 2704.626681608775,
+        "C_b_star": 1.07012573688703,
+        "Q_dot_star": -7415.6698747915,
+        "n_feasible": 7567
+      }
+    },
+    {
+      "beta": 0.6,
+      "unconstrained": {
+        "F_star": 35.0,
+        "T_R_star": 141.25,
+        "profit_star": 2629.2544771020343
+      },
+      "constrained": {
+        "F_star": 35.0,
+        "T_R_star": 140.0,
+        "profit_star": 2626.2328917415425,
+        "C_b_star": 1.03466411822292,
+        "Q_dot_star": -5129.576101933871,
+        "n_feasible": 6597
+      }
+    },
+    {
+      "beta": 0.4,
+      "unconstrained": {
+        "F_star": 35.0,
+        "T_R_star": 149.5,
+        "profit_star": 2496.1897762011627
+      },
+      "constrained": {
+        "F_star": 35.0,
+        "T_R_star": 140.0,
+        "profit_star": 2318.6597581160477,
+        "C_b_star": 0.9643529176486298,
+        "Q_dot_star": -8203.772682707844,
+        "n_feasible": 4996
+      }
+    },
+    {
+      "beta": 0.2,
+      "unconstrained": {
+        "F_star": 35.0,
+        "T_R_star": 150.0,
+        "profit_star": 1903.715580203169
+      },
+      "constrained": {
+        "F_star": 18.25,
+        "T_R_star": 140.0,
+        "profit_star": 867.1169194574261,
+        "C_b_star": 0.8228595997979489,
+        "Q_dot_star": -8461.342508691529,
+        "n_feasible": 2858
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "script": "rl-nmpc-cstr/open_loop_testing/fine_beta_sweep_check.py",
+  "git_commit": "cbc78ae21942c824127981d550cde6a2210cb8c6",
+  "git_dirty": true,
+  "timestamp": "2026-09-05T07:56:06Z",
+  "params": {
+    "beta_range": [
+      0.4,
+      0.28
+    ],
+    "beta_step": 0.005,
+    "price_B": 100.0,
+    "price_A0": 5.0,
+    "price_energy": 0.02
+  },
+  "config_hash": "sha256:8f1f2b301fe74851e0701a90902c5124d362cae7f70d54eda06124e936103ae2",
+  "outputs": [
+    "open_loop_testing/fine_beta_sweep_check.json",
+    "open_loop_testing/fine_beta_sweep_check.png"
+  ],
+  "duration_s": 0.2979128360748291,
+  "conclusion": "smooth continuous decline, not a jump"
+}

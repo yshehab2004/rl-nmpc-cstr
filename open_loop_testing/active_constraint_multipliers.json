@@ -1,0 +1,113 @@
+[
+  {
+    "beta": 1.0,
+    "profit_base": 2744.6908816057635,
+    "vertex": [
+      35.0,
+      132.9751987900646
+    ],
+    "active_constraints": [
+      "F_upper",
+      "Q_dot_lower"
+    ],
+    "multipliers": {
+      "F_upper": 92.33887858122216,
+      "Q_dot_lower": 0.009265678636438679
+    }
+  },
+  {
+    "beta": 0.8,
+    "profit_base": 2704.654534611446,
+    "vertex": [
+      35.0,
+      135.603195
+    ],
+    "active_constraints": [
+      "F_upper"
+    ],
+    "reduced_d2_profit_dT_R2": -5.225068996878689,
+    "multipliers": {
+      "F_upper": 89.19394357335477
+    }
+  },
+  {
+    "beta": 0.6,
+    "profit_base": 2626.2328917415425,
+    "vertex": [
+      35.0,
+      140.0
+    ],
+    "active_constraints": [
+      "F_upper",
+      "T_R_upper"
+    ],
+    "multipliers": {
+      "F_upper": 84.79264162119762,
+      "T_R_upper": 5.318422513573751
+    }
+  },
+  {
+    "beta": 0.4,
+    "profit_base": 2318.6597581160477,
+    "vertex": [
+      35.0,
+      140.0
+    ],
+    "active_constraints": [
+      "F_upper",
+      "T_R_upper"
+    ],
+    "multipliers": {
+      "F_upper": 59.90134827889051,
+      "T_R_upper": 38.402073819997895
+    }
+  },
+  {
+    "beta": 0.385,
+    "profit_base": 2275.946569293557,
+    "vertex": [
+      34.992904857083715,
+      140.0
+    ],
+    "active_constraints": [
+      "T_R_upper",
+      "Q_dot_lower"
+    ],
+    "multipliers": {
+      "T_R_upper": 81.72295792105615,
+      "Q_dot_lower": 0.3764061410947761
+    }
+  },
+  {
+    "beta": 0.3,
+    "profit_base": 1527.7272563440395,
+    "vertex": [
+      25.91114956660212,
+      140.0
+    ],
+    "active_constraints": [
+      "T_R_upper",
+      "Q_dot_lower"
+    ],
+    "multipliers": {
+      "T_R_upper": 174.07735712736212,
+      "Q_dot_lower": 0.22076935274526477
+    }
+  },
+  {
+    "beta": 0.2,
+    "profit_base": 871.4171792656218,
+    "vertex": [
+      18.353360978669016,
+      140.0
+    ],
+    "active_constraints": [
+      "T_R_upper",
+      "Q_dot_lower"
+    ],
+    "multipliers": {
+      "T_R_upper": 72.35103142950265,
+      "Q_dot_lower": 0.11117404333162995
+    }
+  }
+]

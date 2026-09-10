@@ -1,0 +1,27 @@
+[
+  {
+    "beta": 1.0,
+    "rhp_fraction": 1.0,
+    "max_zero_real_part": 2984.7725442113324
+  },
+  {
+    "beta": 0.8,
+    "rhp_fraction": 0.9929971988795518,
+    "max_zero_real_part": 1930.2544907160668
+  },
+  {
+    "beta": 0.6,
+    "rhp_fraction": 0.9733893557422969,
+    "max_zero_real_part": 1108.1276616581779
+  },
+  {
+    "beta": 0.4,
+    "rhp_fraction": 0.9355742296918768,
+    "max_zero_real_part": 516.3923147400978
+  },
+  {
+    "beta": 0.2,
+    "rhp_fraction": 0.8739495798319328,
+    "max_zero_real_part": 148.3475307972397
+  }
+]

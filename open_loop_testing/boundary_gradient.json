@@ -1,0 +1,47 @@
+[
+  {
+    "beta": 1.0,
+    "T_R_used": 133.0,
+    "dC_b_dF": 0.0041255675777840395,
+    "dPi_dF": 94.07983523828989
+  },
+  {
+    "beta": 0.8,
+    "T_R_used": 135.5,
+    "dC_b_dF": 0.0029849129363768157,
+    "dPi_dF": 88.92540441956953
+  },
+  {
+    "beta": 0.6,
+    "T_R_used": 140.0,
+    "dC_b_dF": 0.0024697064496814747,
+    "dPi_dF": 84.79713531005473
+  },
+  {
+    "beta": 0.4,
+    "T_R_used": 140.0,
+    "dC_b_dF": -0.002306302183396891,
+    "dPi_dF": 59.907413533210274
+  },
+  {
+    "beta": 0.385,
+    "T_R_used": null,
+    "dC_b_dF": null,
+    "dPi_dF": null,
+    "note": "no feasible T_R at F=35 for this beta"
+  },
+  {
+    "beta": 0.3,
+    "T_R_used": null,
+    "dC_b_dF": null,
+    "dPi_dF": null,
+    "note": "no feasible T_R at F=35 for this beta"
+  },
+  {
+    "beta": 0.2,
+    "T_R_used": null,
+    "dC_b_dF": null,
+    "dPi_dF": null,
+    "note": "no feasible T_R at F=35 for this beta"
+  }
+]

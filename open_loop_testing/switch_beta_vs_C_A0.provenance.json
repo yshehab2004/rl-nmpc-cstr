@@ -1,0 +1,53 @@
+{
+  "script": "rl-nmpc-cstr/open_loop_testing/switch_beta_vs_C_A0.py",
+  "git_commit": "cbc78ae21942c824127981d550cde6a2210cb8c6",
+  "git_dirty": true,
+  "timestamp": "2026-09-05T07:56:05Z",
+  "params": {
+    "C_A0_values": [
+      4.5,
+      5.1,
+      5.7
+    ],
+    "alpha": 1.0,
+    "T_in": 130.0,
+    "C": {
+      "K0_ab": 1287000000000.0,
+      "K0_bc": 1287000000000.0,
+      "K0_ad": 9043000000.0,
+      "E_A_ab": 9758.3,
+      "E_A_bc": 9758.3,
+      "E_A_ad": 8560.0,
+      "H_R_ab": 4.2,
+      "H_R_bc": -11.0,
+      "H_R_ad": -41.85,
+      "rho": 0.9342,
+      "Cp": 3.01,
+      "Cp_k": 2.0,
+      "A_R": 0.215,
+      "V_R": 10.01,
+      "m_k": 5.0,
+      "K_w": 4032.0
+    }
+  },
+  "config_hash": "sha256:8f1f2b301fe74851e0701a90902c5124d362cae7f70d54eda06124e936103ae2",
+  "outputs": [
+    "open_loop_testing/switch_beta_vs_C_A0.json",
+    "open_loop_testing/switch_beta_vs_feed_concentration.png"
+  ],
+  "duration_s": 10.267197132110596,
+  "results": [
+    {
+      "C_A0": 4.5,
+      "switch_beta": 0.22677842156361722
+    },
+    {
+      "C_A0": 5.1,
+      "switch_beta": 0.38505362817796607
+    },
+    {
+      "C_A0": 5.7,
+      "switch_beta": 0.5701225086794062
+    }
+  ]
+}

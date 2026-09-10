@@ -1,0 +1,36 @@
+{
+  "script": "rl-nmpc-cstr/estimators/observability_study.py",
+  "git_commit": "deee5c13d670d711d3a6b40d5910f9d552026c71",
+  "git_dirty": true,
+  "timestamp": "2026-09-07T23:01:17Z",
+  "params": {
+    "betas": [
+      1.0,
+      0.8,
+      0.6,
+      0.4,
+      0.2,
+      0.1
+    ],
+    "T_R_max": 140.0,
+    "F_grid": [
+      5.0,
+      35.0,
+      601
+    ],
+    "T_R_grid": [
+      100.0,
+      150.0,
+      501
+    ],
+    "jacobian_eps": 1e-06
+  },
+  "config_hash": "sha256:8f144e91fa78be81aef73f59e6473102b4c067cb1c0bf66f2da1110e8c99d44c",
+  "outputs": [
+    "estimators/observability_study.json"
+  ],
+  "duration_s": 0.13702011108398438,
+  "conditioning_penalty": 3838.6330269528535,
+  "beta_only_full_rank_everywhere": true,
+  "beta_and_C_A0_full_rank_everywhere": true
+}

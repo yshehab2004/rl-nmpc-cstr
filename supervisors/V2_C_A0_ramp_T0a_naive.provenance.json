@@ -1,0 +1,17 @@
+{
+  "script": "rl-nmpc-cstr/supervisors/run_validation.py",
+  "git_commit": "cbc78ae21942c824127981d550cde6a2210cb8c6",
+  "git_dirty": true,
+  "timestamp": "2026-09-06T13:57:20Z",
+  "params": {
+    "scenario": "V2_C_A0_ramp",
+    "tier": "T0a_naive",
+    "campaign_h": 20.0,
+    "seed": 20260905
+  },
+  "config_hash": "sha256:ffb326174eb057d7c4f14a336b912aed5fdf3ac2f46b3b84c6f8d2ab49ae0190",
+  "outputs": [
+    "supervisors/V2_C_A0_ramp_T0a_naive.png"
+  ],
+  "duration_s": null
+}

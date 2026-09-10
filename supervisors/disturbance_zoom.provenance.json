@@ -1,0 +1,51 @@
+{
+  "script": "rl-nmpc-cstr/supervisors/disturbance_zoom.py",
+  "git_commit": "deee5c13d670d711d3a6b40d5910f9d552026c71",
+  "git_dirty": true,
+  "timestamp": "2026-09-08T06:04:08Z",
+  "params": {
+    "traces": "supervisors/campaign_traces_S3.json",
+    "step_at_h": 30.0,
+    "window_h": [
+      0.5,
+      2.5
+    ],
+    "T_limit": 140.0,
+    "Q_floor": -8500.0,
+    "cases": [
+      "T0a_naive",
+      "T0b_prudent",
+      "T2_rto",
+      "T3_median"
+    ]
+  },
+  "config_hash": "sha256:8f144e91fa78be81aef73f59e6473102b4c067cb1c0bf66f2da1110e8c99d44c",
+  "outputs": [
+    "supervisors/disturbance_zoom.png"
+  ],
+  "duration_s": 0.3140218257904053,
+  "T0a_naive": {
+    "peak_T_R": 140.10635379534506,
+    "t_at_peak": 30.75,
+    "Q_at_peak": -8500.000084965362,
+    "fraction_of_window_at_cooling_floor": 0.8252911813643927
+  },
+  "T0b_prudent": {
+    "peak_T_R": 138.01843600889896,
+    "t_at_peak": 30.03,
+    "Q_at_peak": -6270.665965064365,
+    "fraction_of_window_at_cooling_floor": 0.0
+  },
+  "T2_rto": {
+    "peak_T_R": 138.10364222529208,
+    "t_at_peak": 30.01,
+    "Q_at_peak": -8499.946915223905,
+    "fraction_of_window_at_cooling_floor": 0.0
+  },
+  "T3_median": {
+    "peak_T_R": 137.4922358183169,
+    "t_at_peak": 30.005,
+    "Q_at_peak": -8500.000053395062,
+    "fraction_of_window_at_cooling_floor": 0.018302828618968387
+  }
+}

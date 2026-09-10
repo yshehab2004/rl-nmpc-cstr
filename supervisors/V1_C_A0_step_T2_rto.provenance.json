@@ -1,0 +1,17 @@
+{
+  "script": "rl-nmpc-cstr/supervisors/run_validation.py",
+  "git_commit": "cbc78ae21942c824127981d550cde6a2210cb8c6",
+  "git_dirty": true,
+  "timestamp": "2026-09-06T13:56:13Z",
+  "params": {
+    "scenario": "V1_C_A0_step",
+    "tier": "T2_rto",
+    "campaign_h": 20.0,
+    "seed": 20260905
+  },
+  "config_hash": "sha256:ffb326174eb057d7c4f14a336b912aed5fdf3ac2f46b3b84c6f8d2ab49ae0190",
+  "outputs": [
+    "supervisors/V1_C_A0_step_T2_rto.png"
+  ],
+  "duration_s": null
+}

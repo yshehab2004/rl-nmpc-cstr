@@ -1,0 +1,3244 @@
+{
+  "margin_0.0": {
+    "margin": 0.0,
+    "episodes": [
+      {
+        "episode": 0,
+        "return": 612.3482985231532,
+        "profit_per_hour": 2043.814017854419,
+        "violation_integral": 0.7959068331725072,
+        "violation_max": 0.14229678438371707,
+        "beta_final": 0.19429827738699273,
+        "wall_s": 1017.3367776870728
+      },
+      {
+        "episode": 1,
+        "return": 752.3863827308605,
+        "profit_per_hour": 2508.873302480919,
+        "violation_integral": 0.2756080134152606,
+        "violation_max": 0.1635841029283256,
+        "beta_final": 0.33523637351857677,
+        "wall_s": 976.7134115695953
+      },
+      {
+        "episode": 2,
+        "return": 802.151644836245,
+        "profit_per_hour": 2673.90683598628,
+        "violation_integral": 0.020405959638853232,
+        "violation_max": 0.0016218043083142675,
+        "beta_final": 0.5112819694698387,
+        "wall_s": 966.5663239955902
+      },
+      {
+        "episode": 3,
+        "return": 774.3445677071461,
+        "profit_per_hour": 2581.882912710177,
+        "violation_integral": 0.2203061059070983,
+        "violation_max": 0.07506111516894975,
+        "beta_final": 0.4648974820056984,
+        "wall_s": 945.0243556499481
+      },
+      {
+        "episode": 4,
+        "return": 589.6558988027081,
+        "profit_per_hour": 1969.3238396519819,
+        "violation_integral": 1.1412530928865054,
+        "violation_max": 0.13784393597376265,
+        "beta_final": 0.216957527861098,
+        "wall_s": 978.3590838909149
+      },
+      {
+        "episode": 5,
+        "return": 755.088500798707,
+        "profit_per_hour": 2517.812075036324,
+        "violation_integral": 0.2551217121903812,
+        "violation_max": 0.15205385626009615,
+        "beta_final": 0.3316772873254107,
+        "wall_s": 960.1595990657806
+      },
+      {
+        "episode": 6,
+        "return": 848.774713168784,
+        "profit_per_hour": 2829.2490438959467,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8398256903332462,
+        "wall_s": 906.2680480480194
+      },
+      {
+        "episode": 7,
+        "return": 865.1931085164595,
+        "profit_per_hour": 2883.977028388198,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8830878211375462,
+        "wall_s": 927.22554063797
+      },
+      {
+        "episode": 8,
+        "return": 854.9570937231617,
+        "profit_per_hour": 2849.9167994275917,
+        "violation_integral": 0.01794610511582363,
+        "violation_max": 0.07171398000576801,
+        "beta_final": 0.5916116728886944,
+        "wall_s": 931.2296059131622
+      },
+      {
+        "episode": 9,
+        "return": 759.2142247316294,
+        "profit_per_hour": 2531.4918022187353,
+        "violation_integral": 0.2333159339910773,
+        "violation_max": 0.1359120253428614,
+        "beta_final": 0.3449587271796279,
+        "wall_s": 975.8461031913757
+      },
+      {
+        "episode": 10,
+        "return": 789.6006925857212,
+        "profit_per_hour": 2632.2237890775646,
+        "violation_integral": 0.06644413754823958,
+        "violation_max": 0.08466282796513269,
+        "beta_final": 0.4567232805045731,
+        "wall_s": 942.6867134571075
+      },
+      {
+        "episode": 11,
+        "return": 818.4655661788488,
+        "profit_per_hour": 2728.2409008853883,
+        "violation_integral": 0.0067040867675866875,
+        "violation_max": 0.0010231688242754444,
+        "beta_final": 0.5825668428539043,
+        "wall_s": 926.1214711666107
+      },
+      {
+        "episode": 12,
+        "return": 818.4718642302438,
+        "profit_per_hour": 2728.239547434146,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8487641731370951,
+        "wall_s": 899.6503167152405
+      },
+      {
+        "episode": 13,
+        "return": 817.7714219852818,
+        "profit_per_hour": 2725.904739950939,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.7733339302106407,
+        "wall_s": 870.2378232479095
+      },
+      {
+        "episode": 14,
+        "return": 809.9589607890514,
+        "profit_per_hour": 2699.863202630171,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.6494946605815464,
+        "wall_s": 895.0171179771423
+      },
+      {
+        "episode": 15,
+        "return": 763.9957271884648,
+        "profit_per_hour": 2548.2714193096494,
+        "violation_integral": 0.4856986044299802,
+        "violation_max": 0.13838136519319733,
+        "beta_final": 0.39664611339094624,
+        "wall_s": 918.4484345912933
+      },
+      {
+        "episode": 16,
+        "return": 815.7088287018204,
+        "profit_per_hour": 2719.029429006068,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.748815172149824,
+        "wall_s": 896.8670263290405
+      },
+      {
+        "episode": 17,
+        "return": 600.2460940156407,
+        "profit_per_hour": 2003.2726478556574,
+        "violation_integral": 0.7357003410566061,
+        "violation_max": 0.14785063865440407,
+        "beta_final": 0.17775158711213127,
+        "wall_s": 966.5403020381927
+      },
+      {
+        "episode": 18,
+        "return": 802.2483255092192,
+        "profit_per_hour": 2675.1970882145506,
+        "violation_integral": 0.3108009551459891,
+        "violation_max": 0.12877162375210105,
+        "beta_final": 0.4466819903194584,
+        "wall_s": 903.9052500724792
+      },
+      {
+        "episode": 19,
+        "return": 795.7011971158931,
+        "profit_per_hour": 2652.337323719644,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8268074797330353,
+        "wall_s": 852.9441299438477
+      },
+      {
+        "episode": 20,
+        "return": 793.457463110805,
+        "profit_per_hour": 2644.9656159092747,
+        "violation_integral": 0.03222166197743547,
+        "violation_max": 0.05853292086865736,
+        "beta_final": 0.5829254557599655,
+        "wall_s": 877.9952659606934
+      },
+      {
+        "episode": 21,
+        "return": 801.9642239940212,
+        "profit_per_hour": 2673.2599166555765,
+        "violation_integral": 0.013751002651733443,
+        "violation_max": 0.0014245778343138227,
+        "beta_final": 0.5368488225921725,
+        "wall_s": 901.2532391548157
+      },
+      {
+        "episode": 22,
+        "return": 829.7505034578226,
+        "profit_per_hour": 2765.8413882551404,
+        "violation_integral": 0.0019130187195607108,
+        "violation_max": 0.0008144761146979818,
+        "beta_final": 0.6153281799208129,
+        "wall_s": 884.5181612968445
+      },
+      {
+        "episode": 23,
+        "return": 843.5003552436305,
+        "profit_per_hour": 2811.6678508121017,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8883848393025698,
+        "wall_s": 854.2881553173065
+      },
+      {
+        "episode": 24,
+        "return": 833.6981141279164,
+        "profit_per_hour": 2778.9937137597212,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.7415803492434071,
+        "wall_s": 842.0528106689453
+      },
+      {
+        "episode": 25,
+        "return": 819.4998101725854,
+        "profit_per_hour": 2731.666033908618,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8501024923915881,
+        "wall_s": 838.2173457145691
+      },
+      {
+        "episode": 26,
+        "return": 855.4392261063756,
+        "profit_per_hour": 2851.464087021252,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.6732050506578557,
+        "wall_s": 833.5641338825226
+      },
+      {
+        "episode": 27,
+        "return": 810.9715905195781,
+        "profit_per_hour": 2703.5045409611857,
+        "violation_integral": 0.07977176877758879,
+        "violation_max": 0.11344249723444477,
+        "beta_final": 0.46618801190218495,
+        "wall_s": 844.9803349971771
+      },
+      {
+        "episode": 28,
+        "return": 817.3076210931138,
+        "profit_per_hour": 2724.358736977046,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.7939658630891626,
+        "wall_s": 822.3712706565857
+      },
+      {
+        "episode": 29,
+        "return": 767.6631988247613,
+        "profit_per_hour": 2560.28407287177,
+        "violation_integral": 0.42202303676987696,
+        "violation_max": 0.10970813203331886,
+        "beta_final": 0.3951272606514507,
+        "wall_s": 856.6736319065094
+      },
+      {
+        "episode": 30,
+        "return": 725.756584132308,
+        "profit_per_hour": 2421.2781875929713,
+        "violation_integral": 0.6268721455833525,
+        "violation_max": 0.10544011757821181,
+        "beta_final": 0.3796700731819093,
+        "wall_s": 858.0748565196991
+      },
+      {
+        "episode": 31,
+        "return": 788.559207662595,
+        "profit_per_hour": 2628.7138417296073,
+        "violation_integral": 0.05494485628716746,
+        "violation_max": 0.06528373775603313,
+        "beta_final": 0.440846252113182,
+        "wall_s": 819.9686040878296
+      },
+      {
+        "episode": 32,
+        "return": 854.5178487573434,
+        "profit_per_hour": 2848.3928291911448,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.701707080987739,
+        "wall_s": 810.8588974475861
+      },
+      {
+        "episode": 33,
+        "return": 784.4911423562451,
+        "profit_per_hour": 2615.137934898422,
+        "violation_integral": 0.050238113281569956,
+        "violation_max": 0.0025447330306462845,
+        "beta_final": 0.41653615256060667,
+        "wall_s": 828.8508236408234
+      },
+      {
+        "episode": 34,
+        "return": 778.6802046858281,
+        "profit_per_hour": 2596.2226797002,
+        "violation_integral": 0.18659922423180333,
+        "violation_max": 0.08058739560595995,
+        "beta_final": 0.47202181667730764,
+        "wall_s": 786.3962051868439
+      },
+      {
+        "episode": 35,
+        "return": 808.4936867578475,
+        "profit_per_hour": 2694.9829541665626,
+        "violation_integral": 0.0011994921212817645,
+        "violation_max": 0.00047369933864160885,
+        "beta_final": 0.6124291440816115,
+        "wall_s": 780.8813269138336
+      },
+      {
+        "episode": 36,
+        "return": 812.6977224142329,
+        "profit_per_hour": 2708.992408047443,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.6710134109605808,
+        "wall_s": 791.317875623703
+      },
+      {
+        "episode": 37,
+        "return": 838.9239523909545,
+        "profit_per_hour": 2796.413174636515,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8919529981049241,
+        "wall_s": 750.9000773429871
+      },
+      {
+        "episode": 38,
+        "return": 820.0742168943467,
+        "profit_per_hour": 2733.5807229811558,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.907153941379454,
+        "wall_s": 741.2849855422974
+      },
+      {
+        "episode": 39,
+        "return": 779.021579141263,
+        "profit_per_hour": 2597.0387095152987,
+        "violation_integral": 0.09003371332661417,
+        "violation_max": 0.13194425652906716,
+        "beta_final": 0.3958187321904167,
+        "wall_s": 785.5814201831818
+      },
+      {
+        "episode": 40,
+        "return": 665.7566471042196,
+        "profit_per_hour": 2221.329603575333,
+        "violation_integral": 0.6422339683800887,
+        "violation_max": 0.15879155265110967,
+        "beta_final": 0.22684997379409186,
+        "wall_s": 747.7801167964935
+      },
+      {
+        "episode": 41,
+        "return": 605.9225822558324,
+        "profit_per_hour": 2022.140361439853,
+        "violation_integral": 0.7195261761234989,
+        "violation_max": 0.8432244282155068,
+        "beta_final": 0.19993559070959557,
+        "wall_s": 773.9313011169434
+      },
+      {
+        "episode": 42,
+        "return": 759.0705002477271,
+        "profit_per_hour": 2531.078051539065,
+        "violation_integral": 0.25291521399263817,
+        "violation_max": 0.12064771899670745,
+        "beta_final": 0.34443655486624436,
+        "wall_s": 764.6751990318298
+      },
+      {
+        "episode": 43,
+        "return": 805.0321582551893,
+        "profit_per_hour": 2683.4747737487232,
+        "violation_integral": 0.010273869427642239,
+        "violation_max": 0.0011918908010670748,
+        "beta_final": 0.5508369470373827,
+        "wall_s": 711.2608366012573
+      },
+      {
+        "episode": 44,
+        "return": 783.7029424693393,
+        "profit_per_hour": 2612.529903381877,
+        "violation_integral": 0.0560285452239161,
+        "violation_max": 0.013007629759243855,
+        "beta_final": 0.4120024533661558,
+        "wall_s": 737.7774519920349
+      },
+      {
+        "episode": 45,
+        "return": 723.589965482517,
+        "profit_per_hour": 2414.1753558331534,
+        "violation_integral": 0.6626412674291149,
+        "violation_max": 0.1484767895905179,
+        "beta_final": 0.3682418477861493,
+        "wall_s": 736.0090095996857
+      },
+      {
+        "episode": 46,
+        "return": 712.6814315066882,
+        "profit_per_hour": 2377.0324037475566,
+        "violation_integral": 0.4282896175786931,
+        "violation_max": 0.13461262365839843,
+        "beta_final": 0.2831335872078516,
+        "wall_s": 737.5558066368103
+      },
+      {
+        "episode": 47,
+        "return": 638.0203897491496,
+        "profit_per_hour": 2128.8564091522535,
+        "violation_integral": 0.6365329965264904,
+        "violation_max": 0.1479102305867741,
+        "beta_final": 0.2064317865774932,
+        "wall_s": 739.9133706092834
+      },
+      {
+        "episode": 48,
+        "return": 735.7220732961209,
+        "profit_per_hour": 2453.776469508487,
+        "violation_integral": 0.41086755642518585,
+        "violation_max": 0.12417675583648702,
+        "beta_final": 0.3145461258152311,
+        "wall_s": 731.1232328414917
+      },
+      {
+        "episode": 49,
+        "return": 608.3708889224748,
+        "profit_per_hour": 2029.3875208160102,
+        "violation_integral": 0.44536732232825615,
+        "violation_max": 0.9154425241789852,
+        "beta_final": 0.22916661508604272,
+        "wall_s": 745.39306807518
+      }
+    ],
+    "mean_return": 772.9724188594374,
+    "std_return": 72.22944224936809,
+    "mean_profit_per_hour": 2577.2673599613536,
+    "mean_violation_integral": 0.20778912896858834,
+    "max_violation_integral": 1.1412530928865054,
+    "max_violation_peak": 0.9154425241789852,
+    "episodes_violating": 34
+  },
+  "margin_0.5": {
+    "margin": 0.5,
+    "episodes": [
+      {
+        "episode": 0,
+        "return": 592.7603018159723,
+        "profit_per_hour": 1975.9259229314082,
+        "violation_integral": 0.017475063450198575,
+        "violation_max": 0.08630295120428855,
+        "beta_final": 0.19429827738699273,
+        "wall_s": 651.7376356124878
+      },
+      {
+        "episode": 1,
+        "return": 741.4262915205915,
+        "profit_per_hour": 2471.421216645716,
+        "violation_integral": 7.347312339945234e-05,
+        "violation_max": 0.0020745802697206273,
+        "beta_final": 0.33523637351857677,
+        "wall_s": 698.1874439716339
+      },
+      {
+        "episode": 2,
+        "return": 801.3140499013883,
+        "profit_per_hour": 2671.046833004628,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5112819694698387,
+        "wall_s": 653.2376472949982
+      },
+      {
+        "episode": 3,
+        "return": 757.3197883613906,
+        "profit_per_hour": 2524.404567535955,
+        "violation_integral": 0.0015818993957437044,
+        "violation_max": 0.04679184451586593,
+        "beta_final": 0.4648974820056984,
+        "wall_s": 640.9768826961517
+      },
+      {
+        "episode": 4,
+        "return": 565.3728152188992,
+        "profit_per_hour": 1884.8883403484845,
+        "violation_integral": 0.09368688564616122,
+        "violation_max": 0.09413988386438632,
+        "beta_final": 0.216957527861098,
+        "wall_s": 633.455837726593
+      },
+      {
+        "episode": 5,
+        "return": 738.9327881203878,
+        "profit_per_hour": 2463.109293734626,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3316772873254107,
+        "wall_s": 662.7362546920776
+      },
+      {
+        "episode": 6,
+        "return": 846.8749916449273,
+        "profit_per_hour": 2822.9166388164244,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8398256903332462,
+        "wall_s": 604.5310754776001
+      },
+      {
+        "episode": 7,
+        "return": 862.6027436789547,
+        "profit_per_hour": 2875.3424789298488,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8830878211375462,
+        "wall_s": 591.0349442958832
+      },
+      {
+        "episode": 8,
+        "return": 846.9385329026634,
+        "profit_per_hour": 2823.1284430088776,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5916116728886944,
+        "wall_s": 616.7682399749756
+      },
+      {
+        "episode": 9,
+        "return": 747.3339569910079,
+        "profit_per_hour": 2491.1131899700263,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3449587271796279,
+        "wall_s": 614.4602899551392
+      },
+      {
+        "episode": 10,
+        "return": 782.1452040734915,
+        "profit_per_hour": 2607.1506802449717,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.4567232805045731,
+        "wall_s": 641.571168422699
+      },
+      {
+        "episode": 11,
+        "return": 817.9157045985894,
+        "profit_per_hour": 2726.385681995298,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5825668428539043,
+        "wall_s": 658.0861048698425
+      },
+      {
+        "episode": 12,
+        "return": 817.1390888977679,
+        "profit_per_hour": 2723.7969629925597,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8487641731370951,
+        "wall_s": 574.0191266536713
+      },
+      {
+        "episode": 13,
+        "return": 816.8914288835168,
+        "profit_per_hour": 2722.9714296117227,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.7733339302106407,
+        "wall_s": 644.8466715812683
+      },
+      {
+        "episode": 14,
+        "return": 809.4818066221592,
+        "profit_per_hour": 2698.2726887405306,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.6494946605815464,
+        "wall_s": 601.6224820613861
+      },
+      {
+        "episode": 15,
+        "return": 738.4990154110683,
+        "profit_per_hour": 2461.66341741525,
+        "violation_integral": 9.813506623430613e-06,
+        "violation_max": 0.00042983992554468387,
+        "beta_final": 0.39664611339094624,
+        "wall_s": 629.5268828868866
+      },
+      {
+        "episode": 16,
+        "return": 815.0628278172146,
+        "profit_per_hour": 2716.8760927240487,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.748815172149824,
+        "wall_s": 609.8258376121521
+      },
+      {
+        "episode": 17,
+        "return": 584.8299392816101,
+        "profit_per_hour": 1949.471907629331,
+        "violation_integral": 0.011633007189221587,
+        "violation_max": 0.06496328501364701,
+        "beta_final": 0.17775158711213127,
+        "wall_s": 620.9130516052246
+      },
+      {
+        "episode": 18,
+        "return": 782.1838663582184,
+        "profit_per_hour": 2607.279554527395,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.4466819903194584,
+        "wall_s": 594.8843851089478
+      },
+      {
+        "episode": 19,
+        "return": 793.2241208528468,
+        "profit_per_hour": 2644.0804028428224,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8268074797330353,
+        "wall_s": 570.3377935886383
+      },
+      {
+        "episode": 20,
+        "return": 788.1933433127105,
+        "profit_per_hour": 2627.311144375701,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5829254557599655,
+        "wall_s": 611.9849195480347
+      },
+      {
+        "episode": 21,
+        "return": 801.2737884502968,
+        "profit_per_hour": 2670.9126281676563,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5368488225921725,
+        "wall_s": 634.6675517559052
+      },
+      {
+        "episode": 22,
+        "return": 829.0988138625803,
+        "profit_per_hour": 2763.662712875268,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.6153281799208129,
+        "wall_s": 571.6836631298065
+      },
+      {
+        "episode": 23,
+        "return": 841.4557324634087,
+        "profit_per_hour": 2804.852441544696,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8883848393025698,
+        "wall_s": 585.1965065002441
+      },
+      {
+        "episode": 24,
+        "return": 832.4841938388986,
+        "profit_per_hour": 2774.9473127963283,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.7415803492434071,
+        "wall_s": 640.6814031600952
+      },
+      {
+        "episode": 25,
+        "return": 818.3040259687175,
+        "profit_per_hour": 2727.680086562392,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8501024923915881,
+        "wall_s": 575.427273273468
+      },
+      {
+        "episode": 26,
+        "return": 853.6907623454696,
+        "profit_per_hour": 2845.6358744848985,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.6732050506578557,
+        "wall_s": 604.8005657196045
+      },
+      {
+        "episode": 27,
+        "return": 801.4382164931344,
+        "profit_per_hour": 2671.460721643781,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.46618801190218495,
+        "wall_s": 627.9104681015015
+      },
+      {
+        "episode": 28,
+        "return": 816.492247345632,
+        "profit_per_hour": 2721.6408244854397,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.7939658630891626,
+        "wall_s": 653.6230180263519
+      },
+      {
+        "episode": 29,
+        "return": 747.2335250930543,
+        "profit_per_hour": 2490.7784399806424,
+        "violation_integral": 6.901138454082912e-06,
+        "violation_max": 0.0007208475005597847,
+        "beta_final": 0.3951272606514507,
+        "wall_s": 624.8561623096466
+      },
+      {
+        "episode": 30,
+        "return": 700.5542512277884,
+        "profit_per_hour": 2335.2008115151048,
+        "violation_integral": 0.00599222674299483,
+        "violation_max": 0.03444229739841376,
+        "beta_final": 0.3796700731819093,
+        "wall_s": 636.0602445602417
+      },
+      {
+        "episode": 31,
+        "return": 785.5023551261253,
+        "profit_per_hour": 2618.341183753751,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.440846252113182,
+        "wall_s": 658.0276534557343
+      },
+      {
+        "episode": 32,
+        "return": 852.7590363768792,
+        "profit_per_hour": 2842.530121256264,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.701707080987739,
+        "wall_s": 662.7620747089386
+      },
+      {
+        "episode": 33,
+        "return": 782.0730442084682,
+        "profit_per_hour": 2606.9101473615606,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.41653615256060667,
+        "wall_s": 692.3396408557892
+      },
+      {
+        "episode": 34,
+        "return": 763.0739712734786,
+        "profit_per_hour": 2543.5799042449285,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.47202181667730764,
+        "wall_s": 696.0825085639954
+      },
+      {
+        "episode": 35,
+        "return": 808.0693596130216,
+        "profit_per_hour": 2693.5645320434055,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.6124291440816115,
+        "wall_s": 615.2288126945496
+      },
+      {
+        "episode": 36,
+        "return": 812.1858161471322,
+        "profit_per_hour": 2707.286053823774,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.6710134109605808,
+        "wall_s": 683.8661658763885
+      },
+      {
+        "episode": 37,
+        "return": 836.9409079298598,
+        "profit_per_hour": 2789.803026432866,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8919529981049241,
+        "wall_s": 699.4155452251434
+      },
+      {
+        "episode": 38,
+        "return": 818.5993930278281,
+        "profit_per_hour": 2728.664643426094,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.907153941379454,
+        "wall_s": 600.8314986228943
+      },
+      {
+        "episode": 39,
+        "return": 772.1770606544873,
+        "profit_per_hour": 2573.9235355149576,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3958187321904167,
+        "wall_s": 693.371509552002
+      },
+      {
+        "episode": 40,
+        "return": 647.1613245175067,
+        "profit_per_hour": 2157.218417471036,
+        "violation_integral": 0.004200723804015354,
+        "violation_max": 0.10859725792815311,
+        "beta_final": 0.22684997379409186,
+        "wall_s": 704.9004714488983
+      },
+      {
+        "episode": 41,
+        "return": 590.250311357794,
+        "profit_per_hour": 1967.6692548396722,
+        "violation_integral": 0.05046509410772686,
+        "violation_max": 0.1185378843781848,
+        "beta_final": 0.19993559070959557,
+        "wall_s": 676.72780418396
+      },
+      {
+        "episode": 42,
+        "return": 746.4811791294945,
+        "profit_per_hour": 2488.270597098315,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.34443655486624436,
+        "wall_s": 785.6692111492157
+      },
+      {
+        "episode": 43,
+        "return": 804.4039924063713,
+        "profit_per_hour": 2681.346641354571,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5508369470373827,
+        "wall_s": 698.3353409767151
+      },
+      {
+        "episode": 44,
+        "return": 781.0119599249332,
+        "profit_per_hour": 2603.373199749777,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.4120024533661558,
+        "wall_s": 737.3829188346863
+      },
+      {
+        "episode": 45,
+        "return": 697.8100150064723,
+        "profit_per_hour": 2326.0700592612225,
+        "violation_integral": 0.011002771894366674,
+        "violation_max": 0.07890902160266933,
+        "beta_final": 0.3682418477861493,
+        "wall_s": 734.8511159420013
+      },
+      {
+        "episode": 46,
+        "return": 697.2412111775454,
+        "profit_per_hour": 2324.166560212281,
+        "violation_integral": 0.008756886138904747,
+        "violation_max": 0.06483616883346599,
+        "beta_final": 0.2831335872078516,
+        "wall_s": 818.2550966739655
+      },
+      {
+        "episode": 47,
+        "return": 623.3306379153405,
+        "profit_per_hour": 2077.917900966246,
+        "violation_integral": 0.04473237453334349,
+        "violation_max": 0.06751655949040014,
+        "beta_final": 0.2064317865774932,
+        "wall_s": 777.5666289329529
+      },
+      {
+        "episode": 48,
+        "return": 720.1256039280603,
+        "profit_per_hour": 2400.425632678676,
+        "violation_integral": 0.002085875542503146,
+        "violation_max": 0.06563015926758453,
+        "beta_final": 0.3145461258152311,
+        "wall_s": 792.1318123340607
+      },
+      {
+        "episode": 49,
+        "return": 598.5848265313024,
+        "profit_per_hour": 1995.3577689372298,
+        "violation_integral": 0.022504149866501847,
+        "violation_max": 0.042931790424574956,
+        "beta_final": 0.22916661508604272,
+        "wall_s": 768.4849724769592
+      }
+    ],
+    "mean_return": 764.5250033921293,
+    "std_return": 77.99944446832646,
+    "mean_profit_per_hour": 2548.4349584501692,
+    "mean_violation_integral": 0.00548414292160318,
+    "max_violation_integral": 0.09368688564616122,
+    "max_violation_peak": 0.1185378843781848,
+    "episodes_violating": 15
+  },
+  "margin_1.0": {
+    "margin": 1.0,
+    "episodes": [
+      {
+        "episode": 0,
+        "return": 563.8976890915387,
+        "profit_per_hour": 1879.6589636384626,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.19429827738699273,
+        "wall_s": 757.9749038219452
+      },
+      {
+        "episode": 1,
+        "return": 724.8623487960047,
+        "profit_per_hour": 2416.2078293200157,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.33523637351857677,
+        "wall_s": 761.6078269481659
+      },
+      {
+        "episode": 2,
+        "return": 799.8771230353179,
+        "profit_per_hour": 2666.257076784393,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5112819694698387,
+        "wall_s": 789.4548432826996
+      },
+      {
+        "episode": 3,
+        "return": 730.4057023875521,
+        "profit_per_hour": 2434.6856746251738,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.4648974820056984,
+        "wall_s": 748.7615728378296
+      },
+      {
+        "episode": 4,
+        "return": 530.5458122702257,
+        "profit_per_hour": 1768.4860409007524,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.216957527861098,
+        "wall_s": 750.6516363620758
+      },
+      {
+        "episode": 5,
+        "return": 716.0492102389821,
+        "profit_per_hour": 2386.830700796607,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3316772873254107,
+        "wall_s": 790.6528429985046
+      },
+      {
+        "episode": 6,
+        "return": 843.3768335269618,
+        "profit_per_hour": 2811.2561117565397,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8398256903332462,
+        "wall_s": 802.1468508243561
+      },
+      {
+        "episode": 7,
+        "return": 858.1022331810402,
+        "profit_per_hour": 2860.3407772701344,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8830878211375462,
+        "wall_s": 723.7775523662567
+      },
+      {
+        "episode": 8,
+        "return": 820.809767552422,
+        "profit_per_hour": 2736.032558508073,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5916116728886944,
+        "wall_s": 775.27507853508
+      },
+      {
+        "episode": 9,
+        "return": 724.5574803826696,
+        "profit_per_hour": 2415.1916012755655,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3449587271796279,
+        "wall_s": 793.1030807495117
+      },
+      {
+        "episode": 10,
+        "return": 760.1266481692599,
+        "profit_per_hour": 2533.755493897533,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.4567232805045731,
+        "wall_s": 827.6765098571777
+      },
+      {
+        "episode": 11,
+        "return": 812.3122800593258,
+        "profit_per_hour": 2707.7076001977525,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5825668428539043,
+        "wall_s": 855.1808753013611
+      },
+      {
+        "episode": 12,
+        "return": 814.555412389489,
+        "profit_per_hour": 2715.1847079649633,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8487641731370951,
+        "wall_s": 757.9580366611481
+      },
+      {
+        "episode": 13,
+        "return": 815.1279071704347,
+        "profit_per_hour": 2717.093023901449,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.7733339302106407,
+        "wall_s": 784.8409481048584
+      },
+      {
+        "episode": 14,
+        "return": 808.4516228263542,
+        "profit_per_hour": 2694.838742754514,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.6494946605815464,
+        "wall_s": 853.2851524353027
+      },
+      {
+        "episode": 15,
+        "return": 704.0923587204884,
+        "profit_per_hour": 2346.9745290682945,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.39664611339094624,
+        "wall_s": 816.5954828262329
+      },
+      {
+        "episode": 16,
+        "return": 813.6992223115875,
+        "profit_per_hour": 2712.330741038625,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.748815172149824,
+        "wall_s": 851.2473275661469
+      },
+      {
+        "episode": 17,
+        "return": 563.0208822693064,
+        "profit_per_hour": 1876.7362742310215,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.17775158711213127,
+        "wall_s": 831.0630941390991
+      },
+      {
+        "episode": 18,
+        "return": 748.9176433787229,
+        "profit_per_hour": 2496.392144595743,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.4466819903194584,
+        "wall_s": 779.9618673324585
+      },
+      {
+        "episode": 19,
+        "return": 786.8190674626763,
+        "profit_per_hour": 2622.7302248755877,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8268074797330353,
+        "wall_s": 780.1584525108337
+      },
+      {
+        "episode": 20,
+        "return": 761.0642085913977,
+        "profit_per_hour": 2536.880695304659,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5829254557599655,
+        "wall_s": 812.0143077373505
+      },
+      {
+        "episode": 21,
+        "return": 800.0586442391857,
+        "profit_per_hour": 2666.8621474639526,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5368488225921725,
+        "wall_s": 911.280600309372
+      },
+      {
+        "episode": 22,
+        "return": 822.424440882723,
+        "profit_per_hour": 2741.4148029424105,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.6153281799208129,
+        "wall_s": 818.3556177616119
+      },
+      {
+        "episode": 23,
+        "return": 837.7958646761033,
+        "profit_per_hour": 2792.652882253678,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8883848393025698,
+        "wall_s": 847.6690154075623
+      },
+      {
+        "episode": 24,
+        "return": 830.0399376366249,
+        "profit_per_hour": 2766.799792122083,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.7415803492434071,
+        "wall_s": 837.0766835212708
+      },
+      {
+        "episode": 25,
+        "return": 815.9454354286477,
+        "profit_per_hour": 2719.818118095492,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8501024923915881,
+        "wall_s": 814.2060508728027
+      },
+      {
+        "episode": 26,
+        "return": 843.9425642096171,
+        "profit_per_hour": 2813.1418806987235,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.6732050506578557,
+        "wall_s": 841.9804821014404
+      },
+      {
+        "episode": 27,
+        "return": 778.7184835191426,
+        "profit_per_hour": 2595.728278397142,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.46618801190218495,
+        "wall_s": 873.940083026886
+      },
+      {
+        "episode": 28,
+        "return": 814.6784044499815,
+        "profit_per_hour": 2715.5946814999384,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.7939658630891626,
+        "wall_s": 585.9973239898682
+      },
+      {
+        "episode": 29,
+        "return": 717.5870280877622,
+        "profit_per_hour": 2391.956760292541,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3951272606514507,
+        "wall_s": 638.9281959533691
+      },
+      {
+        "episode": 30,
+        "return": 667.8449701791593,
+        "profit_per_hour": 2226.1499005971978,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3796700731819093,
+        "wall_s": 543.2129735946655
+      },
+      {
+        "episode": 31,
+        "return": 778.0832482033115,
+        "profit_per_hour": 2593.610827344372,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.440846252113182,
+        "wall_s": 638.5566279888153
+      },
+      {
+        "episode": 32,
+        "return": 845.7550954681154,
+        "profit_per_hour": 2819.1836515603845,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.701707080987739,
+        "wall_s": 592.5017940998077
+      },
+      {
+        "episode": 33,
+        "return": 775.4343620652196,
+        "profit_per_hour": 2584.7812068840653,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.41653615256060667,
+        "wall_s": 627.4009599685669
+      },
+      {
+        "episode": 34,
+        "return": 729.9844773205778,
+        "profit_per_hour": 2433.281591068592,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.47202181667730764,
+        "wall_s": 569.5345726013184
+      },
+      {
+        "episode": 35,
+        "return": 807.1386252838906,
+        "profit_per_hour": 2690.4620842796353,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.6124291440816115,
+        "wall_s": 609.8040056228638
+      },
+      {
+        "episode": 36,
+        "return": 811.0250852504571,
+        "profit_per_hour": 2703.416950834857,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.6710134109605808,
+        "wall_s": 633.5310645103455
+      },
+      {
+        "episode": 37,
+        "return": 833.4681365957522,
+        "profit_per_hour": 2778.2271219858408,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8919529981049241,
+        "wall_s": 545.2976286411285
+      },
+      {
+        "episode": 38,
+        "return": 815.7976373288111,
+        "profit_per_hour": 2719.3254577627035,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.907153941379454,
+        "wall_s": 543.0821118354797
+      },
+      {
+        "episode": 39,
+        "return": 758.2893837657854,
+        "profit_per_hour": 2527.6312792192844,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3958187321904167,
+        "wall_s": 636.6188409328461
+      },
+      {
+        "episode": 40,
+        "return": 621.5235379045148,
+        "profit_per_hour": 2071.7451263483827,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.22684997379409186,
+        "wall_s": 629.3815608024597
+      },
+      {
+        "episode": 41,
+        "return": 565.5440034059015,
+        "profit_per_hour": 1885.146678019672,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.19993559070959557,
+        "wall_s": 610.7295367717743
+      },
+      {
+        "episode": 42,
+        "return": 722.1520881660948,
+        "profit_per_hour": 2407.173627220316,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.34443655486624436,
+        "wall_s": 630.9041638374329
+      },
+      {
+        "episode": 43,
+        "return": 803.1710244816068,
+        "profit_per_hour": 2677.2367482720224,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5508369470373827,
+        "wall_s": 611.0455679893494
+      },
+      {
+        "episode": 44,
+        "return": 768.7393505601922,
+        "profit_per_hour": 2562.4645018673073,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.4120024533661558,
+        "wall_s": 692.1109564304352
+      },
+      {
+        "episode": 45,
+        "return": 671.3357198684024,
+        "profit_per_hour": 2237.817902623106,
+        "violation_integral": 0.009650918529367232,
+        "violation_max": 0.08590141806988072,
+        "beta_final": 0.3682418477861493,
+        "wall_s": 656.6686463356018
+      },
+      {
+        "episode": 46,
+        "return": 675.4894725904876,
+        "profit_per_hour": 2251.631575301625,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.2831335872078516,
+        "wall_s": 607.2438974380493
+      },
+      {
+        "episode": 47,
+        "return": 600.0874740852472,
+        "profit_per_hour": 2000.2915802841576,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.2064317865774932,
+        "wall_s": 654.3705298900604
+      },
+      {
+        "episode": 48,
+        "return": 696.8055632379654,
+        "profit_per_hour": 2322.685210793218,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3145461258152311,
+        "wall_s": 653.2181425094604
+      },
+      {
+        "episode": 49,
+        "return": 581.8485826807785,
+        "profit_per_hour": 1939.5652985926185,
+        "violation_integral": 0.021006897007169983,
+        "violation_max": 0.04220207177212387,
+        "beta_final": 0.22916661508604272,
+        "wall_s": 657.4224557876587
+      }
+    ],
+    "mean_return": 749.8276019076762,
+    "std_return": 85.90008842929653,
+    "mean_profit_per_hour": 2499.427383546624,
+    "mean_violation_integral": 0.0006131563107307443,
+    "max_violation_integral": 0.021006897007169983,
+    "max_violation_peak": 0.08590141806988072,
+    "episodes_violating": 2
+  },
+  "margin_1.5": {
+    "margin": 1.5,
+    "episodes": [
+      {
+        "episode": 0,
+        "return": 536.6887014181939,
+        "profit_per_hour": 1788.9623380606463,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.19429827738699273,
+        "wall_s": 621.8798358440399
+      },
+      {
+        "episode": 1,
+        "return": 701.2305392843273,
+        "profit_per_hour": 2337.4351309477574,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.33523637351857677,
+        "wall_s": 665.5183210372925
+      },
+      {
+        "episode": 2,
+        "return": 795.9249348735198,
+        "profit_per_hour": 2653.083116245066,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5112819694698387,
+        "wall_s": 733.5139226913452
+      },
+      {
+        "episode": 3,
+        "return": 689.1326620164315,
+        "profit_per_hour": 2297.1088733881047,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.4648974820056984,
+        "wall_s": 634.4559850692749
+      },
+      {
+        "episode": 4,
+        "return": 501.00578624422906,
+        "profit_per_hour": 1670.0192874807635,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.216957527861098,
+        "wall_s": 615.5510013103485
+      },
+      {
+        "episode": 5,
+        "return": 689.1876911523849,
+        "profit_per_hour": 2297.292303841283,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3316772873254107,
+        "wall_s": 713.7115340232849
+      },
+      {
+        "episode": 6,
+        "return": 839.4101916660426,
+        "profit_per_hour": 2798.033972220142,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8398256903332462,
+        "wall_s": 665.7448916435242
+      },
+      {
+        "episode": 7,
+        "return": 852.7194403852278,
+        "profit_per_hour": 2842.398134617426,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8830878211375462,
+        "wall_s": 702.3409230709076
+      },
+      {
+        "episode": 8,
+        "return": 763.1901868340324,
+        "profit_per_hour": 2543.967289446775,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5916116728886944,
+        "wall_s": 704.5126993656158
+      },
+      {
+        "episode": 9,
+        "return": 695.0531203604415,
+        "profit_per_hour": 2316.843734534805,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3449587271796279,
+        "wall_s": 675.0919241905212
+      },
+      {
+        "episode": 10,
+        "return": 729.3943332939048,
+        "profit_per_hour": 2431.314444313016,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.4567232805045731,
+        "wall_s": 751.7093918323517
+      },
+      {
+        "episode": 11,
+        "return": 793.7884098703909,
+        "profit_per_hour": 2645.9613662346364,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5825668428539043,
+        "wall_s": 760.6278023719788
+      },
+      {
+        "episode": 12,
+        "return": 811.4892558391207,
+        "profit_per_hour": 2704.9641861304026,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8487641731370951,
+        "wall_s": 760.8027341365814
+      },
+      {
+        "episode": 13,
+        "return": 812.7986575652216,
+        "profit_per_hour": 2709.3288585507385,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.7733339302106407,
+        "wall_s": 717.684734582901
+      },
+      {
+        "episode": 14,
+        "return": 807.0850452236316,
+        "profit_per_hour": 2690.283484078772,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.6494946605815464,
+        "wall_s": 768.7767758369446
+      },
+      {
+        "episode": 15,
+        "return": 667.0463227021203,
+        "profit_per_hour": 2223.487742340401,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.39664611339094624,
+        "wall_s": 763.3710777759552
+      },
+      {
+        "episode": 16,
+        "return": 811.9154814642354,
+        "profit_per_hour": 2706.3849382141184,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.748815172149824,
+        "wall_s": 717.3934495449066
+      },
+      {
+        "episode": 17,
+        "return": 537.881338947144,
+        "profit_per_hour": 1792.93779649048,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.17775158711213127,
+        "wall_s": 724.3991792201996
+      },
+      {
+        "episode": 18,
+        "return": 708.2282662115866,
+        "profit_per_hour": 2360.7608873719555,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.4466819903194584,
+        "wall_s": 736.7509253025055
+      },
+      {
+        "episode": 19,
+        "return": 754.4881534179121,
+        "profit_per_hour": 2514.9605113930406,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8268074797330353,
+        "wall_s": 792.7270486354828
+      },
+      {
+        "episode": 20,
+        "return": 708.6684570374015,
+        "profit_per_hour": 2362.2281901246715,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5829254557599655,
+        "wall_s": 692.7069110870361
+      },
+      {
+        "episode": 21,
+        "return": 795.5821903023008,
+        "profit_per_hour": 2651.9406343410024,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5368488225921725,
+        "wall_s": 844.3371136188507
+      },
+      {
+        "episode": 22,
+        "return": 798.7554204057964,
+        "profit_per_hour": 2662.518068019321,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.6153281799208129,
+        "wall_s": 729.0521187782288
+      },
+      {
+        "episode": 23,
+        "return": 833.6600992279091,
+        "profit_per_hour": 2778.866997426364,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8883848393025698,
+        "wall_s": 815.6818308830261
+      },
+      {
+        "episode": 24,
+        "return": 825.5561560852012,
+        "profit_per_hour": 2751.8538536173373,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.7415803492434071,
+        "wall_s": 814.2815353870392
+      },
+      {
+        "episode": 25,
+        "return": 813.0600115022072,
+        "profit_per_hour": 2710.2000383406908,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8501024923915881,
+        "wall_s": 789.1791529655457
+      },
+      {
+        "episode": 26,
+        "return": 811.7549199857399,
+        "profit_per_hour": 2705.8497332857996,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.6732050506578557,
+        "wall_s": 851.5630927085876
+      },
+      {
+        "episode": 27,
+        "return": 740.5704452393127,
+        "profit_per_hour": 2468.568150797709,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.46618801190218495,
+        "wall_s": 829.727269411087
+      },
+      {
+        "episode": 28,
+        "return": 812.2740146890202,
+        "profit_per_hour": 2707.5800489634007,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.7939658630891626,
+        "wall_s": 824.8925609588623
+      },
+      {
+        "episode": 29,
+        "return": 683.7173278490177,
+        "profit_per_hour": 2279.057759496726,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3951272606514507,
+        "wall_s": 844.3004949092865
+      },
+      {
+        "episode": 30,
+        "return": 636.3286778011205,
+        "profit_per_hour": 2121.095592670402,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3796700731819093,
+        "wall_s": 814.385057926178
+      },
+      {
+        "episode": 31,
+        "return": 759.433261392315,
+        "profit_per_hour": 2531.44420464105,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.440846252113182,
+        "wall_s": 624.7071108818054
+      },
+      {
+        "episode": 32,
+        "return": 817.4500290726497,
+        "profit_per_hour": 2724.833430242166,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.701707080987739,
+        "wall_s": 807.089866399765
+      },
+      {
+        "episode": 33,
+        "return": 756.3294189472543,
+        "profit_per_hour": 2521.0980631575144,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.41653615256060667,
+        "wall_s": 895.3110094070435
+      },
+      {
+        "episode": 34,
+        "return": 691.345493642103,
+        "profit_per_hour": 2304.4849788070096,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.47202181667730764,
+        "wall_s": 813.4129464626312
+      },
+      {
+        "episode": 35,
+        "return": 805.844005192671,
+        "profit_per_hour": 2686.1466839755703,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.6124291440816115,
+        "wall_s": 613.471296787262
+      },
+      {
+        "episode": 36,
+        "return": 809.4572387979231,
+        "profit_per_hour": 2698.190795993077,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.6710134109605808,
+        "wall_s": 878.856766462326
+      },
+      {
+        "episode": 37,
+        "return": 829.5172026544807,
+        "profit_per_hour": 2765.0573421816025,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8919529981049241,
+        "wall_s": 812.2479121685028
+      },
+      {
+        "episode": 38,
+        "return": 812.5270599642283,
+        "profit_per_hour": 2708.4235332140943,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.907153941379454,
+        "wall_s": 848.9197475910187
+      },
+      {
+        "episode": 39,
+        "return": 737.2409460461236,
+        "profit_per_hour": 2457.469820153745,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3958187321904167,
+        "wall_s": 586.2794213294983
+      },
+      {
+        "episode": 40,
+        "return": 591.2242719903825,
+        "profit_per_hour": 1970.7475733012748,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.22684997379409186,
+        "wall_s": 564.885582447052
+      },
+      {
+        "episode": 41,
+        "return": 538.607793583509,
+        "profit_per_hour": 1795.3593119450297,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.19993559070959557,
+        "wall_s": 578.6658637523651
+      },
+      {
+        "episode": 42,
+        "return": 694.2477457506454,
+        "profit_per_hour": 2314.1591525021513,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.34443655486624436,
+        "wall_s": 620.4671776294708
+      },
+      {
+        "episode": 43,
+        "return": 799.714316032674,
+        "profit_per_hour": 2665.7143867755804,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5508369470373827,
+        "wall_s": 851.8082711696625
+      },
+      {
+        "episode": 44,
+        "return": 744.4430562924945,
+        "profit_per_hour": 2481.476854308315,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.4120024533661558,
+        "wall_s": 893.6957702636719
+      },
+      {
+        "episode": 45,
+        "return": 648.7739464145428,
+        "profit_per_hour": 2162.6091170847544,
+        "violation_integral": 0.008788710883447095,
+        "violation_max": 0.09479915754704393,
+        "beta_final": 0.3682418477861493,
+        "wall_s": 849.34250831604
+      },
+      {
+        "episode": 46,
+        "return": 651.3170085810737,
+        "profit_per_hour": 2171.056695270245,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.2831335872078516,
+        "wall_s": 605.6299748420715
+      },
+      {
+        "episode": 47,
+        "return": 573.3810613893536,
+        "profit_per_hour": 1911.2702046311786,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.2064317865774932,
+        "wall_s": 590.9035513401031
+      },
+      {
+        "episode": 48,
+        "return": 667.2781844687555,
+        "profit_per_hour": 2224.2606148958516,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3145461258152311,
+        "wall_s": 613.3273305892944
+      },
+      {
+        "episode": 49,
+        "return": 557.9926442563057,
+        "profit_per_hour": 1859.975480854352,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.22916661508604272,
+        "wall_s": 607.3628766536713
+      }
+    ],
+    "mean_return": 728.8742184672923,
+    "std_return": 93.07205082918851,
+    "mean_profit_per_hour": 2429.581314138367,
+    "mean_violation_integral": 0.00017577421766894189,
+    "max_violation_integral": 0.008788710883447095,
+    "max_violation_peak": 0.09479915754704393,
+    "episodes_violating": 1
+  },
+  "margin_2.0": {
+    "margin": 2.0,
+    "episodes": [
+      {
+        "episode": 0,
+        "return": 509.6435751172527,
+        "profit_per_hour": 1698.811917057509,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.19429827738699273,
+        "wall_s": 596.2683203220367
+      },
+      {
+        "episode": 1,
+        "return": 667.8399800428076,
+        "profit_per_hour": 2226.1332668093587,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.33523637351857677,
+        "wall_s": 812.5848054885864
+      },
+      {
+        "episode": 2,
+        "return": 778.6091244961881,
+        "profit_per_hour": 2595.363748320627,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5112819694698387,
+        "wall_s": 897.7791090011597
+      },
+      {
+        "episode": 3,
+        "return": 644.5926745591569,
+        "profit_per_hour": 2148.642248530523,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.4648974820056984,
+        "wall_s": 554.8918492794037
+      },
+      {
+        "episode": 4,
+        "return": 473.27000890880123,
+        "profit_per_hour": 1577.5666963626709,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.216957527861098,
+        "wall_s": 600.4689908027649
+      },
+      {
+        "episode": 5,
+        "return": 656.7781826696947,
+        "profit_per_hour": 2189.2606088989824,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3316772873254107,
+        "wall_s": 631.8132181167603
+      },
+      {
+        "episode": 6,
+        "return": 830.0575335675481,
+        "profit_per_hour": 2766.8584452251603,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8398256903332462,
+        "wall_s": 554.8515264987946
+      },
+      {
+        "episode": 7,
+        "return": 838.59793423733,
+        "profit_per_hour": 2795.326447457767,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8830878211375462,
+        "wall_s": 589.8264615535736
+      },
+      {
+        "episode": 8,
+        "return": 694.6192807566243,
+        "profit_per_hour": 2315.397602522081,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5916116728886944,
+        "wall_s": 593.5142095088959
+      },
+      {
+        "episode": 9,
+        "return": 662.0515600086709,
+        "profit_per_hour": 2206.8385333622364,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3449587271796279,
+        "wall_s": 649.3108825683594
+      },
+      {
+        "episode": 10,
+        "return": 699.6311020758834,
+        "profit_per_hour": 2332.103673586278,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.4567232805045731,
+        "wall_s": 637.1024351119995
+      },
+      {
+        "episode": 11,
+        "return": 759.8437691371889,
+        "profit_per_hour": 2532.8125637906296,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5825668428539043,
+        "wall_s": 636.5925195217133
+      },
+      {
+        "episode": 12,
+        "return": 808.0104140843649,
+        "profit_per_hour": 2693.368046947883,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8487641731370951,
+        "wall_s": 607.2293796539307
+      },
+      {
+        "episode": 13,
+        "return": 809.9637562054152,
+        "profit_per_hour": 2699.8791873513837,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.7733339302106407,
+        "wall_s": 641.8735454082489
+      },
+      {
+        "episode": 14,
+        "return": 804.4425020922221,
+        "profit_per_hour": 2681.4750069740735,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.6494946605815464,
+        "wall_s": 681.0684094429016
+      },
+      {
+        "episode": 15,
+        "return": 630.1749958012581,
+        "profit_per_hour": 2100.583319337527,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.39664611339094624,
+        "wall_s": 644.9798591136932
+      },
+      {
+        "episode": 16,
+        "return": 809.6747428880872,
+        "profit_per_hour": 2698.915809626957,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.748815172149824,
+        "wall_s": 683.0914385318756
+      },
+      {
+        "episode": 17,
+        "return": 511.4819356132309,
+        "profit_per_hour": 1704.9397853774365,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.17775158711213127,
+        "wall_s": 690.7585961818695
+      },
+      {
+        "episode": 18,
+        "return": 656.0121335051573,
+        "profit_per_hour": 2186.707111683858,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.4466819903194584,
+        "wall_s": 682.241614818573
+      },
+      {
+        "episode": 19,
+        "return": 683.1992846581829,
+        "profit_per_hour": 2277.3309488606096,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8268074797330353,
+        "wall_s": 627.3523609638214
+      },
+      {
+        "episode": 20,
+        "return": 661.2821641037792,
+        "profit_per_hour": 2204.2738803459306,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5829254557599655,
+        "wall_s": 664.2533791065216
+      },
+      {
+        "episode": 21,
+        "return": 778.9081404392088,
+        "profit_per_hour": 2596.3604681306956,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5368488225921725,
+        "wall_s": 675.0580024719238
+      },
+      {
+        "episode": 22,
+        "return": 760.5326767698998,
+        "profit_per_hour": 2535.1089225663327,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.6153281799208129,
+        "wall_s": 706.4096879959106
+      },
+      {
+        "episode": 23,
+        "return": 827.230166711171,
+        "profit_per_hour": 2757.433889037237,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8883848393025698,
+        "wall_s": 708.3616700172424
+      },
+      {
+        "episode": 24,
+        "return": 808.5827301486379,
+        "profit_per_hour": 2695.275767162126,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.7415803492434071,
+        "wall_s": 707.9433615207672
+      },
+      {
+        "episode": 25,
+        "return": 809.7497887195987,
+        "profit_per_hour": 2699.165962398662,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8501024923915881,
+        "wall_s": 709.0598514080048
+      },
+      {
+        "episode": 26,
+        "return": 753.0360539739967,
+        "profit_per_hour": 2510.1201799133223,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.6732050506578557,
+        "wall_s": 722.5275263786316
+      },
+      {
+        "episode": 27,
+        "return": 693.8812991325032,
+        "profit_per_hour": 2312.93766377501,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.46618801190218495,
+        "wall_s": 742.6993989944458
+      },
+      {
+        "episode": 28,
+        "return": 809.3803273910554,
+        "profit_per_hour": 2697.9344246368514,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.7939658630891626,
+        "wall_s": 751.3268013000488
+      },
+      {
+        "episode": 29,
+        "return": 649.9517425066729,
+        "profit_per_hour": 2166.5058083555764,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3951272606514507,
+        "wall_s": 737.6489713191986
+      },
+      {
+        "episode": 30,
+        "return": 606.7039258545026,
+        "profit_per_hour": 2022.3464195150086,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3796700731819093,
+        "wall_s": 765.5019898414612
+      },
+      {
+        "episode": 31,
+        "return": 729.5467375791126,
+        "profit_per_hour": 2431.8224585970415,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.440846252113182,
+        "wall_s": 559.200119972229
+      },
+      {
+        "episode": 32,
+        "return": 764.1477488240773,
+        "profit_per_hour": 2547.1591627469243,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.701707080987739,
+        "wall_s": 751.8484997749329
+      },
+      {
+        "episode": 33,
+        "return": 721.6205967662543,
+        "profit_per_hour": 2405.4019892208476,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.41653615256060667,
+        "wall_s": 551.3216621875763
+      },
+      {
+        "episode": 34,
+        "return": 658.8883868629739,
+        "profit_per_hour": 2196.2946228765795,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.47202181667730764,
+        "wall_s": 738.6396973133087
+      },
+      {
+        "episode": 35,
+        "return": 801.6966866789008,
+        "profit_per_hour": 2672.3222889296694,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.6124291440816115,
+        "wall_s": 791.9570829868317
+      },
+      {
+        "episode": 36,
+        "return": 807.4638826026007,
+        "profit_per_hour": 2691.5462753420024,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.6710134109605808,
+        "wall_s": 601.1705491542816
+      },
+      {
+        "episode": 37,
+        "return": 821.9232444765031,
+        "profit_per_hour": 2739.7441482550103,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8919529981049241,
+        "wall_s": 578.271776676178
+      },
+      {
+        "episode": 38,
+        "return": 808.8375793168814,
+        "profit_per_hour": 2696.1252643896046,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.907153941379454,
+        "wall_s": 551.6420366764069
+      },
+      {
+        "episode": 39,
+        "return": 701.3612913176444,
+        "profit_per_hour": 2337.8709710588146,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3958187321904167,
+        "wall_s": 774.4156589508057
+      },
+      {
+        "episode": 40,
+        "return": 560.789772012013,
+        "profit_per_hour": 1869.2992400400433,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.22684997379409186,
+        "wall_s": 593.7976257801056
+      },
+      {
+        "episode": 41,
+        "return": 511.1247681418413,
+        "profit_per_hour": 1703.749227139471,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.19993559070959557,
+        "wall_s": 755.0042943954468
+      },
+      {
+        "episode": 42,
+        "return": 662.2693571022647,
+        "profit_per_hour": 2207.5645236742157,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.34443655486624436,
+        "wall_s": 547.3709003925323
+      },
+      {
+        "episode": 43,
+        "return": 787.3581993891589,
+        "profit_per_hour": 2624.5273312971967,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5508369470373827,
+        "wall_s": 618.3058898448944
+      },
+      {
+        "episode": 44,
+        "return": 706.8759699182652,
+        "profit_per_hour": 2356.253233060884,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.4120024533661558,
+        "wall_s": 561.4457769393921
+      },
+      {
+        "episode": 45,
+        "return": 624.26570443334,
+        "profit_per_hour": 2080.8856814444666,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3682418477861493,
+        "wall_s": 568.4220762252808
+      },
+      {
+        "episode": 46,
+        "return": 620.8921874409402,
+        "profit_per_hour": 2069.640624803134,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.2831335872078516,
+        "wall_s": 615.2495448589325
+      },
+      {
+        "episode": 47,
+        "return": 540.6377026244688,
+        "profit_per_hour": 1802.125675414896,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.2064317865774932,
+        "wall_s": 563.0577776432037
+      },
+      {
+        "episode": 48,
+        "return": 635.0989653370432,
+        "profit_per_hour": 2116.9965511234773,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3145461258152311,
+        "wall_s": 801.2350499629974
+      },
+      {
+        "episode": 49,
+        "return": 531.8686489183784,
+        "profit_per_hour": 1772.8954963945946,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.22916661508604272,
+        "wall_s": 820.5070707798004
+      }
+    ],
+    "mean_return": 701.6880187183751,
+    "std_return": 99.73603781583138,
+    "mean_profit_per_hour": 2338.9600623945835,
+    "mean_violation_integral": 0.0,
+    "max_violation_integral": 0.0,
+    "max_violation_peak": 0.0,
+    "episodes_violating": 0
+  },
+  "margin_2.5": {
+    "margin": 2.5,
+    "episodes": [
+      {
+        "episode": 0,
+        "return": 479.6975427068314,
+        "profit_per_hour": 1598.9918090227713,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.19429827738699273,
+        "wall_s": 811.3161690235138
+      },
+      {
+        "episode": 1,
+        "return": 626.85957505994,
+        "profit_per_hour": 2089.5319168664664,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.33523637351857677,
+        "wall_s": 791.1249296665192
+      },
+      {
+        "episode": 2,
+        "return": 740.6324668334838,
+        "profit_per_hour": 2468.774889444946,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5112819694698387,
+        "wall_s": 614.5788688659668
+      },
+      {
+        "episode": 3,
+        "return": 607.1131498756656,
+        "profit_per_hour": 2023.7104995855523,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.4648974820056984,
+        "wall_s": 604.411271572113
+      },
+      {
+        "episode": 4,
+        "return": 446.1643741426303,
+        "profit_per_hour": 1487.2145804754343,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.216957527861098,
+        "wall_s": 771.4913699626923
+      },
+      {
+        "episode": 5,
+        "return": 619.1185301912864,
+        "profit_per_hour": 2063.7284339709545,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3316772873254107,
+        "wall_s": 832.2674412727356
+      },
+      {
+        "episode": 6,
+        "return": 783.549353695862,
+        "profit_per_hour": 2611.831178986207,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8398256903332462,
+        "wall_s": 839.0423181056976
+      },
+      {
+        "episode": 7,
+        "return": 775.7640796863285,
+        "profit_per_hour": 2585.880265621095,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8830878211375462,
+        "wall_s": 856.3794729709625
+      },
+      {
+        "episode": 8,
+        "return": 629.6092569270672,
+        "profit_per_hour": 2098.697523090224,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5916116728886944,
+        "wall_s": 579.860621213913
+      },
+      {
+        "episode": 9,
+        "return": 617.5853293467393,
+        "profit_per_hour": 2058.6177644891313,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3449587271796279,
+        "wall_s": 616.3992216587067
+      },
+      {
+        "episode": 10,
+        "return": 667.4792582532064,
+        "profit_per_hour": 2224.9308608440215,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.4567232805045731,
+        "wall_s": 834.752774477005
+      },
+      {
+        "episode": 11,
+        "return": 724.4592151050588,
+        "profit_per_hour": 2414.8640503501956,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5825668428539043,
+        "wall_s": 839.3739819526672
+      },
+      {
+        "episode": 12,
+        "return": 803.9326508995359,
+        "profit_per_hour": 2679.7755029984532,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8487641731370951,
+        "wall_s": 809.9424366950989
+      },
+      {
+        "episode": 13,
+        "return": 805.1331297407485,
+        "profit_per_hour": 2683.777099135828,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.7733339302106407,
+        "wall_s": 625.3161685466766
+      },
+      {
+        "episode": 14,
+        "return": 794.6967311114452,
+        "profit_per_hour": 2648.989103704817,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.6494946605815464,
+        "wall_s": 847.5778377056122
+      },
+      {
+        "episode": 15,
+        "return": 594.0093576855377,
+        "profit_per_hour": 1980.0311922851256,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.39664611339094624,
+        "wall_s": 820.1150341033936
+      },
+      {
+        "episode": 16,
+        "return": 806.877292876687,
+        "profit_per_hour": 2689.5909762556234,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.748815172149824,
+        "wall_s": 864.5389487743378
+      },
+      {
+        "episode": 17,
+        "return": 479.132458534857,
+        "profit_per_hour": 1597.1081951161898,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.17775158711213127,
+        "wall_s": 826.8168935775757
+      },
+      {
+        "episode": 18,
+        "return": 607.6910532566243,
+        "profit_per_hour": 2025.6368441887475,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.4466819903194584,
+        "wall_s": 608.7785699367523
+      },
+      {
+        "episode": 19,
+        "return": 617.9606230738509,
+        "profit_per_hour": 2059.8687435795027,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8268074797330353,
+        "wall_s": 779.8021996021271
+      },
+      {
+        "episode": 20,
+        "return": 622.9939524654383,
+        "profit_per_hour": 2076.6465082181276,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5829254557599655,
+        "wall_s": 788.053079366684
+      },
+      {
+        "episode": 21,
+        "return": 743.0448749826628,
+        "profit_per_hour": 2476.8162499422097,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5368488225921725,
+        "wall_s": 672.5075902938843
+      },
+      {
+        "episode": 22,
+        "return": 716.6696560926863,
+        "profit_per_hour": 2388.898853642288,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.6153281799208129,
+        "wall_s": 772.0647678375244
+      },
+      {
+        "episode": 23,
+        "return": 794.026737032871,
+        "profit_per_hour": 2646.75579010957,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8883848393025698,
+        "wall_s": 631.726459980011
+      },
+      {
+        "episode": 24,
+        "return": 766.2294442953939,
+        "profit_per_hour": 2554.098147651313,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.7415803492434071,
+        "wall_s": 635.5723295211792
+      },
+      {
+        "episode": 25,
+        "return": 805.9250085634189,
+        "profit_per_hour": 2686.4166952113965,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8501024923915881,
+        "wall_s": 659.3594198226929
+      },
+      {
+        "episode": 26,
+        "return": 690.4746975791729,
+        "profit_per_hour": 2301.5823252639098,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.6732050506578557,
+        "wall_s": 854.9197795391083
+      },
+      {
+        "episode": 27,
+        "return": 649.4485477344928,
+        "profit_per_hour": 2164.828492448309,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.46618801190218495,
+        "wall_s": 630.8199355602264
+      },
+      {
+        "episode": 28,
+        "return": 805.6235068015147,
+        "profit_per_hour": 2685.4116893383825,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.7939658630891626,
+        "wall_s": 662.8738043308258
+      },
+      {
+        "episode": 29,
+        "return": 617.4684691811144,
+        "profit_per_hour": 2058.228230603715,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3951272606514507,
+        "wall_s": 685.768901348114
+      },
+      {
+        "episode": 30,
+        "return": 571.8185854974014,
+        "profit_per_hour": 1906.0619516580048,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3796700731819093,
+        "wall_s": 849.5831944942474
+      },
+      {
+        "episode": 31,
+        "return": 690.0996013889121,
+        "profit_per_hour": 2300.3320046297067,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.440846252113182,
+        "wall_s": 669.9214651584625
+      },
+      {
+        "episode": 32,
+        "return": 704.301584436903,
+        "profit_per_hour": 2347.67194812301,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.701707080987739,
+        "wall_s": 690.0383696556091
+      },
+      {
+        "episode": 33,
+        "return": 677.4477149461599,
+        "profit_per_hour": 2258.159049820533,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.41653615256060667,
+        "wall_s": 714.086442232132
+      },
+      {
+        "episode": 34,
+        "return": 627.4795732006692,
+        "profit_per_hour": 2091.5985773355637,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.47202181667730764,
+        "wall_s": 675.5572357177734
+      },
+      {
+        "episode": 35,
+        "return": 776.576997406685,
+        "profit_per_hour": 2588.589991355617,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.6124291440816115,
+        "wall_s": 718.955958366394
+      },
+      {
+        "episode": 36,
+        "return": 798.0270858016858,
+        "profit_per_hour": 2660.0902860056194,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.6710134109605808,
+        "wall_s": 598.839537858963
+      },
+      {
+        "episode": 37,
+        "return": 797.7345706797636,
+        "profit_per_hour": 2659.1152355992117,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8919529981049241,
+        "wall_s": 559.6494069099426
+      },
+      {
+        "episode": 38,
+        "return": 804.7472756555973,
+        "profit_per_hour": 2682.4909188519905,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.907153941379454,
+        "wall_s": 526.5649042129517
+      },
+      {
+        "episode": 39,
+        "return": 655.0753500918041,
+        "profit_per_hour": 2183.584500306014,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3958187321904167,
+        "wall_s": 725.9283592700958
+      },
+      {
+        "episode": 40,
+        "return": 527.2615351548465,
+        "profit_per_hour": 1757.538450516155,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.22684997379409186,
+        "wall_s": 574.2623951435089
+      },
+      {
+        "episode": 41,
+        "return": 480.5556096570869,
+        "profit_per_hour": 1601.8520321902897,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.19993559070959557,
+        "wall_s": 668.825033903122
+      },
+      {
+        "episode": 42,
+        "return": 622.1040295371342,
+        "profit_per_hour": 2073.680098457114,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.34443655486624436,
+        "wall_s": 561.9901287555695
+      },
+      {
+        "episode": 43,
+        "return": 758.8531450358026,
+        "profit_per_hour": 2529.5104834526755,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5508369470373827,
+        "wall_s": 579.1896603107452
+      },
+      {
+        "episode": 44,
+        "return": 665.9314657499634,
+        "profit_per_hour": 2219.771552499878,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.4120024533661558,
+        "wall_s": 575.0609123706818
+      },
+      {
+        "episode": 45,
+        "return": 589.5255018341284,
+        "profit_per_hour": 1965.0850061137614,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3682418477861493,
+        "wall_s": 513.2774555683136
+      },
+      {
+        "episode": 46,
+        "return": 581.8231379863853,
+        "profit_per_hour": 1939.4104599546176,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.2831335872078516,
+        "wall_s": 568.0887894630432
+      },
+      {
+        "episode": 47,
+        "return": 502.77709992745747,
+        "profit_per_hour": 1675.923666424858,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.2064317865774932,
+        "wall_s": 567.997674703598
+      },
+      {
+        "episode": 48,
+        "return": 597.6081368051384,
+        "profit_per_hour": 1992.0271226837947,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3145461258152311,
+        "wall_s": 682.2664453983307
+      },
+      {
+        "episode": 49,
+        "return": 503.12329510142644,
+        "profit_per_hour": 1677.077650338088,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.22916661508604272,
+        "wall_s": 688.8613638877869
+      }
+    ],
+    "mean_return": 667.444832392542,
+    "std_return": 104.1375612935187,
+    "mean_profit_per_hour": 2224.8161079751403,
+    "mean_violation_integral": 0.0,
+    "max_violation_integral": 0.0,
+    "max_violation_peak": 0.0,
+    "episodes_violating": 0
+  },
+  "margin_3.0": {
+    "margin": 3.0,
+    "episodes": [
+      {
+        "episode": 0,
+        "return": 448.1291826078454,
+        "profit_per_hour": 1493.7639420261514,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.19429827738699273,
+        "wall_s": 694.2117726802826
+      },
+      {
+        "episode": 1,
+        "return": 580.9839157836653,
+        "profit_per_hour": 1936.6130526122179,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.33523637351857677,
+        "wall_s": 563.1454305648804
+      },
+      {
+        "episode": 2,
+        "return": 683.004859661448,
+        "profit_per_hour": 2276.68286553816,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5112819694698387,
+        "wall_s": 584.8992974758148
+      },
+      {
+        "episode": 3,
+        "return": 566.6098381360341,
+        "profit_per_hour": 1888.699460453447,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.4648974820056984,
+        "wall_s": 687.5974140167236
+      },
+      {
+        "episode": 4,
+        "return": 417.62215797554035,
+        "profit_per_hour": 1392.0738599184676,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.216957527861098,
+        "wall_s": 692.9276371002197
+      },
+      {
+        "episode": 5,
+        "return": 575.8233320409396,
+        "profit_per_hour": 1919.411106803132,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3316772873254107,
+        "wall_s": 649.4164135456085
+      },
+      {
+        "episode": 6,
+        "return": 719.2063073733285,
+        "profit_per_hour": 2397.354357911095,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8398256903332462,
+        "wall_s": 667.5694978237152
+      },
+      {
+        "episode": 7,
+        "return": 689.662852369531,
+        "profit_per_hour": 2298.8761745651036,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8830878211375462,
+        "wall_s": 657.7880375385284
+      },
+      {
+        "episode": 8,
+        "return": 574.3522034197724,
+        "profit_per_hour": 1914.507344732575,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5916116728886944,
+        "wall_s": 685.458550453186
+      },
+      {
+        "episode": 9,
+        "return": 564.6482599416842,
+        "profit_per_hour": 1882.1608664722808,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3449587271796279,
+        "wall_s": 592.2541375160217
+      },
+      {
+        "episode": 10,
+        "return": 624.5359538679776,
+        "profit_per_hour": 2081.7865128932585,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.4567232805045731,
+        "wall_s": 570.8595023155212
+      },
+      {
+        "episode": 11,
+        "return": 683.1470622472269,
+        "profit_per_hour": 2277.1568741574233,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5825668428539043,
+        "wall_s": 586.9592719078064
+      },
+      {
+        "episode": 12,
+        "return": 790.7239705148029,
+        "profit_per_hour": 2635.7465683826763,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8487641731370951,
+        "wall_s": 672.6818146705627
+      },
+      {
+        "episode": 13,
+        "return": 779.0827118051625,
+        "profit_per_hour": 2596.942372683875,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.7733339302106407,
+        "wall_s": 662.5315482616425
+      },
+      {
+        "episode": 14,
+        "return": 749.9298164432092,
+        "profit_per_hour": 2499.7660548106974,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.6494946605815464,
+        "wall_s": 589.0847692489624
+      },
+      {
+        "episode": 15,
+        "return": 555.6600370521979,
+        "profit_per_hour": 1852.2001235073265,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.39664611339094624,
+        "wall_s": 674.576521396637
+      },
+      {
+        "episode": 16,
+        "return": 796.7168396078652,
+        "profit_per_hour": 2655.722798692884,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.748815172149824,
+        "wall_s": 616.699709892273
+      },
+      {
+        "episode": 17,
+        "return": 442.16312079478934,
+        "profit_per_hour": 1473.8770693159645,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.17775158711213127,
+        "wall_s": 577.0141458511353
+      },
+      {
+        "episode": 18,
+        "return": 562.3987979114593,
+        "profit_per_hour": 1874.6626597048642,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.4466819903194584,
+        "wall_s": 641.3992075920105
+      },
+      {
+        "episode": 19,
+        "return": 566.1538333757711,
+        "profit_per_hour": 1887.1794445859036,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8268074797330353,
+        "wall_s": 621.3865013122559
+      },
+      {
+        "episode": 20,
+        "return": 581.5174984658214,
+        "profit_per_hour": 1938.391661552738,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5829254557599655,
+        "wall_s": 641.2768433094025
+      },
+      {
+        "episode": 21,
+        "return": 692.9939773300038,
+        "profit_per_hour": 2309.979924433346,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5368488225921725,
+        "wall_s": 647.71373462677
+      },
+      {
+        "episode": 22,
+        "return": 666.2069789534916,
+        "profit_per_hour": 2220.6899298449716,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.6153281799208129,
+        "wall_s": 540.2525651454926
+      },
+      {
+        "episode": 23,
+        "return": 737.8483986484348,
+        "profit_per_hour": 2459.4946621614495,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8883848393025698,
+        "wall_s": 630.460437297821
+      },
+      {
+        "episode": 24,
+        "return": 718.4575159424284,
+        "profit_per_hour": 2394.858386474761,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.7415803492434071,
+        "wall_s": 575.5031273365021
+      },
+      {
+        "episode": 25,
+        "return": 793.3666341565065,
+        "profit_per_hour": 2644.555447188355,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8501024923915881,
+        "wall_s": 553.7414371967316
+      },
+      {
+        "episode": 26,
+        "return": 630.1648498894323,
+        "profit_per_hour": 2100.549499631441,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.6732050506578557,
+        "wall_s": 557.3652729988098
+      },
+      {
+        "episode": 27,
+        "return": 606.9939556388798,
+        "profit_per_hour": 2023.3131854629326,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.46618801190218495,
+        "wall_s": 514.8878741264343
+      },
+      {
+        "episode": 28,
+        "return": 791.8498985461612,
+        "profit_per_hour": 2639.4996618205373,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.7939658630891626,
+        "wall_s": 639.5915954113007
+      },
+      {
+        "episode": 29,
+        "return": 575.9716489327417,
+        "profit_per_hour": 1919.9054964424724,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3951272606514507,
+        "wall_s": 592.5461122989655
+      },
+      {
+        "episode": 30,
+        "return": 534.1629915275054,
+        "profit_per_hour": 1780.5433050916845,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3796700731819093,
+        "wall_s": 589.5335605144501
+      },
+      {
+        "episode": 31,
+        "return": 638.0177473051077,
+        "profit_per_hour": 2126.7258243503593,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.440846252113182,
+        "wall_s": 603.0386378765106
+      },
+      {
+        "episode": 32,
+        "return": 648.8180542351487,
+        "profit_per_hour": 2162.726847450496,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.701707080987739,
+        "wall_s": 597.2126271724701
+      },
+      {
+        "episode": 33,
+        "return": 623.0022986829503,
+        "profit_per_hour": 2076.6743289431674,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.41653615256060667,
+        "wall_s": 579.428861618042
+      },
+      {
+        "episode": 34,
+        "return": 583.0860459111251,
+        "profit_per_hour": 1943.6201530370838,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.47202181667730764,
+        "wall_s": 479.15135622024536
+      },
+      {
+        "episode": 35,
+        "return": 730.6921630619247,
+        "profit_per_hour": 2435.640543539749,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.6124291440816115,
+        "wall_s": 590.2905011177063
+      },
+      {
+        "episode": 36,
+        "return": 758.6773704243041,
+        "profit_per_hour": 2528.9245680810136,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.6710134109605808,
+        "wall_s": 588.6362450122833
+      },
+      {
+        "episode": 37,
+        "return": 753.6911740006971,
+        "profit_per_hour": 2512.303913335657,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.8919529981049241,
+        "wall_s": 586.4217162132263
+      },
+      {
+        "episode": 38,
+        "return": 795.9618649565855,
+        "profit_per_hour": 2653.2062165219513,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.907153941379454,
+        "wall_s": 575.1924970149994
+      },
+      {
+        "episode": 39,
+        "return": 606.463991672349,
+        "profit_per_hour": 2021.5466389078301,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3958187321904167,
+        "wall_s": 568.9349715709686
+      },
+      {
+        "episode": 40,
+        "return": 484.2322418750064,
+        "profit_per_hour": 1614.107472916688,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.22684997379409186,
+        "wall_s": 470.1911861896515
+      },
+      {
+        "episode": 41,
+        "return": 445.25941943005654,
+        "profit_per_hour": 1484.1980647668552,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.19993559070959557,
+        "wall_s": 541.0361440181732
+      },
+      {
+        "episode": 42,
+        "return": 580.4347946523152,
+        "profit_per_hour": 1934.7826488410508,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.34443655486624436,
+        "wall_s": 512.5666923522949
+      },
+      {
+        "episode": 43,
+        "return": 707.89695676994,
+        "profit_per_hour": 2359.6565225664667,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.5508369470373827,
+        "wall_s": 562.862799167633
+      },
+      {
+        "episode": 44,
+        "return": 616.2053187522514,
+        "profit_per_hour": 2054.0177291741716,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.4120024533661558,
+        "wall_s": 505.5394821166992
+      },
+      {
+        "episode": 45,
+        "return": 544.2995696118007,
+        "profit_per_hour": 1814.3318987060024,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3682418477861493,
+        "wall_s": 519.8581342697144
+      },
+      {
+        "episode": 46,
+        "return": 537.9375804558533,
+        "profit_per_hour": 1793.125268186178,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.2831335872078516,
+        "wall_s": 530.5390403270721
+      },
+      {
+        "episode": 47,
+        "return": 462.94168232210035,
+        "profit_per_hour": 1543.1389410736679,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.2064317865774932,
+        "wall_s": 476.81671595573425
+      },
+      {
+        "episode": 48,
+        "return": 553.7984120388733,
+        "profit_per_hour": 1845.9947067962444,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.3145461258152311,
+        "wall_s": 496.4936876296997
+      },
+      {
+        "episode": 49,
+        "return": 468.14399056869365,
+        "profit_per_hour": 1560.4799685623123,
+        "violation_integral": 0.0,
+        "violation_max": 0.0,
+        "beta_final": 0.22916661508604272,
+        "wall_s": 441.96464133262634
+      }
+    ],
+    "mean_return": 624.7930015537748,
+    "std_return": 105.41452678289086,
+    "mean_profit_per_hour": 2082.643338512583,
+    "mean_violation_integral": 0.0,
+    "max_violation_integral": 0.0,
+    "max_violation_peak": 0.0,
+    "episodes_violating": 0
+  },
+  "constrained_ceiling": {
+    "margin": 2.0,
+    "return": 701.6880187183751,
+    "profit_per_hour": 2338.9600623945835,
+    "unconstrained_return": 772.9724188594374,
+    "price_of_safety_return": 71.28440014106229,
+    "price_of_safety_pct": 9.222114321523435
+  }
+}

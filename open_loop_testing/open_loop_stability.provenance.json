@@ -1,0 +1,27 @@
+{
+  "script": "rl-nmpc-cstr/open_loop_testing/open_loop_stability.py",
+  "git_commit": "cbc78ae21942c824127981d550cde6a2210cb8c6",
+  "git_dirty": true,
+  "timestamp": "2026-09-05T07:55:22Z",
+  "params": {
+    "betas": [
+      1.0,
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ]
+  },
+  "config_hash": "sha256:8f1f2b301fe74851e0701a90902c5124d362cae7f70d54eda06124e936103ae2",
+  "outputs": [
+    "open_loop_testing/open_loop_stability.png"
+  ],
+  "duration_s": 13.998418807983398,
+  "n_unstable_feasible_nodes_by_beta": {
+    "1.0": 0,
+    "0.8": 0,
+    "0.6": 0,
+    "0.4": 0,
+    "0.2": 0
+  }
+}

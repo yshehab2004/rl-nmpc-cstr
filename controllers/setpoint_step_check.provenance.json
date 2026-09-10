@@ -1,0 +1,122 @@
+{
+  "script": "rl-nmpc-cstr/controllers/setpoint_step_check.py",
+  "git_commit": "cbc78ae21942c824127981d550cde6a2210cb8c6",
+  "git_dirty": true,
+  "timestamp": "2026-09-05T11:44:35Z",
+  "params": {
+    "scenarios": [
+      {
+        "label": "nominal beta=1.0",
+        "beta": 1.0,
+        "F_from": 18.0,
+        "F_to": 25.0,
+        "T_R_ref": 134.0
+      },
+      {
+        "label": "severe beta=0.2",
+        "beta": 0.2,
+        "F_from": 12.0,
+        "F_to": 18.0,
+        "T_R_ref": 140.0
+      }
+    ],
+    "rterm_grid": [
+      10.0,
+      100.0,
+      300.0
+    ],
+    "step_time_h": 0.1,
+    "supervisory_steps": 50
+  },
+  "config_hash": "sha256:d0a7000c0298a694e1d408db4eb07e96d0057bf17f9f7aff93dde5e65e8ed449",
+  "outputs": [
+    "controllers/setpoint_step_check.json"
+  ],
+  "duration_s": 21.42630386352539,
+  "results": [
+    {
+      "scenario": "nominal beta=1.0",
+      "beta": 1.0,
+      "rterm_F": 10.0,
+      "F_from": 18.0,
+      "F_to": 25.0,
+      "F_before_step": 18.00000038781316,
+      "F_final": 25.00000000052166,
+      "steps_to_within_0.2": 1,
+      "steps_to_within_5pct": 0,
+      "hours_to_within_0.2": 0.005,
+      "fraction_of_supervisory_interval": 0.02,
+      "T_R_max": 134.14
+    },
+    {
+      "scenario": "nominal beta=1.0",
+      "beta": 1.0,
+      "rterm_F": 100.0,
+      "F_from": 18.0,
+      "F_to": 25.0,
+      "F_before_step": 18.00000060911486,
+      "F_final": 25.00000000060989,
+      "steps_to_within_0.2": 3,
+      "steps_to_within_5pct": 1,
+      "hours_to_within_0.2": 0.015,
+      "fraction_of_supervisory_interval": 0.06,
+      "T_R_max": 134.14
+    },
+    {
+      "scenario": "nominal beta=1.0",
+      "beta": 1.0,
+      "rterm_F": 300.0,
+      "F_from": 18.0,
+      "F_to": 25.0,
+      "F_before_step": 17.999795718795216,
+      "F_final": 25.000000000521233,
+      "steps_to_within_0.2": 6,
+      "steps_to_within_5pct": 3,
+      "hours_to_within_0.2": 0.03,
+      "fraction_of_supervisory_interval": 0.12,
+      "T_R_max": 134.14
+    },
+    {
+      "scenario": "severe beta=0.2",
+      "beta": 0.2,
+      "rterm_F": 10.0,
+      "F_from": 12.0,
+      "F_to": 18.0,
+      "F_before_step": 11.99980149392323,
+      "F_final": 17.999998194954372,
+      "steps_to_within_0.2": 1,
+      "steps_to_within_5pct": 0,
+      "hours_to_within_0.2": 0.005,
+      "fraction_of_supervisory_interval": 0.02,
+      "T_R_max": 139.99995193034698
+    },
+    {
+      "scenario": "severe beta=0.2",
+      "beta": 0.2,
+      "rterm_F": 100.0,
+      "F_from": 12.0,
+      "F_to": 18.0,
+      "F_before_step": 11.999728833572656,
+      "F_final": 17.999996559355328,
+      "steps_to_within_0.2": 3,
+      "steps_to_within_5pct": 1,
+      "hours_to_within_0.2": 0.015,
+      "fraction_of_supervisory_interval": 0.06,
+      "T_R_max": 139.9999416390523
+    },
+    {
+      "scenario": "severe beta=0.2",
+      "beta": 0.2,
+      "rterm_F": 300.0,
+      "F_from": 12.0,
+      "F_to": 18.0,
+      "F_before_step": 11.999678995075856,
+      "F_final": 17.999997867360616,
+      "steps_to_within_0.2": 5,
+      "steps_to_within_5pct": 3,
+      "hours_to_within_0.2": 0.025,
+      "fraction_of_supervisory_interval": 0.1,
+      "T_R_max": 139.99994186146296
+    }
+  ]
+}

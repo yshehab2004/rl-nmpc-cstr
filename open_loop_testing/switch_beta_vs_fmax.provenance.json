@@ -1,0 +1,46 @@
+{
+  "script": "rl-nmpc-cstr/open_loop_testing/switch_beta_vs_fmax.py",
+  "git_commit": "cbc78ae21942c824127981d550cde6a2210cb8c6",
+  "git_dirty": true,
+  "timestamp": "2026-09-05T07:55:45Z",
+  "params": {
+    "F_max_values": [
+      25.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0
+    ],
+    "alpha": 1.0,
+    "C_A0": 5.1,
+    "T_in": 130.0
+  },
+  "config_hash": "sha256:8f1f2b301fe74851e0701a90902c5124d362cae7f70d54eda06124e936103ae2",
+  "outputs": [
+    "open_loop_testing/switch_beta_vs_fmax.json",
+    "open_loop_testing/switch_beta_vs_fmax.png"
+  ],
+  "duration_s": 13.35570216178894,
+  "results": [
+    {
+      "F_max": 25.0,
+      "switch_beta": 0.289480309608655
+    },
+    {
+      "F_max": 30.0,
+      "switch_beta": 0.34252392206436544
+    },
+    {
+      "F_max": 35.0,
+      "switch_beta": 0.38505362975291724
+    },
+    {
+      "F_max": 40.0,
+      "switch_beta": 0.41853718390831574
+    },
+    {
+      "F_max": 45.0,
+      "switch_beta": 0.4442920342469826
+    }
+  ]
+}
